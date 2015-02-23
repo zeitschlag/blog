@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ entry.lang if entry else conf.lang }}">
+<head>
+  {% block head -%}
+  <meta charset="utf-8" />
+  <title>{% block title %}{% endblock %}</title>
+  <link media="all" href="{{ env.path + '/style.css' }}" rel="stylesheet" />
+  <link href="/favicon.ico" rel="shortcut icon" />
+    {% if 'sitemap' in env.views -%}
+        <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
+    {%- endif%}
+  <link href="{{ env.path + '/' }}" rel="home start" />
+  <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
+  <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  {%- endblock %}
+</head>
+<body>
+  <header>
+    <h1><a href="{{ env.path + '/' }}" rel="home start" class="blogtitle">{{ conf.sitename }}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ env.path + '/' }}" rel="home start">blog</a></li>
+        <li><a href="{{ env.path + '/atom/' }}" rel="alternate">atom</a></li>
+        <li><a href="{{ env.path + '/rss/' }}" rel="alternate">rss</a></li>
+        <li><a href="{{ env.path + '/articles/' }}" rel="contents">artikel&uuml;bersicht</a></li>
+	<li><a href="{{ env.path + '/about/' }}" rel="abount">&uuml;ber mich</a></li>
+      </ul>
+    </nav>
+  </header>
+  {%- block content -%}
+  {%- endblock -%}
+  <footer>
+    {% block footer %}
+    <p><a href="{{ env.path + '/about/' }}">Kontakt</a></p>
+    <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/" rel="copyright license">
+        <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="by-nc-sa" />
+    </a>
+    {% endblock %}
+  </footer>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//nathan.sculptor.uberspace.de/piwik/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 1]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//nathan.sculptor.uberspace.de/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+</body>
+</html>
