@@ -3,12 +3,12 @@
 # See http://posativ.org/acrylamid/conf.py.html
 
 SITENAME = u'bullshit'
-WWW_ROOT = 'http://bullenscheisse.de'
+WWW_ROOT = u"https://bullenscheisse.de/"
 
 AUTHOR = 'Nathan'
 EMAIL = 'hallo@bullenscheisse.de'
 
-OUTPUT_DIR = '/home/nathan/html/'
+OUTPUT_DIR = u'/home/nathan/html/'
 METASTYLE = 'native'
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 VIEWS = {
@@ -54,4 +54,3 @@ VIEWS = {
 THEME = 'theme'
 ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
-LANG = 'de'
