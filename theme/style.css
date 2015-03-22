@@ -171,7 +171,7 @@ body > footer a:hover {
     text-shadow: #ee6688 0px 0px 1px;
     color: #ff190d;
 }
-.comments a { color: black }
+.comments a { color: #c00 }
 .comments a:hover {
     color: #111111;
     text-shadow: #aaaaaa 0px 0px 1px;
