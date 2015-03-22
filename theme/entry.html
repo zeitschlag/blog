@@ -1,7 +1,5 @@
 <article>
-	<script data-isso="/fcgi-bin/isso"
-	        src="/fcgi-bin/isso/js/embed.min.js"></script>
-    <header>
+	<header>
         <time datetime="{{ entry.date.strftime("%Y-%m-%d") }}">{{ entry.date.strftime("%d.%m.%Y, %H:%M") }}</time>
         <h1>
             <a href="{{ env.path + entry.permalink }}" rel="bookmark canonical">{{ entry.title }}</a>
