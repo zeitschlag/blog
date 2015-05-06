@@ -25,7 +25,7 @@ body > header ul li {
     margin: 0 2em 0 2em;
 }
 body > header ul a {
-    color: black;
+    color: #c00;
     text-decoration: none;
     font-family: "Palatino", serif;
 }
@@ -137,7 +137,7 @@ body > article .page {
 body > .page {
   margin-top: -20px;
   font: bold medium Palatino, "Times New Roman", serif;
-  color: black;
+  color: #c00;
   text-decoration: none;
   border-bottom: 1px dotted black; }
   body > .page:hover {
@@ -173,7 +173,7 @@ body > footer a:hover {
 }
 .comments a { color: #c00 }
 .comments a:hover {
-    color: #111111;
+    color: #c00;
     text-shadow: #aaaaaa 0px 0px 1px;
 }
 .comments a:visited { color: black }
