@@ -186,3 +186,7 @@ object[type="application/x-shockwave-flash"], iframe.video {
 .shadow { box-shadow: 0px 0px 4px black }
 .floatright { float: right }
 .floatleft { float: left }
+
+.cv {
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
