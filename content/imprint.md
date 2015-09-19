@@ -1,5 +1,6 @@
 Title: Impressum
 Date: 19.09.2015
+type: page
 Tags: [#impressum]
 
 ##Impressum
