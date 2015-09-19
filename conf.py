@@ -29,6 +29,7 @@ VIEWS = {
 
     '/articles/': {'view': 'archive', 'template': 'articles.html'},
     '/about/': {'view': 'page'},
+    '/impressum/': {'view': 'page'},
     '/sitemap.xml': {'view': 'sitemap'},
 
 	    # # Here are some more examples
