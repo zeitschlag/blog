@@ -1,5 +1,5 @@
 Title: Über mich
-Type: page
+type: page
 Tags: [Kontakt]
 Date: 30.12.2014, 19:05
 
