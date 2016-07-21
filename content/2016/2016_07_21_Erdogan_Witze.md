@@ -2,9 +2,9 @@ Title: Erdoğan-Witze
 Date: 21.07.2016, 12:34
 Tags: [#erdogan]
 
-Während meiner Ausbildung trafen wir regelmässig mittwochs oder donnerstags zu einer englischen Gesprächsrunde, in der wir uns - das macht man wohl so, habe ich hinterher erfahren- auf Englisch unterhielten. S., unser damaliger Dozent, kam aus England, damals gehörte das noch zur EU.
+Während meiner Ausbildung trafen wir uns regelmässig mittwochs oder donnerstags zu einer englischen Gesprächsrunde, in der wir uns - das macht man wohl so, habe ich hinterher erfahren- auf Englisch unterhielten. S., unser damaliger Gesprächsrundenleiter, kam aus England, damals gehörte das noch zur EU.
 
-Irgendwann diskutierten wir unter anderem über schlechten, bösen, keinen und schwarzen Humor. Er erzählte uns, dass sein Vater im KZ gestorben sei. Schweigen. Er sei besoffen vom Wachturm gefallen. Und das diskutierten wir und diskutierten.
+Irgendwann diskutierten wir unter anderem über schlechten, bösen, keinen und schwarzen Humor. Er erzählte uns, dass sein Vater im KZ gestorben sei. Schweigen. Er sei besoffen vom Wachturm gefallen. Und dann diskutierten wir und diskutierten.
 
 Humor ist eine Möglichkeit, sich mit Dingen zu beschäftigen. Ihnen dafür auch etwas von ihrem Schrecken zu nehmen. Erdoğan kann alle Menschen in der Türkei einsperren, er kann Böhmermann wegen eines Gedichts anzeigen, er kann einen Putsch mit einem Putsch mit einem Putsch beantworten. Aber er kann sich nicht dagegen wehren, dass man sich über ihn lustig macht. Außer, er lässt einfach alle verhaften.
 
