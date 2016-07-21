@@ -1,5 +1,5 @@
 Title: Erdoğan-Witze
-Date: 12.07.2016, 12:34
+Date: 21.07.2016, 12:34
 Tags: [#erdogan]
 
 Während meiner Ausbildung trafen wir regelmässig mittwochs oder donnerstags zu einer englischen Gesprächsrunde, in der wir uns - das macht man wohl so, habe ich hinterher erfahren- auf Englisch unterhielten. S., unser damaliger Dozent, kam aus England, damals gehörte das noch zur EU.
