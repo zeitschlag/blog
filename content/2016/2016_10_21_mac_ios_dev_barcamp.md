@@ -51,7 +51,7 @@ call this thing just campOS?).
 
 So what's next? I want you to tell me, what you think about this idea.
 Would you attend? Would you like to help organizing it? Would you be a
-sponsor? If you say "Yay, #cadmpOS for president!" - at least it isn't
+sponsor? If you say "Yay, #campOS for president!" - at least it isn't
 Trump! - "Interesting, tell me more." or "How can I help you?" then leave a comment, send me a [tweet](https://twitter.com/zeitschlag) or an [email](https://encrypt.to/0xFD84809B). I
 would organize a table for a meetup, that we can start organizing this
 event. So now it's up to you!
