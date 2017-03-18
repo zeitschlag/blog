@@ -72,7 +72,7 @@ Im Dezember investierte ich ein bisschen Geld und beteiligte mich mit [25€ am 
 
 Wirklich Erfolg hatte ich mit den Preisanpassungen nicht, auch 2016 schaffte ich es mit dem Einkaufszettl nicht, die anvisierten $99 zu erwirtschaften. Dafür luden wesentlich mehr Menschen die App: Im Oktober gab es einen Peak, ich weiß bis heute nicht, wer oder was dafür verantwortlich ist. Dafür gab es 2016 auch lange Durststrecken, in denen niemand die App herunterlud:
 
-![Übersicht über die Verkäufe vom Einkaufszettl im Jahr 2016](/img/IMG_125_Einkaufszettl_2016.png)
+![Übersicht über die Verkäufe vom Einkaufszettl im Jahr 2016](/img/IMG_126_Einkaufszettl_2016.png)
 
 In seinem zweiten Jahr kam der Einkaufszettl auf 10 verkaufte und 50 kostenlose Einheiten, insgesamt betrug der Umsatz **$14,14**, von denen als Gewinn **$8,28** blieben.
 
