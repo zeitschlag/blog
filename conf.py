@@ -8,7 +8,7 @@ WWW_ROOT = u"https://bullenscheisse.de/"
 AUTHOR = 'Nathan'
 EMAIL = 'hallo@bullenscheisse.de'
 
-OUTPUT_DIR = u'/home/nathan/html/'
+OUTPUT_DIR = u'output'
 METASTYLE = 'native'
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 VIEWS = {
