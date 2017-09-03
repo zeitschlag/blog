@@ -11,6 +11,9 @@ EMAIL = 'hallo@bullenscheisse.de'
 OUTPUT_DIR = u'output'
 METASTYLE = 'native'
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
+
+SUMMARIZE_LINK = '<span>&#8230;<a href="%s" class="continue">weiterlesen</a>.</span>'
+
 VIEWS = {
     '/': {'filters': 'summarize', 'view': 'index',
           'pagination': '/page/:num/'},
@@ -31,7 +34,7 @@ VIEWS = {
     '/about/': {'view': 'page'},
     '/sitemap.xml': {'view': 'sitemap'},
 
-	    # # Here are some more examples
+    # # Here are some more examples
 
     # # '/:slug/' is a slugified url of your static page's title
     # '/:slug/': {'view': 'page'},
@@ -54,3 +57,4 @@ VIEWS = {
 THEME = 'theme'
 ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
+LANG = "de_DE"

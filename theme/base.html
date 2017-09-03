@@ -26,8 +26,8 @@
         <li><a href="{{ env.path + '/' }}" rel="home start">blog</a></li>
         <li><a href="{{ env.path + '/atom/' }}" rel="alternate">atom</a></li>
         <li><a href="{{ env.path + '/rss/' }}" rel="alternate">rss</a></li>
-        <li><a href="{{ env.path + '/articles/' }}" rel="contents">artikel&uuml;bersicht</a></li>
-        <li><a href="{{ env.path + '/about/' }}" rel="author">&uuml;ber mich</a></li>
+        <li><a href="{{ env.path + '/articles/' }}" rel="contents">artikelübersicht</a></li>
+        <li><a href="{{ env.path + '/about/' }}" rel="author">über mich</a></li>
       </ul>
     </nav>
   </header>
@@ -35,7 +35,7 @@
   {%- endblock -%}
   <footer>
     {% block footer %}
-    <p><a href="{{ env.path + '/about/' }}">Kontakt</a>  - <a href="/impressum.html">Impressum</a> - <a href="/datenschutz.html">Datenschutz</a></p>
+    <p><a href="{{ env.path + '/about/' }}">Kontakt</a>  - <a href="{{ env.path + '/impressum.html' }}">Impressum</a> - <a href="{{ env.path + '/datenschutz.html' }}">Datenschutz</a></p>
     {% endblock %}
   </footer>
   <!-- Piwik -->
