@@ -1,19 +1,15 @@
 Title: Über mich
 type: page
 Tags: [Kontakt]
-Date: 21.11.2016, 22:59
+Date: 21.08.2017, 08:14
 
 Nathan ...
 
-- ist erreichbar unter [0xFD84809B](http://pgp.mit.edu/pks/lookup?op=get&search=0x19FB630EFD84809B), alternativ: [Email](https://encrypt.to/0xFD84809B) 
-- [twittert](https://twitter.com/zeitschlag).
-- ist 24.
-- sucht für Mitte 2017 eine neue Stelle als iOS-Entwickler in Berlin.
-- hat einen [Lebenslauf](/about/CV_Nathan_Mattes.pdf)
-- hilft mit, das [Barcamp Rhein-Neckar](https://barcamp.rhein-neckar.me) zu organisieren.
-- und das [Literaturcamp Heidelberg](http://literaturcamp-heidelberg.de).
-- [läuft](https://schnipsflausch.de).
-- bastelt seinen eigenen [Einkaufszettl](https://bullenscheisse.de/einkaufszettl/).
-- kocht,
--  manchmal auch vor Wut.
-- denkt manchmal nach, bevor er etwas sagt.
+- trinkt.
+- lacht.
+- l(i)ebt.
+
+## Kleingedrucktes:
+
+- Liebesbriefe, [Abmahnungen](https://bullenscheisse.de/2017/update-zur-abmahnung-wegen-wir-sind-afd-de/) und [Jobangebote](/about/CV_Nathan_Mattes.pdf) bitte verschlüsselt an [0xFD84809B](http://pgp.mit.edu/pks/lookup?op=get&search=0x19FB630EFD84809B), alternativ: [Email](https://encrypt.to/0xFD84809B).
+- Diskussionen ausschliesslich auf [Twitter](http://twitter.com/zeitschlag).
