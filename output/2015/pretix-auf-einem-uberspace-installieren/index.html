@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>pretix auf einem Uberspace installieren</title>
+  <link media="all" href="/style.css" rel="stylesheet" />
+  <link href="/favicon.ico" rel="shortcut icon" />
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+  <link href="/" rel="home start" />
+  <link href="/atom/" type="application/atom+xml" rel="alternate" title="Atom Feed" />
+  <link href="/rss/" type="application/rss+xml" rel="alternate" title="RSS Feed" />
+  <script data-isso="/fcgi-bin/isso" src="/fcgi-bin/isso/js/embed.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <meta name="description" content="Nach dem #bcrn15 gab es Kritik, dass wir die Ticke..." />
+    <meta name="keywords" content="#bcrn16, #pretix" />
+</head>
+<body>
+  <header>
+    <h1><a href="/" rel="home start" class="blogtitle">bullshit</a></h1>
+    <nav>
+      <ul>
+        <li><a href="/" rel="home start">blog</a></li>
+        <li><a href="/atom/" rel="alternate">atom</a></li>
+        <li><a href="/rss/" rel="alternate">rss</a></li>
+        <li><a href="/articles/" rel="contents">artikelübersicht</a></li>
+        <li><a href="/about/" rel="author">über mich</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+        <article>
+  <header>
+    <time datetime="2015-10-19">19.10.2015, 01:40</time>
+    <h1>
+      <a href="/2015/pretix-auf-einem-uberspace-installieren/" rel="bookmark canonical">pretix auf einem Uberspace installieren</a>
+    </h1>
+  </header>
+  <p>Nach dem #bcrn15 gab es Kritik, dass wir die Tickets über Eventbrite ab&shy;ge&shy;wi&shy;ckelt haben. Eventbrite nutzt Server in den Staaten und überhaupt: Da&shy;ten&shy;schutz. Also haben wir uns auf die Suche nach Al&shy;ter&shy;na&shy;ti&shy;ven gemacht. </p>
+<p>Eine davon ist pretix, auf das uns <a href="https://twitter.com/_nazco_/status/611583006302695426">Ben Oswald brachte</a>. <a href="http://pretix.eu">pretix</a> erfindet Ti&shy;cket&shy;vor&shy;ver&shy;käu&shy;fe neu und wird von Raphael Michel als <a href="https://github.com/pretix/pretix">Open-Source-Projekt entwickelt</a>.</p>
+<p>pretix setzt auf <a href="https://www.djangoproject.com">Django</a>, es benötigt Python 3. Es gibt zwar eine <a href="http://docs.pretix.eu/en/latest/index.html">Do&shy;ku&shy;men&shy;ta&shy;ti&shy;on von pretix</a>, die befindet sich aber noch im Aufbau, ebenso wie pretix selbst. Um testen zu können, ob pretix für das #bcrn16 taugt, habe ich versucht, es auf einem <a href="https://wiki.uberspace.de/cool:django">Uberspace zum laufen zu bringen</a>. Dabei sind mir ein, zwei Stol&shy;per&shy;stei&shy;ne auf&shy;ge&shy;fal&shy;len. Im folgenden möchte ich be&shy;schrei&shy;ben, was ich tun musste, damit pretix auf einem Uberspace funk&shy;tio&shy;niert. Der Be&shy;nut&shy;zer&shy;na&shy;me ist <code>barcamp</code>, der  Uberspace heisst <code>kaul</code>. Ich möchte noch darauf hinweisen, dass diese In&shy;stal&shy;la&shy;ti&shy;on eine SQLite-Datenbank nutzt. Die Do&shy;ku&shy;men&shy;ta&shy;ti&shy;on sagt dazu:</p>
+<blockquote>
+<p>If you have real users on your system you’ll really want to use</p>
+<p>A database (MySQL or PostgreSQL)</p>
+<p>A reverse proxy web server (nginx or Apache)</p>
+</blockquote>
+<p>Tut diese Anleitung (noch) nicht.</p>
+<p>Im Prinzip habe ich mich an die Anleitung der Ubernauten für Django gehalten. Raphael riet mir außerdem, doch mal einen Blick auf das <a href="https://github.com/pretix/pretix/tree/master/deployment/docker/standalone">Dockerfile</a> zu werfen. Auch die <a href="http://docs.pretix.eu/en/latest/index.html">Do&shy;ku&shy;men&shy;ta&shy;ti&shy;on von pretix</a> war stel&shy;len&shy;wei&shy;se eine kleine Hilfe.</p>
+<p>In einem erste Schritt in&shy;stal&shy;lierst du Django und gunicorn mit:</p>
+<p><code>
+[barcamp@kaus ~]$ easy_install-3.4 django gunicorn
+</code></p>
+<p>An&shy;schlies&shy;send lädst du pretix von Github mit einem beherzten </p>
+<p><code>[barcamp@kaus ~]$ git clone https://github.com/pretix/pretix.git</code></p>
+<p>Ich gehe im folgenden davon aus, dass du das Repo in einen Ordner namens <code>pretix</code> geklont hast, der in deinem Home-Ver&shy;zeich&shy;nis liegt. Als nächstes in&shy;stal&shy;lierst du die Ab&shy;hän&shy;gig&shy;kei&shy;ten von pretix mit:</p>
+<p><code>
+[barcamp@kaus ~]$ npm install less</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus ~]$ pip3.4 install -r pretix/src/re&shy;qui&shy;re&shy;ments.txt
+</code></p>
+<p>Dann musst du in der Datei <code>~/pretix/src/pretix/settings.py</code>folgendes ergänzen:</p>
+<p><code>USE_X_FORWARDED_HOST = True</code></p>
+<p>Danach kümmerst du dich um die Submodules:</p>
+<p><code>
+[barcamp@kaus ~]$ cd pretix/</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus pretix]$ git submodule init</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus pretix]$ git submodule update</br>
+</code></p>
+<p>Danach kannst du die Datenbank in&shy;itia&shy;li&shy;sie&shy;ren und ein Ad&shy;mi&shy;nis&shy;tra&shy;tor&shy;kon&shy;to erstellen. Das Ad&shy;mi&shy;nis&shy;tra&shy;tor&shy;kon&shy;to brauchst du später, wenn du dich bei deiner pretix-Instanz anmelden möchtest.</p>
+<p><code>
+[barcamp@kaus pretix]$ cd src/</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus src]$ python3.4 manage.py syncdb
+</code></p>
+<p>An&shy;schlies&shy;send erstellst du die statischen Dateien. Das hat mir bei etwas gedauert:</p>
+<p><code>
+[barcamp@kaus src]$ python3.4 manage.py collectstatic --noinput</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus src]$ python3.4 manage.py compress
+</code></p>
+<p>Jetzt geht es an daran, pretix aus dem Netz an&shy;sprech&shy;bar zu machen. Dafür brauchst du zuerst einen Port, unter dem die Anwendung erreichbar ist. Die <a href="https://wiki.uberspace.de/cool:django#deamon_einrichten">Ubernauten empfehlen folgenden Weg</a>, den ich einfach mal gut&shy;ten&shy;ber&shy;ge:</p>
+<p><code>[barcamp@kaus ~]$ DJANGOPORT=$(( $RANDOM % 4535 + 61000)); netstat -tulpen | grep $DJANGOPORT &amp;&amp; echo "versuch's nochmal"</code></p>
+<blockquote>
+<p>wenn hier keine Ausgabe <code>versuch's nochmal</code> erscheint, passt alles. Wenn <code>versuch's nochmal</code> kommt - versuchs noch mal :)</p>
+</blockquote>
+<p>Danach richtest du den ei&shy;gent&shy;li&shy;chen Deamon ein:</p>
+<p><code>
+[barcamp@kaus ~]$ test -d ~/service || uberspace-setup-svscan</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus ~]$ uberspace-setup-service gunicorn gunicorn --error-logfile ~/error-log --reload --chdir ~/pretix/src --bind 127.0.0.1:$D&shy;JAN&shy;GO&shy;PORT --workers 4 pretix.wsgi --name pretix --max-requests 1200 --max-requests-jitter 50
+</code></p>
+<p>An&shy;schlies&shy;send überlegst du dir, unter welcher URL du pretix ansprechen willst und speicherst sie in der Variable PRETIXURL. Meine Tes&shy;t&shy;in&shy;stal&shy;la&shy;ti&shy;on läuft bei&shy;spiels&shy;wei&shy;se unter <code>pretix.barcamp.kaus.uberspace.de</code>:</p>
+<p><code>[barcamp@kaus ~]$ PRETIXURL=pretix.barcamp.kaus.uberspace.de</code></p>
+<p>Dann erstellst du eine Datei <code>~/.pretix.cfg</code> und befüllst sie:</p>
+<p><code>
+[barcamp@kaus ~]$ cat &lt;&lt; __EOF__&gt; ~/.pretix.cfg</br>
+[pretix]</br>
+url=http://$PRETIXURL</br></br>
+[django]</br>
+hosts=127.0.0.1:$D&shy;JAN&shy;GO&shy;PORT</br>
+__EOF__
+</code></p>
+<p>Hier sei nochmal auf die Do&shy;ku&shy;men&shy;ta&shy;ti&shy;on von pretix verwiesen, die den Aufbau und die Mög&shy;lich&shy;kei&shy;ten der <a href="http://docs.pretix.eu/en/latest/admin/config.html">Kon&shy;fi&shy;gu&shy;ra&shy;ti&shy;ons&shy;da&shy;tei schon recht gut beschreibt</a>.</p>
+<p>An&shy;schlies&shy;send sorgst du dafür, dass gunicorn und pretix aus dem Internet an&shy;sprech&shy;bar sind:</p>
+<p><code>
+[barcamp@kaus ~]$ mkdir /var/www/virtual/$USER/$PRETIXURL</br>
+[b&shy;ar&shy;cam&shy;p@&shy;k&shy;aus ~]$ cat &lt;&lt;__EOF__&gt; /var/www/virtual/$USER/$PRETIXURL/.htaccess<br>
+Re&shy;wri&shy;teEn&shy;gi&shy;ne On</br>
+Re&shy;wri&shy;te&shy;Cond %{&shy;RE&shy;QUES&shy;T_&shy;FI&shy;LE&shy;NA&shy;ME} !-f</br>
+Re&shy;wri&shy;te&shy;Ba&shy;se /</br>
+Re&shy;wri&shy;te&shy;Ru&shy;le ^(.*)$ http://127.0.0.1:$D&shy;JAN&shy;GO&shy;PORT/\$1 [P]</br>
+Re&shy;ques&shy;tHea&shy;der set X-Forwarded-Proto https env=HTTPS</br>
+__EOF__
+</code></p>
+<p>Herzlichen Glück&shy;wunsch, du hast es geschafft! Du kannst pretix unter der URL, die du angegeben hast, im Browser aufrufen. Bei mir wäre das die URL <code>http://pretix.barcamp.kaus.uberspace.de/control/login?next=/control/</code>. Dann solltest den An&shy;mel&shy;de&shy;bild&shy;schirm sehen. Dort kannst du dich bei&shy;spiels&shy;wei&shy;se mit den Ad&shy;mi&shy;nis&shy;tra&shy;tor&shy;da&shy;ten, die du vorhin eingegeben hast, anmelden.</p>
+<p><img alt="Anmeldebildschirm von pretix" src="/img/IMG_99.png"/></p>
+  <footer>
+  
+  
+    <p>Schlagworte:
+    <a href="/tag/bcrn16/" rel="tag">#bcrn16</a>
+        und
+      
+    <a href="/tag/pretix/" rel="tag">#pretix</a>
+    
+    </p>
+    
+  </footer>
+  <div class="comments">
+  
+    <h2>Sag was dazu</h2>
+    <section id="isso-thread"></section>
+    <noscript>
+      <p>Please enable JavaScript to view the <a href="https://github.com/posativ/isso">comments powered by Isso.</a></p>
+    </noscript>
+  </div>
+</article>
+    
+    
+        <a href="/2015/das-kannst-du-bisher-mit-dem-einkaufszettl-machen/" class="page floatright">
+        Das kannst Du bisher mit dem Einkaufszettl machen &raquo;
+        </a>
+    
+    
+        <a href="/2015/das-soll-in-den-einkaufszettl-0-3/" class="page floatleft">
+        &laquo; Das soll in den Einkaufszettl 0.3
+        </a>
+<footer>
+    
+    
+    <p><a href="/about/">Kontakt</a>  - <a href="/impressum.html">Impressum</a> - <a href="/datenschutz.html">Datenschutz</a></p>
+    
+    
+
+  </footer>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//bullenscheisse.de/piwik/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 1]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//bullenscheisse.de/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+</body>
+</html>
