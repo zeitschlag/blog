@@ -1,4 +1,4 @@
-Title: Life is Strange
+Title: Life Is Strange
 Date: 4.10.2017, 7:48
 Tags: [#lifeisstrange, #mathe]
 filters: [markdown+mathml]
@@ -9,11 +9,11 @@ In dem Spiel hat man Zugriff auf eine Art Tagebuch von Max, der Hauptfigur, in d
 
 ${x-1}/4 - 4/(x-1)=0$
 
-Als ich das sah, war mein Interesse geweckt. Auch wenn ich Informatik studiert habe, war ich nie besonders gut in Mathe. Es hat mir meistens Spaß gemacht, aber ich war eben nie besonders gut. Statistik und Stochastik sind mir bis heute beispielsweise ein Rätsel. Ich hatte das Bedürfnis, die Gleichung aus dem Spiel zu lösen. Also kramte ich in meinem Kopf in einer Kiste mit der Aufschrift „Mathe 10. Klasse“ und begann, die beiden Brüche auf einen Nenner bringen, in dem ich jeden Bruch mit dem Nenner des anderen erweiterte:
+Als ich das sah, war mein Interesse geweckt. Auch wenn ich Informatik studiert habe, war ich nie besonders gut in Mathe. Es hat mir meistens Spaß gemacht, aber ich war eben nie besonders gut. Statistik und Stochastik sind mir bis heute beispielsweise ein Rätsel. Ich hatte das Bedürfnis, die Gleichung aus dem Spiel zu lösen — das, was in dem Buch stand, konnte nicht stimmen. Also kramte ich in meinem Kopf in einer Kiste mit der Aufschrift „Mathe 10. Klasse“ und begann, die beiden Brüche auf einen Nenner bringen, in dem ich jeden Bruch mit dem Nenner des anderen erweiterte:
 
 $((x-1)(x-1))/(4(x-1)) - (4*4)/((x-1)4) = 0 $
 
-Danach zog ich beide Brüche auf einen Bruchstrich ...
+Danach ziehe ich beide Brüche auf einen Bruchstrich ...
 
 $((x-1)(x-1)-16)/(4(x-1)) = 0$
 
@@ -21,7 +21,7 @@ $((x-1)(x-1)-16)/(4(x-1)) = 0$
 
 $(x^2-2x+1-16)/(4(x-1))=0$
 
-Nun multiplizierte ich beide Seiten der Gleichung mit $4(x-1)$, um den Bruch aufzulösen.
+Nun multipliziere ich beide Seiten der Gleichung mit $4(x-1)$, um den Bruch aufzulösen.
 
 $x^2-2x+1-16=0i => x^2-2x-15=0$
 
@@ -29,7 +29,7 @@ Diese beiden Schritte hätte ich auch in umgekehrter Reihenfolge machen können.
 
 Hört ihr das? Wir haben eine [quadratische Gleichung](https://de.wikipedia.org/wiki/Quadratische_Gleichung), die nach der [pq-Formel](https://de.wikipedia.org/wiki/Quadratische_Gleichung#L.C3.B6sungsformel_f.C3.BCr_die_Normalform_.28p-q-Formel.29) mit $p=-2, q=-15$ schreit.
 
-Wir müssen noch überprüfen, ob die Diskriminante $D$ negativ ist: $D=p^2-4q; p=-2, q=-15 => D = 4-4*(-15) = 4+60=64$, passt also, her mit der pq-Formel.
+Wir müssen noch überprüfen, ob die Diskriminante $D$ negativ ist: $D=p^2-4q; p=-2, q=-15 => D = 4-4*(-15) = 4+60=64$, passt also, her mit der _normalen_ pq-Formel.
 
 Der Rest ist einsetzen und ausrechnen oder einen Taschenrechner bemühen:
 
