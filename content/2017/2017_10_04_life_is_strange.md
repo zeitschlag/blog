@@ -23,7 +23,7 @@ $(x^2-2x+1-16)/(4(x-1))=0$
 
 Nun multipliziere ich beide Seiten der Gleichung mit $4(x-1)$, um den Bruch aufzulösen.
 
-$x^2-2x+1-16=0i => x^2-2x-15=0$
+$x^2-2x+1-16=0 => x^2-2x-15=0$
 
 Diese beiden Schritte hätte ich auch in umgekehrter Reihenfolge machen können.
 
