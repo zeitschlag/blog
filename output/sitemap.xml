@@ -12,7 +12,12 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/6/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bullenscheisse.de/tag/miniflux/</loc>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -204,12 +209,12 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/atom/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/10/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -220,7 +225,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/3/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -234,8 +239,8 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2014/twitter/</loc>
-    <lastmod>2017-10-06</lastmod>
+    <loc>https://bullenscheisse.de/2017/miniflux-+-unread/</loc>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
@@ -353,9 +358,10 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/tag/lifeisstrange/</loc>
-    <lastmod>2017-10-04</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://bullenscheisse.de/2014/was-faellt-ihnen-eigentlich-ein/</loc>
+    <lastmod>2017-10-06</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bullenscheisse.de/tag/fernweh/</loc>
@@ -397,7 +403,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/7/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -528,7 +534,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/2/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -545,7 +551,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/11/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -599,7 +605,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/tag/urlaub/</loc>
+    <loc>https://bullenscheisse.de/tag/lifeisstrange/</loc>
     <lastmod>2017-10-04</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -626,7 +632,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -648,7 +654,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/5/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -701,7 +707,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/8/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1031,7 +1037,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/4/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1074,7 +1080,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/9/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1124,6 +1130,11 @@
   <url>
     <loc>https://bullenscheisse.de/tag/faulheit/</loc>
     <lastmod>2017-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bullenscheisse.de/tag/unread/</loc>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1226,6 +1237,11 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://bullenscheisse.de/tag/rss/</loc>
+    <lastmod>2017-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://bullenscheisse.de/tag/video/</loc>
     <lastmod>2017-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1269,8 +1285,13 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://bullenscheisse.de/tag/urlaub/</loc>
+    <lastmod>2017-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://bullenscheisse.de/2017/xnetflixions-gastbeitrag-bei-condomsbydefault-de/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1287,7 +1308,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/articles/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1337,7 +1358,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2014/was-faellt-ihnen-eigentlich-ein/</loc>
+    <loc>https://bullenscheisse.de/2014/twitter/</loc>
     <lastmod>2017-10-06</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
@@ -1349,7 +1370,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/rss/</loc>
-    <lastmod>2017-10-31</lastmod>
+    <lastmod>2017-11-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>

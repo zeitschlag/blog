@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>miniflux + unread</title>
+  <link media="all" href="/style.css" rel="stylesheet" />
+  <link href="/favicon.ico" rel="shortcut icon" />
+    <link href="/sitemap.xml" type="application/xml" rel="sitemap" title="Sitemap">
+  <link href="/" rel="home start" />
+  <link href="/atom/" type="application/atom+xml" rel="alternate" title="Atom Feed" />
+  <link href="/rss/" type="application/rss+xml" rel="alternate" title="RSS Feed" />
+  <script data-isso="/fcgi-bin/isso" src="/fcgi-bin/isso/js/embed.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <meta name="description" content="Vor ein paar Tagen änderte sich wieder einmal alle..." />
+    <meta name="keywords" content="#rss, #miniflux, #unread" />
+</head>
+<body>
+  <header>
+    <h1><a href="/" rel="home start" class="blogtitle">bullshit</a></h1>
+    <nav>
+      <ul>
+        <li><a href="/" rel="home start">blog</a></li>
+        <li><a href="/atom/" rel="alternate">atom</a></li>
+        <li><a href="/rss/" rel="alternate">rss</a></li>
+        <li><a href="/articles/" rel="contents">artikelübersicht</a></li>
+        <li><a href="/about/" rel="author">über mich</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+        <article>
+  <header>
+    <time datetime="2017-11-27">27.11.2017, 21:41</time>
+    <h1>
+      <a href="/2017/miniflux-+-unread/" rel="bookmark canonical">miniflux + unread</a>
+    </h1>
+  </header>
+  <p>Vor ein paar Tagen änderte sich wieder einmal alles. </p>
+<h3>Was bisher geschah</h3>
+<p>Zumindest, was mein Setup zum Lesen von <a href="https://de.wikipedia.org/wiki/RSS_(Web-Feed)">RSS-Feeds</a> betrifft. Bisher verwendete ich dafür über mehrere Jahre hinweg <a href="https://tt-rss.org/">Tiny Tiny RSS</a> — kurz: tt-rss — auf einem Uberspace, um diverser Feeds abzugrasen. Zum Lesen nutzte ich auf dem Mac, nachdem die Ent&shy;wick&shy;lung von microRSS, einem Desktop-Client für tt-rss <a href="https://bullenscheisse.de/2015/microrss-ist-open-source/">Mitte 2015 ein&shy;ge&shy;stellt</a> worden war,  die We&shy;bo&shy;b&shy;er&shy;flä&shy;che von tt-rss. Für das iPhone hatte ich mir vor Ewigkeiten eine App namens „<a href="https://itunes.apple.com/de/app/tiny-reader-rss/id689519762?mt=8">tiny Reader RSS</a>“ gekauft, die ich seitdem verwendete.</p>
+<p>Dieses System war nicht perfekt, es gab durchaus Sachen, die echt genervt haben. So störte mich an der App bei&shy;spiels&shy;wei&shy;se, dass sie jedes Mal, wenn sie in den Vor&shy;der&shy;grund kam, eine Ak&shy;tua&shy;li&shy;sie&shy;rung anstieß. Wenn du in der Berliner Ubahn bist, ist das echt nervig. Auch die Wisch&shy;ges&shy;ten in tiny RSS waren nervig, ebenso die Tatsache, dass die Ori&shy;gi&shy;nal&shy;an&shy;sicht der Artikel in der App und nicht mittels Safari im&shy;ple&shy;men&shy;tiert war.</p>
+<p>Ich konnte auch nicht sagen, dass die We&shy;bo&shy;b&shy;er&shy;flä&shy;che von tt-rss umwerfend war. Sie war okay. Aber der <em>pain in the ass</em> war nie groß genug, um etwas zu ändern oder mich nach etwas Neuem um&shy;zu&shy;schau&shy;en. Statt&shy;des&shy;sen gewöhnte ich mich größ&shy;ten&shy;teils an die Nachteile. Erspart euch das. <a href="https://twitter.com/search?f=tweets&amp;vertical=default&amp;q=%23f%C3%BCrwenigernervimleben&amp;src=typd">#für&shy;we&shy;ni&shy;ger&shy;nerv&shy;im&shy;le&shy;ben</a></p>
+<p>Als Leah dann vor einigen Tagen ausgrub, welche <a href="https://twitter.com/_nazco_/status/929081977805987841">Kategorien es im Forum von tt-rss</a> gibt, Cheatha nachfragte und der <a href="https://discourse.tt-rss.org/t/a-category-named-gas-chamber/649">Entwickler von tt-rss sich wie ein Arschloch benahm</a>, sah ich den Zeitpunkt gekommen, mein Feedreader-Setup mal so zu überdenken, dass es nicht mehr auf tt-rss aufbaute.</p>
+<h3>Was ich will/brauche/will</h3>
+<p>Ich lese meine Feeds selbst&shy;ver&shy;ständ&shy;lich absolut nie im Büro, dafür auf Toilette, in der Ubahn, im Bett, in War&shy;te&shy;zim&shy;mern. Ich hätte also gerne eine Lösung, die eine iOS-App, die nicht bei jedem Aufruf alle Feeds syn&shy;chro&shy;ni&shy;siert, und eine zweck&shy;mäs&shy;si&shy;ge, idea&shy;ler&shy;wei&shy;se hübsche We&shy;bo&shy;b&shy;er&shy;flä&shy;che enthält. Wenn es noch einen nativen Client für den Mac gibt, sage ich auch nicht nein. Noch dazu wäre es schön, wenn die Lösung bei&shy;spiels&shy;wei&shy;se stündlich die Feeds abgrast.</p>
+<p>Idea&shy;ler&shy;wei&shy;se ist das ganze Open Source und ohne großen Aufwand auf einem <a href="https://uberspace.de/">Uberspace</a> in&shy;stal&shy;lier&shy;bar. Und wenn es was kostet, ist das auch in Ordnung, schließ&shy;lich nutze ich das täglich im Büro, auf Toilette, in der Ubahn, im Bett, in War&shy;te&shy;zim&shy;mern.</p>
+<h3>Was ich mir angeschaut habe</h3>
+<p>Ich lieb&shy;äu&shy;gel&shy;te anfangs auch mit Diensten wie <a href="https://feedwrangler.net/welcome.html">Feed&shy;wrang&shy;ler</a>, <a href="http://netnewswireapp.com/">Net&shy;News&shy;Wire</a>, <a href="https://feedly.com/i/welcome">Feedly</a> oder <a href="https://feedbin.com/">Feedbin</a>, nahm dann aber relativ schnell wieder Abstand, weil ich eben etwas Selbst&shy;ge&shy;hos&shy;te&shy;tes haben wollte oder sie wie Net&shy;News&shy;Wire nicht über ein Web&shy;in&shy;ter&shy;face verfügten. Wenn ich mich eines Tages nicht mehr selbst um die Wartung kümmern möchte, komme ich darauf vielleicht zurück, fürs Erste waren die raus.</p>
+<p>Andere Kandidaten waren <a href="https://miniflux.net/">miniflux</a>, <a href="https://github.com/swanson/stringer">Stringer</a> und <a href="https://selfoss.aditu.de/">selfoss</a>, wobei ich selfoss hässlich fand und deswegen nur Stringer und miniflux in die engere Auswahl kamen. </p>
+<p>Kandidaten für die iOS-App waren <a href="https://www.goldenhillsoftware.com/unread/">Unread</a> und Reeder. felix schwenzel, der seit einem jahr <a href="http://wirres.net/article/articleview/10389/1/0/">ebenfalls miniflux nutzt</a>, hat dazu vor geraumer zeit mal <a href="http://wirres.net/article/articleview/7148/1/6/">einen artikel ge&shy;schrie&shy;ben</a>. Beide Apps können an ver&shy;schie&shy;de&shy;ne APIs gehängt werden, unter anderem auch an die <a href="https://feedafever.com/api">Fever API</a>, die viele Open Source-RSS-Services im&shy;ple&shy;men&shy;tie&shy;ren.</p>
+<h3>Wie es jetzt aussieht</h3>
+<p>Weil ich irgendwann aufgab, Stringer auf einem Uberspace in&shy;stal&shy;lie&shy;ren zu wollen, also quasi aus meiner eigenen In&shy;kom&shy;pe&shy;tenz — vielleicht schafft es jemand, der*die mehr Ahnung als ich hat — wurde es schluss&shy;end&shy;lich miniflux.</p>
+<p>Als App für das iPhone habe ich mich für Unread ent&shy;schie&shy;den, unter anderem deshalb, weil die App eine Testphase anbietet: Bevor ich Geld ausgebe, kann ich 50 Artikel lesen. Ich war anfangs skeptisch, ob das reicht, aber um ein Gefühl für die App zu kriegen und mich zu überzeugen, war es genug: Ich gab die 8,99€ aus.</p>
+<p>Dass es mit dem IAP ein paar mehr Themes in der App gibt, ist nett, aber mir reichen im Grunde zwei:</p>
+<p><img alt="Day-Theme, Night-Theme" src="/img/IMG_130_Unread_Themes.PNG"/></p>
+<p>Mit das Beste an Unread im Vergleich zu tiny RSS ist die Tatsache, dass Unread die Syn&shy;chro&shy;ni&shy;sie&shy;rung der Feeds wesentlich eleganter im Hin&shy;ter&shy;grund hinbekommt, sie offline vorhält und ich meine Feeds so auch in der Berliner Ubahn lesen kann. Ausserdem sind die Wisch&shy;ges&shy;ten ordentlich und nach&shy;voll&shy;zieh&shy;bar im&shy;ple&shy;men&shy;tiert und die ganze UX ist nicht so kacke.</p>
+<p>Ich bin alles in allem zufrieden damit. Wie es lang&shy;fris&shy;tig funk&shy;tio&shy;niert, wird sich zeigen.</p>
+<h3>Wo ich auch Hürden gestoßen bin</h3>
+<p>Die einzige Hürde, die mir auffiel, war die In&shy;stal&shy;la&shy;ti&shy;on von miniflux. Zwar lässt sich miniflux auch mit MySQL betreiben, wenn man das in der <a href="https://twitter.com/zeitschlag/status/931816223817523200">Kon&shy;fi&shy;gu&shy;ra&shy;ti&shy;ons&shy;da&shy;tei kon&shy;fi&shy;gu&shy;riert</a>, aber die MySQL-Version meines Uberspace war zu alt. Das fand ich raus, weil ich bei der In&shy;stal&shy;la&shy;ti&shy;on von miniflux Encoding-Fehler sah. Lösung des Problems: Du willst <a href="https://wiki.uberspace.de/database:mysql#mariadb_100">MariaDB auf deinem Uberspace</a> nutzen. Dann klappt es auch mit der In&shy;stal&shy;la&shy;ti&shy;on.</p>
+<p>Ansonsten:</p>
+<h3>Was ich gut finde</h3>
+<p>Das jetzige Setup erledigt einfach seinen Job: Es lässt mich meine Feeds überall da lesen, wo ich möchte. Es nervt dabei nicht, es sieht dabei gut aus, Updates für miniflux lassen sich relativ problemlos einspielen und auch Unread wird re&shy;gel&shy;mäs&shy;sig vom Entwickler ak&shy;tua&shy;li&shy;siert.</p>
+<h3>Womit ich nicht zufrieden bin</h3>
+<p>Das Bindeglied zwischen App und miniflux ist wie ge&shy;schrie&shy;ben die Fever API. Damit fühle ich mich tat&shy;säch&shy;lich ein bisschen unwohl, weil Fever seit einigen Jahren nicht mehr wei&shy;ter&shy;ent&shy;wi&shy;ckelt wird. Und somit kümmert sich auch niermand um die API. Wenn der Entwickler von Unread sich jetzt ent&shy;schei&shy;det, die Fever API nicht mehr zu un&shy;ter&shy;stüt&shy;zen, habe ich ein Problem. Wenn die Ent&shy;wick&shy;ler*in&shy;nen von miniflux sich jetzt ent&shy;schei&shy;den, die Fever API nicht mehr zu un&shy;ter&shy;stüt&shy;zen und statt&shy;des&shy;sen lieber an miniflux 2 arbeiten, habe ich ein Problem.</p>
+<p>Wenn es soweit ist, sehe ich weiter. Notfalls lerne ich PHP oder muss mir dann doch mal meinen eigenen Feedreader fürs iPhone schreiben.</p>
+<p><strong>Wie sieht dein RSS-Setup aus? Hast du Fragen?</strong></p>
+  <footer>
+  
+  
+    <p>Schlagworte:
+    <a href="/tag/rss/" rel="tag">#rss</a>,
+    <a href="/tag/miniflux/" rel="tag">#miniflux</a>
+        und
+      
+    <a href="/tag/unread/" rel="tag">#unread</a>
+    
+    </p>
+    
+  </footer>
+  <div class="comments">
+  
+    <h2>Sag was dazu</h2>
+    <section id="isso-thread"></section>
+    <noscript>
+      <p>Please enable JavaScript to view the <a href="https://github.com/posativ/isso">comments powered by Isso.</a></p>
+    </noscript>
+  </div>
+</article>
+    
+    
+        <a href="/2017/xnetflixions-gastbeitrag-bei-condomsbydefault-de/" class="page floatright">
+        XNetflixions - Gastbeitrag bei condomsbydefault.de &raquo;
+        </a>
+    
+    
+<footer>
+    
+    
+    <p><a href="/about/">Kontakt</a>  - <a href="/impressum.html">Impressum</a> - <a href="/datenschutz.html">Datenschutz</a></p>
+    
+    
+
+  </footer>
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//bullenscheisse.de/piwik/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', 1]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//bullenscheisse.de/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
+</body>
+</html>

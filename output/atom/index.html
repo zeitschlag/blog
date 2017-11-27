@@ -11,8 +11,53 @@
     <link rel="self" type="application/atom+xml" href="https://bullenscheisse.de/atom/" />
     <icon>https://bullenscheisse.de/favicon.ico</icon>
     <logo>https://bullenscheisse.de/feed-logo.png</logo>
-    <updated>2017-10-31T13:55:00Z</updated>
+    <updated>2017-11-27T20:41:00Z</updated>
     <generator uri="https://github.com/posativ/acrylamid/" version="0.7.10">acrylamid</generator>
+        <entry>
+        <title>miniflux + unread</title>
+        <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/miniflux-+-unread/" />
+        <id>tag:bullenscheisse.de,2017-11-27:/2017/miniflux-+-unread</id>
+        <updated>2017-11-27T20:41:00Z</updated>
+        <category term="#rss" />
+        <category term="#miniflux" />
+        <category term="#unread" />
+        
+        <author>
+            <name>Nathan</name>
+            <uri>https://bullenscheisse.de/</uri>
+            <email>hallo@bullenscheisse.de</email>
+        </author>
+        <content type="html">&lt;p&gt;Vor ein paar Tagen änderte sich wieder einmal alles. &lt;/p&gt;
+&lt;h4&gt;Was bisher geschah&lt;/h4&gt;
+&lt;p&gt;Zumindest, was mein Setup zum Lesen von &lt;a href=&#34;https://de.wikipedia.org/wiki/RSS_(Web-Feed)&#34;&gt;RSS-Feeds&lt;/a&gt; betrifft. Bisher verwendete ich dafür über mehrere Jahre hinweg &lt;a href=&#34;https://tt-rss.org/&#34;&gt;Tiny Tiny RSS&lt;/a&gt; — kurz: tt-rss — auf einem Uberspace, um diverser Feeds abzugrasen. Zum Lesen nutzte ich auf dem Mac, nachdem die Entwicklung von microRSS, einem Desktop-Client für tt-rss &lt;a href=&#34;https://bullenscheisse.de/2015/microrss-ist-open-source/&#34;&gt;Mitte 2015 eingestellt&lt;/a&gt; worden war,  die Weboberfläche von tt-rss. Für das iPhone hatte ich mir vor Ewigkeiten eine App namens „&lt;a href=&#34;https://itunes.apple.com/de/app/tiny-reader-rss/id689519762?mt=8&#34;&gt;tiny Reader RSS&lt;/a&gt;“ gekauft, die ich seitdem verwendete.&lt;/p&gt;
+&lt;p&gt;Dieses System war nicht perfekt, es gab durchaus Sachen, die echt genervt haben. So störte mich an der App beispielsweise, dass sie jedes Mal, wenn sie in den Vordergrund kam, eine Aktualisierung anstieß. Wenn du in der Berliner Ubahn bist, ist das echt nervig. Auch die Wischgesten in tiny RSS waren nervig, ebenso die Tatsache, dass die Originalansicht der Artikel in der App und nicht mittels Safari implementiert war.&lt;/p&gt;
+&lt;p&gt;Ich konnte auch nicht sagen, dass die Weboberfläche von tt-rss umwerfend war. Sie war okay. Aber der &lt;em&gt;pain in the ass&lt;/em&gt; war nie groß genug, um etwas zu ändern oder mich nach etwas Neuem umzuschauen. Stattdessen gewöhnte ich mich größtenteils an die Nachteile. Erspart euch das. &lt;a href=&#34;https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=%23f%C3%BCrwenigernervimleben&amp;amp;src=typd&#34;&gt;#fürwenigernervimleben&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Als Leah dann vor einigen Tagen ausgrub, welche &lt;a href=&#34;https://twitter.com/_nazco_/status/929081977805987841&#34;&gt;Kategorien es im Forum von tt-rss&lt;/a&gt; gibt, Cheatha nachfragte und der &lt;a href=&#34;https://discourse.tt-rss.org/t/a-category-named-gas-chamber/649&#34;&gt;Entwickler von tt-rss sich wie ein Arschloch benahm&lt;/a&gt;, sah ich den Zeitpunkt gekommen, mein Feedreader-Setup mal so zu überdenken, dass es nicht mehr auf tt-rss aufbaute.&lt;/p&gt;
+&lt;h4&gt;Was ich will/brauche/will&lt;/h4&gt;
+&lt;p&gt;Ich lese meine Feeds selbstverständlich absolut nie im Büro, dafür auf Toilette, in der Ubahn, im Bett, in Wartezimmern. Ich hätte also gerne eine Lösung, die eine iOS-App, die nicht bei jedem Aufruf alle Feeds synchronisiert, und eine zweckmässige, idealerweise hübsche Weboberfläche enthält. Wenn es noch einen nativen Client für den Mac gibt, sage ich auch nicht nein. Noch dazu wäre es schön, wenn die Lösung beispielsweise stündlich die Feeds abgrast.&lt;/p&gt;
+&lt;p&gt;Idealerweise ist das ganze Open Source und ohne großen Aufwand auf einem &lt;a href=&#34;https://uberspace.de/&#34;&gt;Uberspace&lt;/a&gt; installierbar. Und wenn es was kostet, ist das auch in Ordnung, schließlich nutze ich das täglich im Büro, auf Toilette, in der Ubahn, im Bett, in Wartezimmern.&lt;/p&gt;
+&lt;h4&gt;Was ich mir angeschaut habe&lt;/h4&gt;
+&lt;p&gt;Ich liebäugelte anfangs auch mit Diensten wie &lt;a href=&#34;https://feedwrangler.net/welcome.html&#34;&gt;Feedwrangler&lt;/a&gt;, &lt;a href=&#34;http://netnewswireapp.com/&#34;&gt;NetNewsWire&lt;/a&gt;, &lt;a href=&#34;https://feedly.com/i/welcome&#34;&gt;Feedly&lt;/a&gt; oder &lt;a href=&#34;https://feedbin.com/&#34;&gt;Feedbin&lt;/a&gt;, nahm dann aber relativ schnell wieder Abstand, weil ich eben etwas Selbstgehostetes haben wollte oder sie wie NetNewsWire nicht über ein Webinterface verfügten. Wenn ich mich eines Tages nicht mehr selbst um die Wartung kümmern möchte, komme ich darauf vielleicht zurück, fürs Erste waren die raus.&lt;/p&gt;
+&lt;p&gt;Andere Kandidaten waren &lt;a href=&#34;https://miniflux.net/&#34;&gt;miniflux&lt;/a&gt;, &lt;a href=&#34;https://github.com/swanson/stringer&#34;&gt;Stringer&lt;/a&gt; und &lt;a href=&#34;https://selfoss.aditu.de/&#34;&gt;selfoss&lt;/a&gt;, wobei ich selfoss hässlich fand und deswegen nur Stringer und miniflux in die engere Auswahl kamen. &lt;/p&gt;
+&lt;p&gt;Kandidaten für die iOS-App waren &lt;a href=&#34;https://www.goldenhillsoftware.com/unread/&#34;&gt;Unread&lt;/a&gt; und Reeder. felix schwenzel, der seit einem jahr &lt;a href=&#34;http://wirres.net/article/articleview/10389/1/0/&#34;&gt;ebenfalls miniflux nutzt&lt;/a&gt;, hat dazu vor geraumer zeit mal &lt;a href=&#34;http://wirres.net/article/articleview/7148/1/6/&#34;&gt;einen artikel geschrieben&lt;/a&gt;. Beide Apps können an verschiedene APIs gehängt werden, unter anderem auch an die &lt;a href=&#34;https://feedafever.com/api&#34;&gt;Fever API&lt;/a&gt;, die viele Open Source-RSS-Services implementieren.&lt;/p&gt;
+&lt;h4&gt;Wie es jetzt aussieht&lt;/h4&gt;
+&lt;p&gt;Weil ich irgendwann aufgab, Stringer auf einem Uberspace installieren zu wollen, also quasi aus meiner eigenen Inkompetenz — vielleicht schafft es jemand, der*die mehr Ahnung als ich hat — wurde es schlussendlich miniflux.&lt;/p&gt;
+&lt;p&gt;Als App für das iPhone habe ich mich für Unread entschieden, unter anderem deshalb, weil die App eine Testphase anbietet: Bevor ich Geld ausgebe, kann ich 50 Artikel lesen. Ich war anfangs skeptisch, ob das reicht, aber um ein Gefühl für die App zu kriegen und mich zu überzeugen, war es genug: Ich gab die 8,99€ aus.&lt;/p&gt;
+&lt;p&gt;Dass es mit dem IAP ein paar mehr Themes in der App gibt, ist nett, aber mir reichen im Grunde zwei:&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Day-Theme, Night-Theme&#34; src=&#34;https://bullenscheisse.de/img/IMG_130_Unread_Themes.PNG&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Mit das Beste an Unread im Vergleich zu tiny RSS ist die Tatsache, dass Unread die Synchronisierung der Feeds wesentlich eleganter im Hintergrund hinbekommt, sie offline vorhält und ich meine Feeds so auch in der Berliner Ubahn lesen kann. Ausserdem sind die Wischgesten ordentlich und nachvollziehbar implementiert und die ganze UX ist nicht so kacke.&lt;/p&gt;
+&lt;p&gt;Ich bin alles in allem zufrieden damit. Wie es langfristig funktioniert, wird sich zeigen.&lt;/p&gt;
+&lt;h4&gt;Wo ich auch Hürden gestoßen bin&lt;/h4&gt;
+&lt;p&gt;Die einzige Hürde, die mir auffiel, war die Installation von miniflux. Zwar lässt sich miniflux auch mit MySQL betreiben, wenn man das in der &lt;a href=&#34;https://twitter.com/zeitschlag/status/931816223817523200&#34;&gt;Konfigurationsdatei konfiguriert&lt;/a&gt;, aber die MySQL-Version meines Uberspace war zu alt. Das fand ich raus, weil ich bei der Installation von miniflux Encoding-Fehler sah. Lösung des Problems: Du willst &lt;a href=&#34;https://wiki.uberspace.de/database:mysql#mariadb_100&#34;&gt;MariaDB auf deinem Uberspace&lt;/a&gt; nutzen. Dann klappt es auch mit der Installation.&lt;/p&gt;
+&lt;p&gt;Ansonsten:&lt;/p&gt;
+&lt;h4&gt;Was ich gut finde&lt;/h4&gt;
+&lt;p&gt;Das jetzige Setup erledigt einfach seinen Job: Es lässt mich meine Feeds überall da lesen, wo ich möchte. Es nervt dabei nicht, es sieht dabei gut aus, Updates für miniflux lassen sich relativ problemlos einspielen und auch Unread wird regelmässig vom Entwickler aktualisiert.&lt;/p&gt;
+&lt;h4&gt;Womit ich nicht zufrieden bin&lt;/h4&gt;
+&lt;p&gt;Das Bindeglied zwischen App und miniflux ist wie geschrieben die Fever API. Damit fühle ich mich tatsächlich ein bisschen unwohl, weil Fever seit einigen Jahren nicht mehr weiterentwickelt wird. Und somit kümmert sich auch niermand um die API. Wenn der Entwickler von Unread sich jetzt entscheidet, die Fever API nicht mehr zu unterstützen, habe ich ein Problem. Wenn die Entwickler*innen von miniflux sich jetzt entscheiden, die Fever API nicht mehr zu unterstützen und stattdessen lieber an miniflux 2 arbeiten, habe ich ein Problem.&lt;/p&gt;
+&lt;p&gt;Wenn es soweit ist, sehe ich weiter. Notfalls lerne ich PHP oder muss mir dann doch mal meinen eigenen Feedreader fürs iPhone schreiben.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wie sieht dein RSS-Setup aus? Hast du Fragen?&lt;/strong&gt;&lt;/p&gt;</content>
+    </entry>
+    
         <entry>
         <title>XNetflixions - Gastbeitrag bei condomsbydefault.de</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/xnetflixions-gastbeitrag-bei-condomsbydefault-de/" />
@@ -829,29 +874,5 @@ event. So now it&#39;s up to you!&lt;/p&gt;</content>
 &lt;p&gt;Danke an die &lt;a href=&#34;https://www.gls.de/privatkunden/&#34;&gt;GLS-Bank&lt;/a&gt;, &lt;a href=&#34;https://www.ratiodrink.de&#34;&gt;Ratiodrink&lt;/a&gt;, &lt;a href=&#34;https://www.dasburo.com/home.html&#34;&gt;Das Büro am Draht&lt;/a&gt;, &lt;a href=&#34;https://www.brandwatch.com&#34;&gt;Brandwatch&lt;/a&gt;, &lt;a href=&#34;http://digitalscouts.de/#!&#34;&gt;Digital Scouts&lt;/a&gt; und &lt;a href=&#34;http://mbc-catering.de&#34;&gt;MBC Catering&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Alle Sponsoren&#34; src=&#34;https://bullenscheisse.de/img/IMG_113.JPG&#34;/&gt;&lt;/p&gt;
 &lt;p&gt;Insgesamt war es ein tolles Barcamp mit einem sehr schönen Qualitätssonntag. Vielen Dank an Jan für die Organsation, die Sponsoren für die Unterstützung und die Teilgeber_innen für die Sessions!&lt;/p&gt;</content>
-    </entry>
-    
-        <entry>
-        <title>#rpTEN</title>
-        <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2016/rpten/" />
-        <id>tag:bullenscheisse.de,2016-05-22:/2016/rpten</id>
-        <updated>2016-05-22T15:43:00Z</updated>
-        <category term="#rpTEN" />
-        <category term="#berlin" />
-        
-        <author>
-            <name>Nathan</name>
-            <uri>https://bullenscheisse.de/</uri>
-            <email>hallo@bullenscheisse.de</email>
-        </author>
-        <content type="html">&lt;p&gt;Bisher habe ich jedes Jahr versucht, an allen drei Tagen der re:publica zu bloggen. Bisher hat es nie so wirklich funktioniert, also wird dieses Jahr alles anders: Ich probiere es gar nicht erst. Dass dieser Blogpost darüber hinaus viel zu spät erscheint, dazu möchte ich mich nicht weiter äußern.&lt;/p&gt;
-&lt;p&gt;Die letzten beide Male war ich auch vorher einigermaßen vorbereitet. Ich hatte mir vorher zumindest Gedanken gemacht, welche Sessions ich besuchen wollte. Dieses Mal habe ich mir zwar vorher auch Gedanken gemacht, aber eben nicht darüber, wen oder was ich sehen wollte.&lt;/p&gt;
-&lt;p&gt;Und so stand ich unter anderem mit Nils und Suse vor den geschlossenen Türen von Stage 1, der verspätete Beginn kam mir ganz gelegen, hatte ich doch so Gelegenheit, mir die #rpTEN-App herunterzuladen und einen Blick auf den Sessionplan zu werfen. Im Endeffekt sah ich dann doch einige Sessions, jedoch nicht unbedingt alle, die ich gerne gesehen hätte. Das lag entweder daran, dass mehr als eine interessante Geschichten zeitgleich stattfand, ich in irgendwelche Gespräche verwickelt war, oder aber - und das war wesentlich häufiger der Fall - daran, dass die Räume schlicht und ergreifend überfüllt waren.&lt;/p&gt;
-&lt;p&gt;Zumindest am ersten Tag war es mir auch so stellenweise einfach zu voll auf dem Gelände der Station, aber das besserte sich mit der Zeit ein bisschen. Aufgefallen waren mir auch die Taschenkontrollen am Hofeingang. Darauf angesprochen sagte mir ein Taschenkontrolleur, dass hier immer noch Hausrecht herrsche. Das herrschte da letztes Jahr auch schon, aber damals gab&#39;s keine Taschenkontrollen. Ich hätte mir da zumindest ein bisschen mehr Transparenz gewünscht.&lt;/p&gt;
-&lt;p&gt;Alles in allem war es aber wie im letzten Jahr ein Fest. Es war schön, alte Freunde zu sehen und neue Leute kennen zu lernen. Ob ich allerdings zur #rpDUB kommen werde, das kann ich jetzt noch nicht sagen.&lt;/p&gt;
-&lt;h4&gt;Besuchte Sessions&lt;/h4&gt;
-&lt;p&gt;Diese Liste erhebt keinerlei Anspruch auf Vollständigkeit.&lt;/p&gt;
-&lt;p&gt;&#34;&lt;a href=&#34;https://re-publica.de/16/session/welcome-everybody&#34;&gt;Welcome everybody!&lt;/a&gt;&#34; (zählt das eigentlich als Session?), &#34;&lt;a href=&#34;https://re-publica.de/16/session/netzneutralitat-bis-recht-auf-vergessen-wo-steht-eu&#34;&gt;Netzneutralität bis Recht auf Vergessen. Wo steht die EU?&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/1684-statt-1984-des-konigs-nsa&#34;&gt;1684 statt 1984: Des Königs NSA&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/geld-verdienen-selbstbefriedigung-so-machts-deutsche-sexbloggerszene&#34;&gt;Geld verdienen mit Selbstbefriedigung? So macht&#39;s die deutsche Sexbloggerszene&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/cargo-kulte&#34;&gt;Cargo-Kulte&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/pubertare-gesellschaft-und-netz&#34;&gt;Die pubertäre Gesellschaft und das Netz&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/netz-guter-ort-wenn-wir-es-gemeinsam-dazu-machen&#34;&gt;Das Netz ist ein guter Ort, wenn wir es gemeinsam dazu machen&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/shift-utopie-del-reflexionen-einem-beschadigten-twitterleben&#34;&gt;SHIFT + UTOPIE + DEL. Reflexionen aus einem beschädigten Twiterleben&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/ziemlich-schlechte-freunde-depression-und-social-media&#34;&gt;Ziemlich schlechte Freunde? Depression und Social Media&lt;/a&gt;&#34;, &#34;&lt;a href=&#34;https://re-publica.de/16/session/terror-ernst-nehmen-terroristen-auslachen&#34;&gt;Terror Ernst nehmen, Terroristen auslachen&lt;/a&gt;&#34;&lt;/p&gt;
-&lt;p&gt;Ansonsten möchte ich euch noch die &lt;strike&gt;Tweetsammlung&lt;/strike&gt; &lt;a href=&#34;http://www.junaimnetz.de/meine-republica&#34;&gt;Blogpost von Juna&lt;/a&gt; ans Herz legen.&lt;/p&gt;</content>
     </entry>
     </feed>
