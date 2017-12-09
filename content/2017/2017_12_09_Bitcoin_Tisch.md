@@ -12,7 +12,7 @@ Ein Teil des Erlöses — 2013 waren es ungefähr 6,50 Euro, ausserdem vier Jahr
 
 Ausserdem habe ich es im [Späti](https://twitter.com/zeitschlag/status/920353831438909440) mal so richtig krachen lassen und alles gekauft, worauf ich Lust hatte: eine Pomelo, eine Spezi, Apfelsaft aus Apfelsaftkonzentrat, Orangensaft aus Orangensaftkonzentrat, eine Süßkartoffel, Nudeln, Pesto aus dem Glas und ein paar Grundnahrungsmittel haben mich 16 Euro gekostet. Später habe ich mir dann noch ein Eis gekauft.
 
-Vor fast drei Jahren war ich in der Schweiz und 3,93 Euro verdient, weil die Schweizer Nationalbank die Bindung des Franken an den Euro aufgehoben hat. [Damals schrieb ich](https://bullenscheisse.de/2015/fuer-nichts/):
+Vor fast drei Jahren war ich in der Schweiz und habe 3,93 Euro verdient, weil die Schweizer Nationalbank die Bindung des Franken an den Euro aufgehoben hat. [Damals schrieb ich](https://bullenscheisse.de/2015/fuer-nichts/):
 
 > Ich habe 3,93 Euro verdient. Was habe ich dafür getan? Nichts. Fühlt es sich richtig und gut an? Nein.
 
