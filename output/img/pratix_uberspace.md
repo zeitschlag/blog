@@ -1,0 +1,121 @@
+Title: pretix auf einem Uberspace installieren
+Tags :[#bcrn16, #pretix]
+Date: 19.10.2015, 01:40
+
+Nach dem #bcrn15 gab es Kritik, dass wir die Tickets über Eventbrite abgewickelt haben. Eventbrite nutzt Server in den Staaten und überhaupt: Datenschutz. Also haben wir uns auf die Suche nach Alternativen gemacht. 
+
+Eine davon ist pretix, auf das uns [Ben Oswald brachte](https://twitter.com/_nazco_/status/611583006302695426). [pretix](http://pretix.eu) erfindet Ticketvorverkäufe neu und wird von Raphael Michel als [Open-Source-Projekt entwickelt](https://github.com/pretix/pretix).
+
+pretix setzt auf [Django](https://www.djangoproject.com), es benötigt Python 3. Es gibt zwar eine [Dokumentation von pretix](http://docs.pretix.eu/en/latest/index.html), die befindet sich aber noch im Aufbau, ebenso wie pretix selbst. Um testen zu können, ob pretix für das #bcrn16 taugt, habe ich versucht, es auf einem [Uberspace zum laufen zu bringen](https://wiki.uberspace.de/cool:django). Dabei sind mir ein, zwei Stolpersteine aufgefallen. Im folgenden möchte ich beschreiben, was ich tun musste, damit pretix auf einem Uberspace funktioniert. Der Benutzername ist `barcamp`, der  Uberspace heisst `kaul`. Ich möchte noch darauf hinweisen, dass diese Installation eine SQLite-Datenbank nutzt. Die Dokumentation sagt dazu:
+
+> If you have real users on your system you’ll really want to use
+>
+> A database (MySQL or PostgreSQL)
+
+> A reverse proxy web server (nginx or Apache)
+
+Tut diese Anleitung (noch) nicht.
+
+Im Prinzip habe ich mich an die Anleitung der Ubernauten für Django gehalten. Raphael riet mir außerdem, doch mal einen Blick auf das [Dockerfile](https://github.com/pretix/pretix/tree/master/deployment/docker/standalone) zu werfen. Auch die [Dokumentation von pretix](http://docs.pretix.eu/en/latest/index.html) war stellenweise eine kleine Hilfe.
+
+Los geht's.
+
+In einem erste Schritt installierst du Django und gunicorn mit:
+
+``
+[barcamp@kaus ~]$ easy_install-3.4 django gunicorn
+``
+
+Anschliessend lädst du pretix von Github mit einem beherzten 
+
+``
+[barcamp@kaus ~]$ git clone https://github.com/pretix/pretix.git
+``
+
+Ich gehe im folgenden davon aus, dass du das Repo in einen Ordner namens `pretix` geklont hast, der in deinem Home-Verzeichnis liegt. Als nächstes installierst du die Abhängigkeiten von pretix mit:
+
+``
+[barcamp@kaus ~]$ npm install less
+[barcamp@kaus ~]$ pip3.4 install -r pretix/src/requirements.txt
+``
+
+Dann musst du in der Datei `~/pretix/src/pretix/settings.py`folgendes ergänzen:
+
+``
+USE_X_FORWARDED_HOST = True
+``
+
+Danach kümmerst du dich um die Submodules:
+
+``
+[barcamp@kaus ~]$ cd pretix/
+[barcamp@kaus pretix]$ git submodule init
+[barcamp@kaus pretix]$ git submodule update
+``
+
+Danach kannst du die Datenbank initialisieren und ein Administratorkonto erstellen. Das Administratorkonto brauchst du später, wenn du dich bei deiner pretix-Instanz anmelden möchtest.
+
+``
+[barcamp@kaus pretix]$ cd src/
+[barcamp@kaus src]$ python3.4 manage.py syncdb
+``
+
+Anschliessend erstellst du die statischen Dateien. Das hat mir bei etwas gedauert:
+
+``
+[barcamp@kaus src]$ python3.4 manage.py collectstatic --noinput
+[barcamp@kaus src]$ python3.4 manage.py compress
+``
+
+Jetzt geht es an daran, pretix aus dem Netz ansprechbar zu machen. Dafür brauchst du zuerst einen Port, unter dem die Anwendung erreichbar ist. Die [Ubernauten empfehlen folgenden Weg](https://wiki.uberspace.de/cool:django#deamon_einrichten), den ich einfach mal guttenberge:
+
+``
+[barcamp@kaus ~]$ DJANGOPORT=$(( $RANDOM % 4535 + 61000)); netstat -tulpen | grep $DJANGOPORT && echo "versuch's nochmal"
+``
+
+>  wenn hier keine Ausgabe `versuch's nochmal` erscheint, passt alles. Wenn `versuch's nochmal` kommt - versuch's noch mal :)
+
+Danach richtest du den eigentlichen Deamon ein:
+
+``
+[barcamp@kaus ~]$ test -d ~/service || uberspace-setup-svscan
+[barcamp@kaus ~]$ uberspace-setup-service gunicorn gunicorn --error-logfile ~/error-log --reload --chdir ~/pretix/src --bind 127.0.0.1:$DJANGOPORT --workers 4 pretix.wsgi --name pretix --max-requests 1200 --max-requests-jitter 50
+``
+
+Anschliessend überlegst du dir, unter welcher URL du pretix ansprechen willst und speicherst sie in der Variable PRETIXURL. Meine Testinstallation läuft beispielsweise unter `pretix.barcamp.kaus.uberspace.de`:
+
+``
+[barcamp@kaus ~]$ PRETIXURL=pretix.barcamp.kaus.uberspace.de
+``
+
+Dann erstellst du eine Datei `~/.pretix.cfg` und befüllst sie:
+
+``
+[barcamp@kaus ~]$ cat << __EOF__> ~/.pretix.cfg
+[pretix]
+url=http://$PRETIXURL
+
+[django]
+hosts=127.0.0.1:$DJANGOPORT
+__EOF__
+``
+
+Hier sei nochmal auf die Dokumentation von pretix verwiesen, die den Aufbau und die Möglichkeiten der [Konfigurationsdatei schon recht gut beschreibt](http://docs.pretix.eu/en/latest/admin/config.html).
+
+Anschliessend sorgst du dafür, dass gunicorn und pretix aus dem Internet ansprechbar sind:
+
+``
+[barcamp@kaus ~]$ mkdir /var/www/virtual/$USER/$PRETIXURL
+[barcamp@kaus ~]$ cat <<__EOF__> /var/www/virtual/$USER/$PRETIXURL/.htaccess
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteBase /
+RewriteRule ^(.*)$ http://127.0.0.1:$DJANGOPORT/\$1 [P]
+ 
+RequestHeader set X-Forwarded-Proto https env=HTTPS
+__EOF__
+``
+
+Herzlichen Glückwunsch, du hast es geschafft! Du kannst pretix unter der URL, die du angegeben hast, im Browser aufrufen. Bei mir wäre das die URL `http://pretix.barcamp.kaus.uberspace.de/control/login?next=/control/`. Dann solltest den Anmeldebildschirm sehen. Dort kannst du dich beispielsweise mit den Administratordaten, die du vorhin eingegeben hast, anmelden.
+
+![Anmeldebildschirm von pretix](/img/IMG_99.png)
