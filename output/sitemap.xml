@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/6/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -209,12 +209,12 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/atom/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/10/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -225,7 +225,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/3/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -391,6 +391,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://bullenscheisse.de/2015/bcrn15/</loc>
+    <lastmod>2017-12-09</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://bullenscheisse.de/tag/statistik/</loc>
     <lastmod>2017-12-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -408,7 +414,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/7/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -539,7 +545,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/2/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -556,7 +562,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/11/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -637,7 +643,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -659,12 +665,12 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/5/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bullenscheisse.de/2017/fuer-nichts-und-wieder-nichts/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
@@ -713,7 +719,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/8/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -763,6 +769,11 @@
   <url>
     <loc>https://bullenscheisse.de/tag/persoenliches/</loc>
     <lastmod>2017-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bullenscheisse.de/tag/bahn/</loc>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1059,7 +1070,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/4/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1102,7 +1113,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/9/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1188,8 +1199,8 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2015/bcrn15/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <loc>https://bullenscheisse.de/2017/aus-scheisse-gold-machen/</loc>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1336,7 +1347,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/articles/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1398,7 +1409,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/rss/</loc>
-    <lastmod>2017-12-09</lastmod>
+    <lastmod>2017-12-10</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
