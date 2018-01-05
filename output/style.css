@@ -81,7 +81,7 @@ body > article > header h1 {
 body > article > header h1 a {
   color: black;
   font-family: "Charter", serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 26px;
   text-decoration: none;
 }
