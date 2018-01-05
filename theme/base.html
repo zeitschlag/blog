@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <title>{% block title %}{% endblock %}</title>
   <link media="all" href="{{ env.path + '/style.css' }}" rel="stylesheet" />
+  <link media="all" href="{{ env.path + '/fonts.css' }}" rel="stylesheet" />
   <link href="/favicon.ico" rel="shortcut icon" />
     {% if 'sitemap' in env.views -%}
         <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
