@@ -153,7 +153,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2015/spiel-mit-dem-feuer/</loc>
+    <loc>https://bullenscheisse.de/2015/alles-neu-mal-wieder/</loc>
     <lastmod>2018-01-04</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
@@ -271,7 +271,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2015/alles-neu-mal-wieder/</loc>
+    <loc>https://bullenscheisse.de/2015/spiel-mit-dem-feuer/</loc>
     <lastmod>2018-01-04</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
@@ -291,6 +291,12 @@
     <loc>https://bullenscheisse.de/tag/locomore/</loc>
     <lastmod>2018-01-05</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bullenscheisse.de/2018/gerichtstermin-wegen-wir-sind-afd-de/</loc>
+    <lastmod>2018-01-05</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bullenscheisse.de/tag/pretix/</loc>
@@ -606,7 +612,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/tag/wirsindafd/</loc>
+    <loc>https://bullenscheisse.de/tag/heimwerkernathan/</loc>
     <lastmod>2018-01-05</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -867,7 +873,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/tag/heimwerkernathan/</loc>
+    <loc>https://bullenscheisse.de/page/12/</loc>
     <lastmod>2018-01-05</lastmod>
     <changefreq>weekly</changefreq>
   </url>
@@ -915,6 +921,11 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/tag/bitcoin/</loc>
+    <lastmod>2018-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bullenscheisse.de/tag/wirsindafd/</loc>
     <lastmod>2018-01-05</lastmod>
     <changefreq>weekly</changefreq>
   </url>
