@@ -39,7 +39,7 @@
     </h1>
   </header>
   <p>Nach dem #bcrn15 gab es Kritik, dass wir die Tickets über Eventbrite ab&shy;ge&shy;wi&shy;ckelt haben. Eventbrite nutzt Server in den Staaten und überhaupt: Da&shy;ten&shy;schutz. Also haben wir uns auf die Suche nach Al&shy;ter&shy;na&shy;ti&shy;ven gemacht. </p>
-<p>Eine davon ist pretix, auf das uns <a href="https://twitter.com/_nazco_/status/611583006302695426">Ben Oswald brachte</a>. <a href="http://pretix.eu">pretix</a> erfindet Ti&shy;cket&shy;vor&shy;ver&shy;käu&shy;fe neu und wird von Raphael Michel als <a href="https://github.com/pretix/pretix">Open-Source-Projekt entwickelt</a>.</p>
+<p>Eine davon ist pretix, auf das uns <a href="https://twitter.com/_nazco_/status/611583006302695426">Leah Oswald brachte</a>. <a href="http://pretix.eu">pretix</a> erfindet Ti&shy;cket&shy;vor&shy;ver&shy;käu&shy;fe neu und wird von Raphael Michel als <a href="https://github.com/pretix/pretix">Open-Source-Projekt entwickelt</a>.</p>
 <p>pretix setzt auf <a href="https://www.djangoproject.com">Django</a>, es benötigt Python 3. Es gibt zwar eine <a href="http://docs.pretix.eu/en/latest/index.html">Do&shy;ku&shy;men&shy;ta&shy;ti&shy;on von pretix</a>, die befindet sich aber noch im Aufbau, ebenso wie pretix selbst. Um testen zu können, ob pretix für das #bcrn16 taugt, habe ich versucht, es auf einem <a href="https://wiki.uberspace.de/cool:django">Uberspace zum laufen zu bringen</a>. Dabei sind mir ein, zwei Stol&shy;per&shy;stei&shy;ne auf&shy;ge&shy;fal&shy;len. Im folgenden möchte ich be&shy;schrei&shy;ben, was ich tun musste, damit pretix auf einem Uberspace funk&shy;tio&shy;niert. Der Be&shy;nut&shy;zer&shy;na&shy;me ist <code>barcamp</code>, der  Uberspace heisst <code>kaul</code>. Ich möchte noch darauf hinweisen, dass diese In&shy;stal&shy;la&shy;ti&shy;on eine SQLite-Datenbank nutzt. Die Do&shy;ku&shy;men&shy;ta&shy;ti&shy;on sagt dazu:</p>
 <blockquote>
 <p>If you have real users on your system you’ll really want to use</p>
@@ -112,6 +112,7 @@ __EOF__
 </code></p>
 <p>Herzlichen Glück&shy;wunsch, du hast es geschafft! Du kannst pretix unter der URL, die du angegeben hast, im Browser aufrufen. Bei mir wäre das die URL <code>http://pretix.barcamp.kaus.uberspace.de/control/login?next=/control/</code>. Dann solltest den An&shy;mel&shy;de&shy;bild&shy;schirm sehen. Dort kannst du dich bei&shy;spiels&shy;wei&shy;se mit den Ad&shy;mi&shy;nis&shy;tra&shy;tor&shy;da&shy;ten, die du vorhin eingegeben hast, anmelden.</p>
 <p><img alt="Anmeldebildschirm von pretix" src="/img/IMG_99.png"/></p>
+<p>Eventuell sollte ich diese Anleitung mal ak&shy;tua&shy;li&shy;sie&shy;ren.</p>
   <footer>
   
     <p>Schlagworte:
