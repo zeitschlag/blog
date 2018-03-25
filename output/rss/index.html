@@ -5,9 +5,129 @@
         <link>https://bullenscheisse.de/</link>
         <description></description>
         <language>de</language>
-        <pubDate>Thu, 15 Mar 2018 12:51:00 GMT</pubDate>
+        <pubDate>Fri, 23 Mar 2018 11:21:00 GMT</pubDate>
         <docs>https://bullenscheisse.de/rss/</docs>
         <generator>acrylamid 0.7.10</generator>
+        
+            <item>
+        <title>pretix auf einem Uberspace</title>
+        <link>https://bullenscheisse.de/2018/pretix-auf-einem-uberspace/</link>
+        <description>&lt;p&gt;Im Oktober 2015 schrieb ich eine &lt;a href=&#34;https://bullenscheisse.de/2015/pretix-auf-einem-uberspace-installieren/&#34;&gt;Anleitung&lt;/a&gt;, wie man &lt;a href=&#34;https://github.com/pretix/pretix&#34;&gt;pretix&lt;/a&gt; auf einem &lt;a href=&#34;https://uberspace.de&#34;&gt;Uberspace&lt;/a&gt; installiert. Nun ist heute nicht mehr Oktober 2015 und die alte Anleitung entsprechend nicht mehr aktuell. Mich haben mehrere Leute darauf hingewiesen. Ausserdem brauche ich aus &lt;a href=&#34;https://bullenscheisse.de/2018/osstatus-com/&#34;&gt;Gründen&lt;/a&gt; selbst ab und an mal eine pretix-Instanz und habe mich entschlossen, die Anleitung mal zu überarbeiten und in diesem Blogpost auf einen neueren Stand zu bringen.&lt;/p&gt;
+&lt;h4&gt;Einleitung&lt;/h4&gt;
+&lt;p&gt;pretix ist ein Stück freie Software, mit dem man Tickets für Konzerte, Messen, Barcamps und sonstige Veranstaltungen verkaufen kann. Das Tool setzt auf &lt;a href=&#34;https://www.djangoproject.com&#34;&gt;Django&lt;/a&gt; und benötigt Python 3. &lt;/p&gt;
+&lt;p&gt;Es lässt sich unter &lt;a href=&#34;https://docs.pretix.eu/en/latest/admin/installation/manual_smallscale.html&#34;&gt;Linux&lt;/a&gt; installieren, die Anleitung dafür kann man aber nicht eins zu eins auf die Ubernauten übertragen. Im Folgenden möchte ich beschreiben, was ich tun musste, um pretix auf einem Uberspace zumindest zum Laufen zu bringen. Der Benutzername für den Uberspace ist &lt;code&gt;barcamp&lt;/code&gt;, der Uberspace selbst heisst &lt;code&gt;kaul&lt;/code&gt;. Ich möchte noch darauf hinweisen, dass diese Installation eine SQLite-Datenbank nutzt. Die Dokumentation sagt dazu:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you have real users on your system you’ll really want to use&lt;/p&gt;
+&lt;p&gt;A database (MySQL or PostgreSQL)&lt;/p&gt;
+&lt;p&gt;A reverse proxy web server (nginx or Apache)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Die Datenbank ist dieser Anleitung egal. Ausserdem fehlen noch ein, zwei andere Kleinigkeiten (siehe unten), um so Sachen wie SSL musst du dich ebenfalls selbst kümmern. Im Großen und Ganzen habe ich mich an die Anleitung der Ubernauten für &lt;a href=&#34;https://wiki.uberspace.de/cool:django&#34;&gt;Django&lt;/a&gt; gehalten und sie mit besagter Installationsanleitung für Linux gekreuzt. &lt;/p&gt;
+&lt;p&gt;Trotzdem gilt: Du wirst diese Anleitung nicht in dieser Form übernehmen können. &lt;strong&gt;Lies sie aufmerksam und benutze deinen eigenen Kopf, um Anpassungen zu machen&lt;/strong&gt; Wenn du irgendwo nicht weiterkommst oder eine Anregung hast, dann freue ich mich natürlich über &lt;a href=&#34;https://bullenscheisse.de/about/&#34;&gt;Fragen und Feedback&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wenn du — warum auch immer — keine eigene pretix-Instanz betreiben möchtest, kannst du ja mal darüber nachdenken, die gehostete Version zu nutzen. Raphael bietet die Software auch as a Service an — zu &lt;a href=&#34;https://pretix.eu/about/de/pricing&#34;&gt;sehr erschwinglichen Konditionen&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Anleitung&lt;/h4&gt;
+&lt;h5&gt;pretix-Installation an sich&lt;/h5&gt;
+&lt;p&gt;In einem erste Schritt lege ich einen Ordner für die eigentliche pretix-Installation, die Virtual Environment und das Verzeichnis für die pretix-Daten an:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ mkdir pretix_installation
+[barcamp@kaus ~]$ cd pretix_installation&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Anschließend richte ich die &lt;a href=&#34;https://virtualenv.pypa.io/en/stable/&#34;&gt;virtuelle Umgebung&lt;/a&gt; mit Python 3.6 ein und aktiviere sie:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus pretix_installation]$ python3.6 -m venv env
+[barcamp@kaus pretix_installation]$ source env/bin/activate&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Zwar gibt es pretix auch im &lt;a href=&#34;https://de.wikipedia.org/wiki/Pip_(Python)&#34;&gt;Python Package Index&lt;/a&gt;, aber weil ich ein paar Uberspace-spezifische Anpassungen in der &lt;code&gt;settings.py&lt;/code&gt; vornehmen muss, bringt das — zumindest nach meinem Kenntnisstand, vielleicht weißt du es besser, dann lass mich bitte an deinem Wissen teilhaben — wenig. Zeit, das entsprechende Repository auf Github zu klonen und in den Ordner zu wechseln:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix_installation]$ git clone https://github.com/pretix/pretix.git
+(env) [barcamp@kaus pretix_installation]$ cd pretix&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Wenn du ein spezielles Release möchtest, wäre jetzt der richtige Zeitpunkt, den entsprechenden Branch oder Tag auszuchecken. Ich gehe davon aus, dass das Repository in einem Ordner namens &lt;code&gt;~/pretix_installation/pretix&lt;/code&gt; liegt. Nun geht es daran, die Abhängigkeiten von pretix zu installieren:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ pip install -U gunicorn
+(env) [barcamp@kaus pretix]$ pip install -U -r src/requirements.txt&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Danach muss ich — wie bereits erwähnt — die &lt;code&gt;settings.py&lt;/code&gt; erweitern, wie bei den Ubernauten beschrieben:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ cat &amp;lt;&amp;lt; __EOF__ &amp;gt;&amp;gt; src/pretix/settings.py
+
+USE_X_FORWARDED_HOST = True
+
+__EOF__&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Wie ebenfalls oben bereits erwähnt, braucht pretix ein Ordner, in dem es alle möglichen Daten ablegen kann. In diesem Beispiel ist es unter anderem die SQLite-Datenbank.&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ mkdir ../data_dir&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;pretix schaut an einigen Stellen nach der benötigten &lt;a href=&#34;https://docs.pretix.eu/en/latest/admin/config.html&#34;&gt;Konfigurationsdatei&lt;/a&gt;, unter anderem im Home-Verzeichnis. Aus Bequemlichkeitsgründen lege ich sie deshalb einfach mal da an:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ cat &amp;lt;&amp;lt; __EOF__ &amp;gt; ~/.pretix.cfg
+
+[pretix]
+instance_name=Frische Tickets!
+url=https://pretix.barcamp.kaus.uberspace.de
+currency=EUR
+datadir=/home/barcamp/pretix_installation/data_dir
+
+[database]
+; Replace mysql with postgresql_psycopg2 for PostgreSQL
+backend=sqlite3
+
+__EOF__&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Wahrscheinlich — hoffentlich — wird deine anders aussehen. In der Konfigurationsdatei stehen alle möglichen Informationen, abhängig davon, was du alles nutzen möchtest. Beispielsweise steht hier die URL, unter der pretix erreichbar ist oder auch, wo sich das Verzeichnis für die Daten befindet.&lt;/p&gt;
+&lt;p&gt;Hier sei nochmal ein Blick in die entsprechende &lt;a href=&#34;https://docs.pretix.eu/en/latest/admin/config.html&#34;&gt;Dokumentation&lt;/a&gt; von pretix empfohlen — sie ist sehr gut. Danach initialisiere ich die Datenbank und lasse die statischen Dateien erstellen. Das hat mir bei etwas gedauert:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ python src/manage.py migrate
+(env) [barcamp@kaus pretix]$ python src/manage.py rebuild
+(env) [barcamp@kaus pretix]$ deactivate&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Damit bin ich mit der Installation von pretix durch.&lt;/p&gt;
+&lt;h5&gt;Deamon und Erreichbarkeit&lt;/h5&gt;
+&lt;p&gt;Ich könnte pretix jetzt wie jede andere Django-Anwendung starten. Es würde jedoch nicht im Hintergrund laufen und wäre noch nicht aus dem Internet erreichbar. Darum kümmere ich mich jetzt. Zuerst brauche ich dafür einen Port. Die &lt;a href=&#34;https://wiki.uberspace.de/cool:django#deamon_einrichten&#34;&gt;Ubernauten empfehlen folgenden Weg&lt;/a&gt;, den ich einfach mal guttenberge:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ DJANGOPORT=$(( $RANDOM % 4535 + 61000)); netstat -tulpen | grep $DJANGOPORT &amp;amp;&amp;amp; echo &amp;quot;versuch&#39;s nochmal&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;wenn hier keine Ausgabe &lt;code&gt;versuch&#39;s nochmal&lt;/code&gt; erscheint, passt alles. Wenn &lt;code&gt;versuch&#39;s nochmal&lt;/code&gt; kommt - versuchs noch mal :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Danach richte ich den eigentlichen Service ein, der sich darum kümmert, dass pretix im Hintergrund läuft:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ test -d ~/service || uberspace-setup-svscan 
+[barcamp@kaus ~]$ uberspace-setup-service pretix /home/barcamp/pretix_installation/env/bin/gunicorn --error-logfile ~/error-log --reload --chdir /home/barcamp/pretix_installation/pretix/src --bind 127.0.0.1:$DJANGOPORT --workers 4 pretix.wsgi --name pretix --max-requests 1200 --max-requests-jitter 50&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Im letzten Schritt muss ich dafür sorgen, dass dieser Service aus dem Internet ansprechbar ist:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ mkdir /var/www/virtual/barcamp/barcamp.kaus.uberspace.de
+[barcamp@kaus ~]$ cat &amp;lt;&amp;lt; __EOF__ &amp;gt; /var/www/virtual/barcamp/pretix.barcamp.kaus.uberspace.de/.htaccess
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteBase /
+RewriteRule ^(.*)$ http://127.0.0.1:$DJANGOPORT/$1 [P]
+
+RequestHeader set X-Forwarded-Proto https env=HTTPS
+__EOF__&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Das war&#39;s.&lt;/p&gt;
+&lt;h5&gt;Läuft bei mir&lt;/h5&gt;
+&lt;p&gt;pretix wäre bei mir jetzt unter &lt;a href=&#34;https://pretix.barcamp.kaus.uberspace.de&#34;&gt;https://pretix.barcamp.kaus.uberspace.de&lt;/a&gt; erreichbar.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Startbildschirm von pretix&#34; src=&#34;https://bullenscheisse.de/img/IMG_132_pretix.png&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Da sieht man denn natürlich nicht viel, weswegen ich mich unter &lt;code&gt;http://pretix.barcamp.kaus.uberspace.de/control/login?next=/control/&lt;/code&gt; anmelden kann. Als Benutzername habe ich &lt;code&gt;admin@localhost&lt;/code&gt;, als Passwort &lt;code&gt;admin&lt;/code&gt; verwendet. &lt;strong&gt;Bitte denk daran, die Anmeldedaten zu ändern!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Anmeldebildschirm von pretix&#34; src=&#34;https://bullenscheisse.de/img/IMG_99.png&#34;/&gt;&lt;/p&gt;
+&lt;h4&gt;Was noch fehlt&lt;/h4&gt;
+&lt;h5&gt;Domain&lt;/h5&gt;
+&lt;p&gt;Wie dir vielleicht aufgefallen ist, läuft pretix unter einer Subdomain — apropos Domain: &lt;a href=&#34;https://pretix.barcamp.kaus.uberspace.de&#34;&gt;pretix.barcamp.kaus.uberspace.de&lt;/a&gt; ist wesentlich weniger lesbar als beispielsweise &lt;a href=&#34;https://pretix.domain.tld&#34;&gt;pretix.domain.tld&lt;/a&gt;, du willst vielleicht also eine &lt;a href=&#34;https://wiki.uberspace.de/domain&#34;&gt;Domain&lt;/a&gt; haben.&lt;/p&gt;
+&lt;p&gt;Ich habe es zwischendrin mal hinbekommen, dass pretix auch in einem Unterordner lief, mir aber nicht aufgeschrieben, wie es geklappt hat und nun kann ich als Django/Python-Amateur das nicht mehr nachvollziehen. Falls jemand einen Hinweis hat, bin ich dankbar.&lt;/p&gt;
+&lt;h5&gt;pretix-worker, Mails, MariaDB, Plugins...&lt;/h5&gt;
+&lt;p&gt;Was ebenfalls nicht läuft, ist der in der pretix-Dokumentation erwähnte &lt;em&gt;pretix-worker&lt;/em&gt;, ebenfalls fehlen sämtliche — bisweilen obligatorische — Zusatzssachen wie Mail, eine ordentliche Datenbank, &lt;em&gt;redis&lt;/em&gt;, HTTPS, Plugins... Kurz: Sieh diese Anleitung bitte als einen ersten Schritt und kümmere dich anschliessend selbst darum, dass deine pretix-Installation gut und sicher läuft. Danke.&lt;/p&gt;
+&lt;h4&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pretix.eu/about/de/&#34;&gt;pretix im Netz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pretix/pretix&#34;&gt;pretix auf Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.pretix.eu/en/latest/&#34;&gt;pretix-Dokumentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+        <pubDate>Fri, 23 Mar 2018 11:21:00 GMT</pubDate>
+        <guid isPermaLink="false">tag:bullenscheisse.de,2018-03-23:/2018/pretix-auf-einem-uberspace</guid>
+    </item>
         
             <item>
         <title>Dein Freund und Rauswerfer</title>
@@ -21,7 +141,7 @@
 &lt;p&gt;Der Mensch, um den es ging, hatte sich während meiner Unterhaltung mit dem Polizisten aus dem Staub gemacht. Heute morgen sah ich ihn wieder. Er schlief vor dem Gebäude.&lt;/p&gt;
 &lt;p&gt;Andere Länder gehen das Problem Obdachlosigkeit anders an, zum Glück. In &lt;a href=&#34;http://www.zeit.de/gesellschaft/zeitgeschehen/2018-03/finnland-soziale-gerechtigkeit-grundwohnen-juha-kaakinen-interview/komplettansicht&#34;&gt;Finnland&lt;/a&gt; beispielse hat man ein anderes Konzept, um Menschen, die auf der Strasse leben, zu helfen. Ausserdem möchte ich noch zur &lt;a href=&#34;https://www.berliner-stadtmission.de/aktuelles/kaeltehilfe-app/51abe73e12471c6a2f27744ead0f3829&#34;&gt;Kältehilfe-App der Berliner Stadtmission&lt;/a&gt; — danke Uli für den Hinweis — und zu &lt;a href=&#34;https://www.brichbag.de&#34;&gt;brichbag&lt;/a&gt; verlinken.&lt;/p&gt;
 &lt;p&gt;Ich wäre ein schlechter Sicherheitsdienstmitarbeiter.&lt;/p&gt;</description>
-        <pubDate>Thu, 15 Mar 2018 12:51:00 GMT</pubDate>
+        <pubDate>Thu, 15 Mar 2018 11:51:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2018-03-15:/2018/dein-freund-und-rauswerfer</guid>
     </item>
         
@@ -31,7 +151,7 @@
         <description>&lt;p&gt;Vor knapp zwei Wochen war die &lt;a href=&#34;https://bullenscheisse.de/2018/gerichtstermin-wegen-wir-sind-afd-de/&#34;&gt;mündliche Verhandlung&lt;/a&gt; im Falle „Alternative für Deutschland (AfD) Bundesverband ./. Mattes, Nathan“. Zuerst möchte ich mich bei den Menschen bedanken, die nach Köln gekommen sind, um mir den Rücken zu stärken: Vielen Dank.&lt;/p&gt;
 &lt;p&gt;Weil schon einige von euch gefragt haben, wie es gelaufen ist und ob ich jetzt direkt, ohne über „Los“ zu gehen, in den Knast gehe: 
 Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie würde ich sagen, dass die Verhandlung nicht allzu prickelnd für mich lief. Mehr wahrscheinlich in den nächsten Tagen.&lt;/p&gt;</description>
-        <pubDate>Tue, 30 Jan 2018 11:46:00 GMT</pubDate>
+        <pubDate>Tue, 30 Jan 2018 10:46:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2018-01-30:/2018/urteil-am-6-februar</guid>
     </item>
         
@@ -39,7 +159,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>osstatus.com</title>
         <link>https://bullenscheisse.de/2018/osstatus-com/</link>
         <description>&lt;p&gt;Ich sitze gerade an einer kleinen App fürs iPhone, einer Art &lt;a href=&#34;https://play.google.com/store/apps/details?id=eu.pretix.pretixdroid&amp;amp;hl=de&#34;&gt;pretixdroid&lt;/a&gt; für iPhone. Da liegen noch ein paar Abende Arbeit vor mir. Unter anderem speichert die App Dinge in der Keychain. Da es das erste Mal ist, dass ich irgendetwas schreibe, das etwas in die Keychain schreibt, stolpere ich hier und da noch gelegentlich und bekomme OSStatus-Codes. Da mir die Bedeutung von „-25299“ eher weniger sagt als „The item already exists.“, habe ich mal kurz das Internet durchforstet und stieß dabei auf &lt;a href=&#34;https://www.osstatus.com&#34;&gt;osstatus.com&lt;/a&gt;.&lt;/p&gt;</description>
-        <pubDate>Wed, 24 Jan 2018 18:56:00 GMT</pubDate>
+        <pubDate>Wed, 24 Jan 2018 17:56:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2018-01-24:/2018/osstatus-com</guid>
     </item>
         
@@ -55,7 +175,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Weil die Frage, wie man mich unterstützen kann, schon mehrfach kam — auch dafür: Danke. — möchte ich darauf noch kurz eingehen: Im Moment habe ich alles, was ich brauche. Im &lt;em&gt;worst case&lt;/em&gt;, sprich: Wenn die Gegenseite den Prozess gewinnt, wäre ich zum einen die Domain los, zum anderen kämen für die erste Instanz knapp 6.000€ Prozesskosten auf mich zu. Falls das passiert, müsste ich euch doch um die eine oder andere Mark bitten.&lt;/p&gt;
 &lt;p&gt;Bis dahin: Erfreut euch einfach weiterhin an Zitaten von Politiker_innen einer rechtsextremen, rassistischen, menschenverachtenden Partei, gut auffindbar unter &lt;a href=&#34;https://wir-sind-afd.de/&#34;&gt;wir-sind-afd.de&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Oh man, eine Pressemitteilung. Wie so ein Erwachsener.&lt;/p&gt;</description>
-        <pubDate>Fri, 05 Jan 2018 12:00:00 GMT</pubDate>
+        <pubDate>Fri, 05 Jan 2018 11:00:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2018-01-05:/2018/gerichtstermin-wegen-wir-sind-afd-de</guid>
     </item>
         
@@ -69,7 +189,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Man könnte auch sagen, dass die Firmen &lt;a href=&#34;http://www.wc-fresh.com/&#34;&gt;wc-fresh&lt;/a&gt; und &lt;a href=&#34;https://www.sanifair.de&#34;&gt;Sanifair&lt;/a&gt; aus Scheiße Gold macht, weil irgendjemand sparen und Toilettenkosten auf Kund_innen umlegen wollte.&lt;/p&gt;
 &lt;p&gt;Mein Wunsch ist eigentlich ganz einfach: Liebe Bahn, macht die Toiletten bitte kostenlos. Sorgt dafür, dass sie sauber sind. Toiletten gehören für mich zum Service. Ja, es kostet Geld und ich verstehe, dass ihr, solange ihr als Privatunternehmen Geld verdienen müsst, Geld verdienen müsst. Aber mal ehrlich: &lt;/p&gt;
 &lt;p&gt;Ihr erhöht die Ticketpreise mit einer Pünktlichkeit, von der eure Züge manchmal nur träumen können. Ihr habt Geld für Bahnhöfe, deren Kosten im Nachhinein — oh Wunder! — explodieren. Geld für Tunnel unter Stuttgart. Geld für Zugstrecken von &lt;a href=&#34;https://de.wikipedia.org/wiki/Verkehrsprojekt_Deutsche_Einheit_Nr._8&#34;&gt;Berlin nach Nürnberg&lt;/a&gt;. Wie bitte? Was sagst du da? Das müsst ihr gar nicht alles selbst bezahlen, weil Steuerzahler_innen helfen? Und ausserdem gehörst du eh zu &lt;a href=&#34;http://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Bundesvermoegen/Privatisierungs_und_Beteiligungspolitik/Beteiligungspolitik/deutsche-bahn-ag.html&#34;&gt;100% dem Bund&lt;/a&gt;? Na großartig, dann könnt ihr es euch ja gleich umso mehr leisten, Toiletten in den Bahnhöfen kostenlos anzubieten. Oder etwa nicht?&lt;/p&gt;</description>
-        <pubDate>Sun, 10 Dec 2017 11:01:00 GMT</pubDate>
+        <pubDate>Sun, 10 Dec 2017 10:01:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-12-10:/2017/aus-scheisse-gold-machen</guid>
     </item>
         
@@ -86,7 +206,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Ich habe 3,93 Euro verdient. Was habe ich dafür getan? Nichts. Fühlt es sich richtig und gut an? Nein.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Dieses Jahre habe ich durch den Besitz von 7 Euro ungefähr 90 verdient. Was habe ich dafür getan? Ich habe vor ein paar Jahren Besitz riskiert und gewartet, sonst nichts. Fühlt es sich richtig und gut an? Nein. Immer noch nicht.&lt;/p&gt;</description>
-        <pubDate>Sat, 09 Dec 2017 11:35:00 GMT</pubDate>
+        <pubDate>Sat, 09 Dec 2017 10:35:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-12-09:/2017/fuer-nichts-und-wieder-nichts</guid>
     </item>
         
@@ -98,7 +218,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Das ursprüngliche Zeit war, endlich mal auf Barrierefreiheit zu achten und sie dort, wo sie fehlt, noch nachzurüsten. Heute morgen fiel mir auf, dass ich da nochmal Hand anlegen darf. Es ist beispielsweise nicht per VoiceOver ersichtlich, ob ein Produkt bereits auf der Liste steht oder schon gekauft wurde.&lt;/p&gt;
 &lt;p&gt;Eine Folge davon, für mehr Barrierefreiheit zu sorgen, war, dass man nun in der App wählen kann, ob man sie wie bisher mit der Wischgeste bedienen möchte oder die Dinge lieber antappt, um sie auf den Einkaufszettl zu schreiben oder sie als gekauft zu markieren. Die App einzig und alleine mit der Wischgeste zu bedienen, habe ich zumindest mit VoiceOver nicht geschafft.&lt;/p&gt;
 &lt;p&gt;Ende der Durchsage.&lt;/p&gt;</description>
-        <pubDate>Tue, 05 Dec 2017 21:40:00 GMT</pubDate>
+        <pubDate>Tue, 05 Dec 2017 20:40:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-12-05:/2017/einkaufszettl-0-6</guid>
     </item>
         
@@ -114,7 +234,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;li&gt;Die Formulierung. Sie erweckt den Eindruck, dass es der Bahn leid täte, würde sie mich ohne gültigen Fahrschein erwischen. Eigentlich wollen sie mir dafür keine 60 Euro abknöpfen, seien aber aufgrund der Beförderungsbedingungen bedauerlicherweise dazu verpflichtet. Wenn es euch leid tut, dann setzt euch dafür ein, die gemeinsamen Beförderungsbedingungen zu ändern.&lt;/li&gt;
 &lt;li&gt;Die Tatsache, dass das Benutzen des ÖPNV ohne Fahrschein 60 Euro kostet. Ein fahrscheinloser ÖPNV ist Teil einer Welt, in der ich gerne leben würde. 2013 schätzte man die Kosten dafür deutschlandweit auf &lt;a href=&#34;http://www.tagesspiegel.de/berlin/diskussion-um-gratis-fahrten-in-berlin-kostenloser-nahverkehr-ist-in-anderen-staedten-gescheitert/9159568.html&#34;&gt;rund 12 Milliarden Euro&lt;/a&gt;. Jährlich. Grob überschlagen wären das pro Kopf in Deutschland und Monat etwa 12 Euro. Dass wir uns das leisten können, das steht ausser Frage. Wenn wir uns &lt;a href=&#34;http://www.zeit.de/mobilitaet/2017-02/bus-bahn-oeffentlicher-nahverkehr-studie-grafiken/komplettansicht&#34;&gt;Monatstickets leisten können&lt;/a&gt;, können wir uns auch 12 Euro im Monat leisten, wenn man den fahrscheinlosen ÖPNV nicht über Steuern finanzieren könnte. Natürlich müsste massiv in Infrastruktur investiert werden, aber das wäre etwas, wovon alle profitieren würden. Es sollte uns das wert sein.&lt;/li&gt;
 &lt;/ol&gt;</description>
-        <pubDate>Mon, 04 Dec 2017 07:11:00 GMT</pubDate>
+        <pubDate>Mon, 04 Dec 2017 06:11:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-12-04:/2017/60-euro-bedauerlicherweise</guid>
     </item>
         
@@ -150,7 +270,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Das Bindeglied zwischen App und miniflux ist wie geschrieben die Fever API. Damit fühle ich mich tatsächlich ein bisschen unwohl, weil Fever seit einigen Jahren nicht mehr weiterentwickelt wird. Und somit kümmert sich auch niermand um die API. Wenn der Entwickler von Unread sich jetzt entscheidet, die Fever API nicht mehr zu unterstützen, habe ich ein Problem. Wenn die Entwickler*innen von miniflux sich jetzt entscheiden, die Fever API nicht mehr zu unterstützen und stattdessen lieber an miniflux 2 arbeiten, habe ich ein Problem.&lt;/p&gt;
 &lt;p&gt;Wenn es soweit ist, sehe ich weiter. Notfalls lerne ich PHP oder muss mir dann doch mal meinen eigenen Feedreader fürs iPhone schreiben.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Wie sieht dein RSS-Setup aus? Hast du Fragen?&lt;/strong&gt;&lt;/p&gt;</description>
-        <pubDate>Mon, 27 Nov 2017 20:41:00 GMT</pubDate>
+        <pubDate>Mon, 27 Nov 2017 19:41:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-11-27:/2017/miniflux-+-unread</guid>
     </item>
         
@@ -161,7 +281,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Die Idee, bei Djure einen Gastbeitrag zu veröffentlichen, hatte ich ein paar Tage vorher, den Mut, ihn anzusprechen, irgendwann nachts. Anfangs war ich mir unsicher, ob ich meinen Namen unter den Blogpost setzen möchte oder ob es nicht doch besser wäre, das ganze unter falschem Namen zu veröffentlichen. Als ich dann diesen Blogpost schrieb, dachte ich mir: „Du kannst dir nicht zum einen mehr Offenheit wünschen und dich dann hinter einem Pseudonym verstecken.“&lt;/p&gt;
 &lt;p&gt;Das war dann auch der Grund, warum da jetzt mein Name drüber steht. Dabei habe ich gemerkt, dass ich eigentlich sehr gerne blogge. Das merke ich aber so ziemlich jedes Mal, wenn ich schreibe.&lt;/p&gt;
 &lt;p&gt;Lieber Djure, vielen Dank, dass ich den Gastbeitrag bei dir verfassen durfte.&lt;/p&gt;</description>
-        <pubDate>Tue, 31 Oct 2017 13:55:00 GMT</pubDate>
+        <pubDate>Tue, 31 Oct 2017 12:55:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-10-31:/2017/xnetflixions-gastbeitrag-bei-condomsbydefault-de</guid>
     </item>
         
@@ -217,7 +337,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;In die Ursprungsgleichung eingesetzt, ergeben sowohl &lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;mstyle&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mstyle&gt;&lt;/math&gt;, als auch &lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;mstyle&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mstyle&gt;&lt;/math&gt; eine wahre Aussage. Diese Rechnung weicht ein bisschen von der aus dem Spiel ab. Da mir im Matheunterricht regelmässig Flüchtigkeits- und/oder Vorzeichenfehler unterlaufen sind, war ich immer noch skeptisch. Ich schoss mit Kanonen auf Spatzen und schmiss ein CAS an. Auch das bestätigte mir meine beiden Ergebnisse und ich war zufrieden.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Screenshot vom CAS&#34; src=&#34;https://bullenscheisse.de/img/Life_is_strange_CAS.png&#34;/&gt;&lt;/p&gt;
 &lt;p&gt;Warum die Gleichung mit Rechenfehlern auf der Seite von Warren in Max&#39; Tagebuch stehen? Keine Ahnung, aber vielleicht erfährt man das irgendwann in einer der anderen Episoden.&lt;/p&gt;</description>
-        <pubDate>Wed, 04 Oct 2017 06:48:00 GMT</pubDate>
+        <pubDate>Wed, 04 Oct 2017 05:48:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-10-04:/2017/life-is-strange</guid>
     </item>
         
@@ -272,7 +392,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Sie vertrauen einander und stellen niemanden unter Generalverdacht. Sie achten die Unschuldsvermutung.&lt;/p&gt;
 &lt;p&gt;Gleichzeitig übernehmen sie freiwillig die Verantwortung für ihr Handeln. Ich möchte in einer Welt leben, in der niemand dem_der Anderen schadet. Ich will in einer Gesellschaft leben, in der Menschen vergeben.&lt;/p&gt;
 &lt;p&gt;Und &lt;em&gt;menschlich&lt;/em&gt; sind.&lt;/p&gt;</description>
-        <pubDate>Tue, 19 Sep 2017 18:55:00 GMT</pubDate>
+        <pubDate>Tue, 19 Sep 2017 17:55:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-09-19:/2017/ich-male-mir-die-welt</guid>
     </item>
         
@@ -284,7 +404,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Als ich mir heute die Laufschuhe angezogen habe, aus der Tür trat und die App startete, verkündete sie mir stolz, dass mein „Elite“-Abo abgelaufen sei. Für nur 10,99 Euro käme ich aber ein weiteres Jahr in den Genuss der „Elite“-Funktionen. Der Preis hat sich nahezu verdoppelt. Aus Frust lud ich mir dannn eine andere App herunter, die das gleiche macht, mich aber nicht mit Werbung begrüsst. Es war nicht mein bester Lauf.&lt;/p&gt;
 &lt;p&gt;Ich höre mich sagen: „Mensch, Nathan, dann kostet dich diese Spielerei jetzt halt &lt;a href=&#34;https://www.youtube.com/watch?v=yYEVSvwQQ_8&#34;&gt;1&lt;/a&gt; Euro pro Monat. Jetzt stell dich nicht so an!“. Es ärgert mich trotzdem. Wahrscheinlich werde ich in den sauren Apfel beißen und mir dieses Abo für ein weiteres Jahr holen. Ich hätte mir einfach nur vorher einen Hinweis gewünscht. „Hey, dein Abo läuft in einem Monat aus, willst du das nicht erneuern? Aus folgenden Gründen haben wir unseren Preis angepasst.“ fühlt sich wesentlich besser an als ein „Hey, dein Abo ist ausgelaufen! Doppelter Preis!“, wenn man sich eigentlich überhaupt nicht damit befassen will. Und wahrscheinlich hätte es auch dafür gesorgt, dass ich diese doofe „Elite“-Abo einfach verlängert hätte.&lt;/p&gt;
 &lt;p&gt;Jetzt bin ich mir doch nicht mehr so sicher, ob ich es wirklich will oder ob mir die andere App nicht vollkommen ausreicht.&lt;/p&gt;</description>
-        <pubDate>Sun, 03 Sep 2017 16:45:00 GMT</pubDate>
+        <pubDate>Sun, 03 Sep 2017 15:45:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-09-03:/2017/elite-my-ass</guid>
     </item>
         
@@ -310,7 +430,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;/blockquote&gt;
 &lt;p&gt;Die Reaktion der Kanzlei Höcker kam relativ schnell. Sie wollten wissen, ob sie meine Anwälte als Prozessbevollmächtigte in die Klage aufnehmen könnten. Das war am 25. April, seitdem ist es ruhig. Die Sache scheint aber noch nicht ausgestanden zu sein. Falls es Neuigkeiten gibt, mache ich mich bemerkbar.&lt;/p&gt;
 &lt;p&gt;Bevor es noch untergeht, möchte ich mich noch bei allen bedanken, die mir irgendwie beistanden. Vielen Dank für Eure Retweets und Solidaritätsbekundungen und dass ihr mir den Rücken gestärkt habt. In so einer Situation zu merken, dass man sowas nicht alleine durchstehen muss, tut unglaublich gut. Und natürlich auch vielen Dank an meine Anwälte! Ihr seid super.&lt;/p&gt;</description>
-        <pubDate>Wed, 17 May 2017 22:20:00 GMT</pubDate>
+        <pubDate>Wed, 17 May 2017 21:20:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-05-17:/2017/update-zur-abmahnung-wegen-wir-sind-afd-de</guid>
     </item>
         
@@ -320,7 +440,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <description>&lt;p&gt;Letztes Jahr schrieb ich über mein &lt;a href=&#34;https://bullenscheisse.de/2016/gehalt/&#34;&gt;Gehalt&lt;/a&gt;. In der Zwischenzeit haben sich zwei Dinge verändert:&lt;/p&gt;
 &lt;p&gt;Zum Einen habe ich eine Gehaltserhöhung bekommen. Die Unterteilung in festen (95%) und variablen Anteil (5%) gibt es immer noch. Statt 36 100€ fix und 1 900€ variablen Anteil pro Jahr verdiene ich jetzt ein Zielgehalt von 41 800€ (39 710€/2090€), wenn ich Vollzeit arbeiten würde.&lt;/p&gt;
 &lt;p&gt;Wenn. Denn zum Anderen bin ich Anfang 2017 in Teilzeit gewechselt und arbeite nur noch vier Tage die Woche. Das gibt natürlich weniger Geld (der fixe, monatliche Anteil sind brutto ~2650€), aber dafür gibt es etwas so viel Wertvolleres: Zeit.&lt;/p&gt;</description>
-        <pubDate>Wed, 10 May 2017 15:40:00 GMT</pubDate>
+        <pubDate>Wed, 10 May 2017 14:40:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-05-10:/2017/gehalt-ein-kurzes-update</guid>
     </item>
         
@@ -342,7 +462,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Apropos schlank: Vor einigen Tagen dachte ich auf chaos.social über die Größe des Einkaufszettl nach. Dadurch, dass er mittlerweile auch Swift enthält, ist er auf knapp 10MB angewachsen, ziemlich viel für so eine kleine App.&lt;/p&gt;
 &lt;p&gt;Testweise baute ich dann &lt;a href=&#34;https://chaos.social/@zeitschlag/77998&#34;&gt;mal sämtlichen Swift-Code aus&lt;/a&gt;, die App wurde dann &lt;a href=&#34;https://chaos.social/@zeitschlag/99492&#34;&gt;mit nur 1MB auch wieder viel leichter&lt;/a&gt;. Nichts desto trotz bietet Swift für mich als Entwickler auch einige Vorteile, deshalb jetzt die Frage: Willst Du lieber eine wirklich schlanke App oder sind 10MB für Dich auch in Ordnung? Was denkst Du dazu? Ich freue mich auf Deine Meinung.&lt;/p&gt;
 &lt;p&gt;Das gilt natürlich auch für generelles Feedback zum Einkaufszettl. Du hast eine Frage, Dir ist ein Fehler aufgefallen oder Du hast eine Idee, die die App noch besser macht? Dann schreib Dein Feedback in die Kommentare, via &lt;a href=&#34;https://twitter.com/zeitschlag&#34;&gt;Twitter&lt;/a&gt;, &lt;a href=&#34;https://chaos.social/@zeitschlag/&#34;&gt;Mastodon&lt;/a&gt; oder auch als &lt;a href=&#34;https://bullenscheisse.de/2017/einkaufszettl-0-5-5/mailto:einkaufszettl@bullenscheisse.de&#34;&gt;Mail&lt;/a&gt;. Vielen Dank!&lt;/p&gt;</description>
-        <pubDate>Wed, 03 May 2017 08:48:00 GMT</pubDate>
+        <pubDate>Wed, 03 May 2017 07:48:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-05-03:/2017/einkaufszettl-0-5-5</guid>
     </item>
         
@@ -356,7 +476,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Vielen Dank an Manon, dass Du den Fehler gemeldet hast! Der Entwickler hat (hoffentlich) aus seinem Fehler gelernt und wird jetzt (noch) mehr Sorgfalt an den Tag legen.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Das Update steht im App Store &lt;a href=&#34;https://itunes.apple.com/de/app/einkaufszettl/id1016435355?l=de&amp;amp;ls=1&amp;amp;mt=8&#34;&gt;zum Download bereit&lt;/a&gt;. Hast Du Fragen oder Verbesserungsvorschläge? Dann freue ich mich darauf, von Dir zu hören! Hinterlasse hier doch einfach einen Kommentar oder schreibe mir eine &lt;a href=&#34;https://bullenscheisse.de/2017/einkaufszettl-0-5-4/mailto:einkaufszettl@bullenscheisse.de&#34;&gt;Email&lt;/a&gt;.&lt;/p&gt;</description>
-        <pubDate>Fri, 21 Apr 2017 22:01:00 GMT</pubDate>
+        <pubDate>Fri, 21 Apr 2017 21:01:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-04-21:/2017/einkaufszettl-0-5-4</guid>
     </item>
         
@@ -425,7 +545,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Auch wenn die letzten beiden wirtschaftlich nicht unbedingt erfolgreiche Jahre waren, wird es den Einkaufszettl auch 2017 weiter geben. Dadurch, dass ich mittlerweile in Teilzeit arbeite, sollte es jetzt nicht mehr an der Zeit scheitern. Das nächste Release wird es wohl bis Ende des Monats geben, die ersten Bugs sind schon wieder gefixt, an anderen arbeite ich noch, damit der Einkaufszettl mal gut wird. Auch wenn es viele bessere Einkaufszettl-Apps gibt, gibt es nur einen Einkaufszettl.&lt;/p&gt;
 &lt;p&gt;Auf jeden Fall liegen die $99 für ein weiteres Jahr Mitgliedschaft im Apple Developer Program im April schon bereit. &lt;/p&gt;
 &lt;p&gt;Die &lt;a href=&#34;https://bullenscheisse.de/einkaufszettl/Einkaufszettl_2015_2016.numbers&#34;&gt;Numbers-Datei&lt;/a&gt; mit den Daten und Diagrammen aus diesem Blogpost, beziehungsweise eine &lt;a href=&#34;https://bullenscheisse.de/einkaufszettl/Einkaufszettl_2015_2016.pdf&#34;&gt;PDF-Version&lt;/a&gt; davon, könnt ihr herunterladen, wenn euch die genauen monatlichen Downloads interessieren.&lt;/p&gt;</description>
-        <pubDate>Sat, 18 Mar 2017 05:10:00 GMT</pubDate>
+        <pubDate>Sat, 18 Mar 2017 04:10:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-03-18:/2017/der-einkaufszettl-2015-und-2016</guid>
     </item>
         
@@ -445,7 +565,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Schreib Deine Antwort bitte in die Kommentare.&lt;/p&gt;</description>
-        <pubDate>Tue, 07 Mar 2017 07:45:00 GMT</pubDate>
+        <pubDate>Tue, 07 Mar 2017 06:45:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-03-07:/2017/jf-umfrage-was-ist-dein-lieblingsessen</guid>
     </item>
         
@@ -478,7 +598,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Ich bin vermutlich einer der letzten, die bereit sind, auf Forderungen von Nazis einzugehen. Natürlich kann man die Idee, mit der Zufallsdemokratie etwas gegen Rechtspopulismus unternehmen zu wollen, als Reaktion auf das Geschrei meist rechter Menschen zurückführen, man könnte es sogar soweit treiben, dass man behauptet, mit dieser Idee Rechtspopulisten entgegen zu kommen, dass Rechtspopulisten und -extreme mit ihrem Geschrei die politische Diskussion bestimmen. &lt;/p&gt;
 &lt;p&gt;Hier gelingt dem Artikel aber etwas sehr schönes: Auf der einen Seite wird ein bisschen auf Menschen, die etwas anderes als die bisherige Demokratie fordern, zugegangen. Auf der anderen Seite wird ihnen ein Vorschlag unterbreitet, dem sie eigentlich nur zustimmen können. Die AfD fordert Demokratie in Reinkultur? Fein, unterbreiten wir ihnen doch einfach mal den Vorschlag von Demokratie in Reinkultur.&lt;/p&gt;
 &lt;p&gt;So ganz ist der Vorwurf, dass Menschen durch ihr Geschrei die Diskussion in eine gewisse Richtung lenken, also nicht von der Hand zu weisen.&lt;/p&gt;</description>
-        <pubDate>Mon, 13 Feb 2017 21:56:00 GMT</pubDate>
+        <pubDate>Mon, 13 Feb 2017 20:56:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-02-13:/2017/demokratie-durch-los</guid>
     </item>
         
@@ -526,7 +646,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Eine App wie bei der Deutschen Bahn gibt es noch nicht, dafür aber einen &lt;a href=&#34;https://github.com/robbi5/locomore-gtfs&#34;&gt;(inoffiziellen) maschinenlesbaren Fahrplan&lt;/a&gt;. Vielleicht sollte ich das mal in eine kleine iOS-App gießen? &lt;a href=&#34;https://booking.locomore.com/&#34;&gt;Tickets gibt es im Internet&lt;/a&gt; oder (zum Höchstpreis) im Zug.&lt;/p&gt;
 &lt;p&gt;Ich finde es insgesamt beachtlich, was das Team von Locomore da auf die Beine gestellt hat. Ich finde es sehr bodenständig, ehrlich und sympathisch. Locomore versteckt sich nicht vor seinen Fehlern und Kinderkrankheiten, sondern geht sie an, auch wenn es schmerzhaft ist. Vielleicht verzeihe ich ihnen die Fehler auch deswegen?&lt;/p&gt;
 &lt;p&gt;Ich hoffe und wünsche mir, dass der Zug zwischen Berlin und Stuttgart noch lange Zeit fährt und das Angebot wächst. Wenn ich wieder nach Heidelberg fahre, dann werde ich wieder mit Locomore fahren. Also spätestens im Juni zum &lt;a href=&#34;http://literaturcamp-heidelberg.de&#34;&gt;#litcamp17&lt;/a&gt;. Wenn ich irgendwie noch an ein Ticket komme.&lt;/p&gt;</description>
-        <pubDate>Thu, 19 Jan 2017 08:40:00 GMT</pubDate>
+        <pubDate>Thu, 19 Jan 2017 07:40:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2017-01-19:/2017/locomore</guid>
     </item>
         
@@ -545,7 +665,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Ich freue mich auf Deine Antwort.&lt;/p&gt;
 &lt;p&gt;Viele Grüße aus Berlin,&lt;/p&gt;
 &lt;p&gt;Nathan&lt;/p&gt;</description>
-        <pubDate>Mon, 28 Nov 2016 20:44:00 GMT</pubDate>
+        <pubDate>Mon, 28 Nov 2016 19:44:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2016-11-28:/2016/ihr-seid-scheisse</guid>
     </item>
         
@@ -559,7 +679,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Eine andere Art von Angst hatte ich, als ich &lt;a href=&#34;https://bullenscheisse.de/2015/afd-oder-analsex-fuer-dummies/&#34;&gt;Beatrix von Storch damals in Eppelheim Fragen stellte&lt;/a&gt;. Ich zitterte am ganzen Körper. Aber ich wollte diese Angst nicht zulassen, ich wollte ihr widerstehen. Ich wollte diesen Menschen, die mich anschrien, zeigen, dass ich zwar Angst vor ihnen hatte, aber diese Angst nicht siegen lassen würde.&lt;/p&gt;
 &lt;p&gt;In Folge dieser Gedanken dachte ich auch darüber nach, was mir aktuell sehr viel Angst macht. Eine große Angst ist beispielsweise, auf einmal kein Geld mehr zu verdienen, keine Erwerbsarbeit mehr zu haben. Wie solle ich meine Miete bezahlen? Wovon soll ich leben?&lt;/p&gt;
 &lt;p&gt;Dass ich (wohl relativ schnell) einen neuen Arbeitsplatz finden würde, ist egal. Dass ich nicht verhungern muss, ist egal. Es macht mir Angst. Aber ich habe die Erfahrung gemacht, dass der Angst viel von ihrem Schrecken genommen wird, wenn man sich näher mit ihr befasst. Es ist also eher eine Angst vor dem Unbekannten, vor dem nicht wissen, was kommen wird. Vielleicht sollte ich kündigen. &lt;a href=&#34;https://www.youtube.com/watch?v=FONN-0uoTHI&#34;&gt;Oh boy.&lt;/a&gt;&lt;/p&gt;</description>
-        <pubDate>Fri, 04 Nov 2016 16:42:00 GMT</pubDate>
+        <pubDate>Fri, 04 Nov 2016 15:42:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2016-11-04:/2016/angst</guid>
     </item>
         
@@ -581,25 +701,8 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Mir gefällt die Idee, dass wir anfangen, offen über Gehälter zu reden. In meinem Arbeitsvertrag steht zwar, dass ich nicht über mein Gehalt reden darf. Bevor ich den Vertrag vor ziemlich genau einem Jahr unterschrieben habe, habe ich bei der Personalabteilung angerufen und gefragt, warum eine &lt;a href=&#34;https://openjur.de/u/342735.html&#34;&gt;unwirksame Klausel&lt;/a&gt; enthalten ist. Die Personalabteilung ist sich der Unwirksamkeit bewusst, aber wollte diese Klausel nicht streichen. &lt;/p&gt;
 &lt;p&gt;Ich verdiene etwas mehr als ~36.100€ festes Gehalt, dazu kommen ~1.900€ variabler Anteil. (Edit: Beides brutto)&lt;/p&gt;
 &lt;p&gt;Was verdienst Du?&lt;/p&gt;</description>
-        <pubDate>Thu, 03 Nov 2016 08:00:00 GMT</pubDate>
+        <pubDate>Thu, 03 Nov 2016 07:00:00 GMT</pubDate>
         <guid isPermaLink="false">tag:bullenscheisse.de,2016-11-03:/2016/gehalt</guid>
-    </item>
-        
-            <item>
-        <title>Aus dem Maschinenraum</title>
-        <link>https://bullenscheisse.de/2016/aus-dem-maschinenraum/</link>
-        <description>&lt;p&gt;Letztens fasste ich den Entschluss, dass ich wieder mehr bloggen möchte. Ja, ich weiß, das habe ich vor ein paar Monaten &lt;a href=&#34;https://bullenscheisse.de/2016/pixies-ein-plan-und-ein-aufkleber/&#34;&gt;schon einmal behauptet&lt;/a&gt; und seitdem ist relativ wenig passiert. Damals schrieb ich:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Einfach trotzdem machen. Versuchen, dran zu bleiben. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Neuer Versuch. Neulich bekam ich dann durch Zufall mit, dass &lt;a href=&#34;https://github.com/posativ/acrylamid&#34;&gt;acrylamid&lt;/a&gt; - der Static Site Generator, den ich für diesen Blog nutze - seit Mitte August &lt;a href=&#34;https://github.com/posativ/acrylamid/commit/c53c85088d9cd79335f69ad74fb647468c707afd&#34;&gt;nicht mehr weiterentwickelt&lt;/a&gt; wird. Das ist jetzt kurzfristig erstmal kein Weltuntergang, denn das HTML, das er bereits generiert hat, wird dadurch ja nicht schlecht.&lt;/p&gt;
-&lt;p&gt;Über kurz oder lang möchte ich jedoch wieder mal das Setup ändern. Mich stört es beispielsweise, dass ich keine Weboberfläche zum bloggen habe. Ich kann mich also nicht mal fix einloggen, bloggen und wieder ausloggen, sondern muss per SSH entweder auf den Server, was sich in Firmennetzen eher als schwierig herausstellt, oder ich schreibe den Blogpost, packe ihn in git, pushe, pulle und gehe dann per SSH auf den Server, was sich in Firmennetzen als eher schwierig herausstellt, um zu acralymid-en.&lt;/p&gt;
-&lt;p&gt;Andererseits finde ich, dass das aktuelle Setup (ich schreibe in Textdateien, werfe sie in git, pushe und pulle ein bisschen und lasse acrylamid dann eine ordentliche Seite draus machen) durchaus seinen Charme hat. Ausserdem ist der Blog dadurch, dass nur statische Dateien ausgeliefert werden, schnell. Trotzdem interessiert es mich, was es noch so gibt.&lt;/p&gt;
-&lt;p&gt;Gestern Abend war ich beispielsweise einen Blick auf &lt;a href=&#34;https://anchorcms.com&#34;&gt;anchorcms&lt;/a&gt;. Es ist einfach, es ist schnell, es hat keine Kommentare. Eine andere Alternative, mit der ich schon liebäugelte, bevor ich auf acrylamid setzte, ist &lt;a href=&#34;https://getkirby.com&#34;&gt;kirby&lt;/a&gt;, wobei ich sagen muss, dass 79€ plus Mehrwertsteuer schon ein Haufen Geld sind und ich nicht weiß, ob ich bereit bin, dafür so viel Geld auszugeben.&lt;/p&gt;
-&lt;p&gt;Egal, für was für ein Setup ich mich schlussendlich entscheide, ich werde nicht darum herum kommen, selbst ein bisschen Hand anlegen zu müssen. Ich will zum Beispiel Kommentare, ich will aber auch, dass mein Blog einfach und schnell ist. Ich will, dass ich von überall bloggen kann.&lt;/p&gt;
-&lt;p&gt;Gleichzeitig denke ich darüber nach, was ich inhaltlich an diesem Blog ändern kann. Vielleicht sollte ich mehr kurze Blogposts schreiben? Den Blog als Notizbuch verwenden? Andere Artikel kommentieren? Vielleicht auf englisch, wie letztens? Gemischt? Vielleicht sollte ich das einfach mal ausprobieren. Meine Gedanken zu Dingen, die ich gelesen habe, zu sammeln, klingt gut. Einfach trotzdem machen. Fehlt nur noch, dass ich von überall aus bloggen kann. Sonst vergesse ich noch, was ich zu dem einen oder anderen Artikel sagen wollte.&lt;/p&gt;</description>
-        <pubDate>Tue, 01 Nov 2016 09:04:00 GMT</pubDate>
-        <guid isPermaLink="false">tag:bullenscheisse.de,2016-11-01:/2016/aus-dem-maschinenraum</guid>
     </item>
         </channel>
 </rss>

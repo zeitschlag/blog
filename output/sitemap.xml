@@ -11,8 +11,14 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://bullenscheisse.de/2016/so-bewaehrte-mittel-wie-videoueberwachung/</loc>
+    <lastmod>2018-02-13</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://bullenscheisse.de/page/6/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -210,12 +216,12 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/atom/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/10/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -226,7 +232,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/3/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -301,7 +307,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/tag/pretix/</loc>
-    <lastmod>2018-02-21</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -398,14 +404,8 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2015/bcrn15/</loc>
-    <lastmod>2018-02-13</lastmod>
-    <changefreq>never</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://bullenscheisse.de/2018/dein-freund-und-rauswerfer/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/7/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -478,6 +478,12 @@
     <loc>https://bullenscheisse.de/tag/wg/</loc>
     <lastmod>2018-02-13</lastmod>
     <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://bullenscheisse.de/2018/pretix-auf-einem-uberspace/</loc>
+    <lastmod>2018-03-25</lastmod>
+    <changefreq>never</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://bullenscheisse.de/2016/selbstbedienungskassen/</loc>
@@ -553,12 +559,12 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/2/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://bullenscheisse.de/2015/pretix-auf-einem-uberspace-installieren/</loc>
-    <lastmod>2018-02-21</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
@@ -570,7 +576,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/11/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -651,7 +657,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -673,7 +679,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/5/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -727,7 +733,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/8/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -881,7 +887,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/12/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1004,7 +1010,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2016/so-bewaehrte-mittel-wie-videoueberwachung/</loc>
+    <loc>https://bullenscheisse.de/2017/aus-scheisse-gold-machen/</loc>
     <lastmod>2018-02-13</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
@@ -1094,7 +1100,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/4/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1137,7 +1143,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/page/9/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1223,7 +1229,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bullenscheisse.de/2017/aus-scheisse-gold-machen/</loc>
+    <loc>https://bullenscheisse.de/2015/bcrn15/</loc>
     <lastmod>2018-02-13</lastmod>
     <changefreq>never</changefreq>
     <priority>1.0</priority>
@@ -1376,7 +1382,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/articles/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1401,7 +1407,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/tag/bcrn16/</loc>
-    <lastmod>2018-02-21</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -1438,7 +1444,7 @@
   </url>
   <url>
     <loc>https://bullenscheisse.de/rss/</loc>
-    <lastmod>2018-03-15</lastmod>
+    <lastmod>2018-03-25</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>

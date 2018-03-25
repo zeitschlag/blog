@@ -11,13 +11,141 @@
     <link rel="self" type="application/atom+xml" href="https://bullenscheisse.de/atom/" />
     <icon>https://bullenscheisse.de/favicon.ico</icon>
     <logo>https://bullenscheisse.de/feed-logo.png</logo>
-    <updated>2018-03-15T12:51:00Z</updated>
+    <updated>2018-03-23T11:21:00Z</updated>
     <generator uri="https://github.com/posativ/acrylamid/" version="0.7.10">acrylamid</generator>
+        <entry>
+        <title>pretix auf einem Uberspace</title>
+        <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2018/pretix-auf-einem-uberspace/" />
+        <id>tag:bullenscheisse.de,2018-03-23:/2018/pretix-auf-einem-uberspace</id>
+        <updated>2018-03-23T11:21:00Z</updated>
+        <category term="#bcrn16" />
+        <category term="#pretix" />
+        
+        <author>
+            <name>Nathan</name>
+            <uri>https://bullenscheisse.de/</uri>
+            <email>hallo@bullenscheisse.de</email>
+        </author>
+        <content type="html">&lt;p&gt;Im Oktober 2015 schrieb ich eine &lt;a href=&#34;https://bullenscheisse.de/2015/pretix-auf-einem-uberspace-installieren/&#34;&gt;Anleitung&lt;/a&gt;, wie man &lt;a href=&#34;https://github.com/pretix/pretix&#34;&gt;pretix&lt;/a&gt; auf einem &lt;a href=&#34;https://uberspace.de&#34;&gt;Uberspace&lt;/a&gt; installiert. Nun ist heute nicht mehr Oktober 2015 und die alte Anleitung entsprechend nicht mehr aktuell. Mich haben mehrere Leute darauf hingewiesen. Ausserdem brauche ich aus &lt;a href=&#34;https://bullenscheisse.de/2018/osstatus-com/&#34;&gt;Gründen&lt;/a&gt; selbst ab und an mal eine pretix-Instanz und habe mich entschlossen, die Anleitung mal zu überarbeiten und in diesem Blogpost auf einen neueren Stand zu bringen.&lt;/p&gt;
+&lt;h4&gt;Einleitung&lt;/h4&gt;
+&lt;p&gt;pretix ist ein Stück freie Software, mit dem man Tickets für Konzerte, Messen, Barcamps und sonstige Veranstaltungen verkaufen kann. Das Tool setzt auf &lt;a href=&#34;https://www.djangoproject.com&#34;&gt;Django&lt;/a&gt; und benötigt Python 3. &lt;/p&gt;
+&lt;p&gt;Es lässt sich unter &lt;a href=&#34;https://docs.pretix.eu/en/latest/admin/installation/manual_smallscale.html&#34;&gt;Linux&lt;/a&gt; installieren, die Anleitung dafür kann man aber nicht eins zu eins auf die Ubernauten übertragen. Im Folgenden möchte ich beschreiben, was ich tun musste, um pretix auf einem Uberspace zumindest zum Laufen zu bringen. Der Benutzername für den Uberspace ist &lt;code&gt;barcamp&lt;/code&gt;, der Uberspace selbst heisst &lt;code&gt;kaul&lt;/code&gt;. Ich möchte noch darauf hinweisen, dass diese Installation eine SQLite-Datenbank nutzt. Die Dokumentation sagt dazu:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you have real users on your system you’ll really want to use&lt;/p&gt;
+&lt;p&gt;A database (MySQL or PostgreSQL)&lt;/p&gt;
+&lt;p&gt;A reverse proxy web server (nginx or Apache)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Die Datenbank ist dieser Anleitung egal. Ausserdem fehlen noch ein, zwei andere Kleinigkeiten (siehe unten), um so Sachen wie SSL musst du dich ebenfalls selbst kümmern. Im Großen und Ganzen habe ich mich an die Anleitung der Ubernauten für &lt;a href=&#34;https://wiki.uberspace.de/cool:django&#34;&gt;Django&lt;/a&gt; gehalten und sie mit besagter Installationsanleitung für Linux gekreuzt. &lt;/p&gt;
+&lt;p&gt;Trotzdem gilt: Du wirst diese Anleitung nicht in dieser Form übernehmen können. &lt;strong&gt;Lies sie aufmerksam und benutze deinen eigenen Kopf, um Anpassungen zu machen&lt;/strong&gt; Wenn du irgendwo nicht weiterkommst oder eine Anregung hast, dann freue ich mich natürlich über &lt;a href=&#34;https://bullenscheisse.de/about/&#34;&gt;Fragen und Feedback&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Wenn du — warum auch immer — keine eigene pretix-Instanz betreiben möchtest, kannst du ja mal darüber nachdenken, die gehostete Version zu nutzen. Raphael bietet die Software auch as a Service an — zu &lt;a href=&#34;https://pretix.eu/about/de/pricing&#34;&gt;sehr erschwinglichen Konditionen&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;Anleitung&lt;/h4&gt;
+&lt;h5&gt;pretix-Installation an sich&lt;/h5&gt;
+&lt;p&gt;In einem erste Schritt lege ich einen Ordner für die eigentliche pretix-Installation, die Virtual Environment und das Verzeichnis für die pretix-Daten an:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ mkdir pretix_installation
+[barcamp@kaus ~]$ cd pretix_installation&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Anschließend richte ich die &lt;a href=&#34;https://virtualenv.pypa.io/en/stable/&#34;&gt;virtuelle Umgebung&lt;/a&gt; mit Python 3.6 ein und aktiviere sie:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus pretix_installation]$ python3.6 -m venv env
+[barcamp@kaus pretix_installation]$ source env/bin/activate&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Zwar gibt es pretix auch im &lt;a href=&#34;https://de.wikipedia.org/wiki/Pip_(Python)&#34;&gt;Python Package Index&lt;/a&gt;, aber weil ich ein paar Uberspace-spezifische Anpassungen in der &lt;code&gt;settings.py&lt;/code&gt; vornehmen muss, bringt das — zumindest nach meinem Kenntnisstand, vielleicht weißt du es besser, dann lass mich bitte an deinem Wissen teilhaben — wenig. Zeit, das entsprechende Repository auf Github zu klonen und in den Ordner zu wechseln:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix_installation]$ git clone https://github.com/pretix/pretix.git
+(env) [barcamp@kaus pretix_installation]$ cd pretix&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Wenn du ein spezielles Release möchtest, wäre jetzt der richtige Zeitpunkt, den entsprechenden Branch oder Tag auszuchecken. Ich gehe davon aus, dass das Repository in einem Ordner namens &lt;code&gt;~/pretix_installation/pretix&lt;/code&gt; liegt. Nun geht es daran, die Abhängigkeiten von pretix zu installieren:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ pip install -U gunicorn
+(env) [barcamp@kaus pretix]$ pip install -U -r src/requirements.txt&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Danach muss ich — wie bereits erwähnt — die &lt;code&gt;settings.py&lt;/code&gt; erweitern, wie bei den Ubernauten beschrieben:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ cat &amp;lt;&amp;lt; __EOF__ &amp;gt;&amp;gt; src/pretix/settings.py
+
+USE_X_FORWARDED_HOST = True
+
+__EOF__&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Wie ebenfalls oben bereits erwähnt, braucht pretix ein Ordner, in dem es alle möglichen Daten ablegen kann. In diesem Beispiel ist es unter anderem die SQLite-Datenbank.&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ mkdir ../data_dir&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;pretix schaut an einigen Stellen nach der benötigten &lt;a href=&#34;https://docs.pretix.eu/en/latest/admin/config.html&#34;&gt;Konfigurationsdatei&lt;/a&gt;, unter anderem im Home-Verzeichnis. Aus Bequemlichkeitsgründen lege ich sie deshalb einfach mal da an:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ cat &amp;lt;&amp;lt; __EOF__ &amp;gt; ~/.pretix.cfg
+
+[pretix]
+instance_name=Frische Tickets!
+url=https://pretix.barcamp.kaus.uberspace.de
+currency=EUR
+datadir=/home/barcamp/pretix_installation/data_dir
+
+[database]
+; Replace mysql with postgresql_psycopg2 for PostgreSQL
+backend=sqlite3
+
+__EOF__&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Wahrscheinlich — hoffentlich — wird deine anders aussehen. In der Konfigurationsdatei stehen alle möglichen Informationen, abhängig davon, was du alles nutzen möchtest. Beispielsweise steht hier die URL, unter der pretix erreichbar ist oder auch, wo sich das Verzeichnis für die Daten befindet.&lt;/p&gt;
+&lt;p&gt;Hier sei nochmal ein Blick in die entsprechende &lt;a href=&#34;https://docs.pretix.eu/en/latest/admin/config.html&#34;&gt;Dokumentation&lt;/a&gt; von pretix empfohlen — sie ist sehr gut. Danach initialisiere ich die Datenbank und lasse die statischen Dateien erstellen. Das hat mir bei etwas gedauert:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;(env) [barcamp@kaus pretix]$ python src/manage.py migrate
+(env) [barcamp@kaus pretix]$ python src/manage.py rebuild
+(env) [barcamp@kaus pretix]$ deactivate&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Damit bin ich mit der Installation von pretix durch.&lt;/p&gt;
+&lt;h5&gt;Deamon und Erreichbarkeit&lt;/h5&gt;
+&lt;p&gt;Ich könnte pretix jetzt wie jede andere Django-Anwendung starten. Es würde jedoch nicht im Hintergrund laufen und wäre noch nicht aus dem Internet erreichbar. Darum kümmere ich mich jetzt. Zuerst brauche ich dafür einen Port. Die &lt;a href=&#34;https://wiki.uberspace.de/cool:django#deamon_einrichten&#34;&gt;Ubernauten empfehlen folgenden Weg&lt;/a&gt;, den ich einfach mal guttenberge:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ DJANGOPORT=$(( $RANDOM % 4535 + 61000)); netstat -tulpen | grep $DJANGOPORT &amp;amp;&amp;amp; echo &amp;quot;versuch&#39;s nochmal&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;wenn hier keine Ausgabe &lt;code&gt;versuch&#39;s nochmal&lt;/code&gt; erscheint, passt alles. Wenn &lt;code&gt;versuch&#39;s nochmal&lt;/code&gt; kommt - versuchs noch mal :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Danach richte ich den eigentlichen Service ein, der sich darum kümmert, dass pretix im Hintergrund läuft:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ test -d ~/service || uberspace-setup-svscan 
+[barcamp@kaus ~]$ uberspace-setup-service pretix /home/barcamp/pretix_installation/env/bin/gunicorn --error-logfile ~/error-log --reload --chdir /home/barcamp/pretix_installation/pretix/src --bind 127.0.0.1:$DJANGOPORT --workers 4 pretix.wsgi --name pretix --max-requests 1200 --max-requests-jitter 50&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Im letzten Schritt muss ich dafür sorgen, dass dieser Service aus dem Internet ansprechbar ist:&lt;/p&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;[barcamp@kaus ~]$ mkdir /var/www/virtual/barcamp/barcamp.kaus.uberspace.de
+[barcamp@kaus ~]$ cat &amp;lt;&amp;lt; __EOF__ &amp;gt; /var/www/virtual/barcamp/pretix.barcamp.kaus.uberspace.de/.htaccess
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteBase /
+RewriteRule ^(.*)$ http://127.0.0.1:$DJANGOPORT/$1 [P]
+
+RequestHeader set X-Forwarded-Proto https env=HTTPS
+__EOF__&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;p&gt;Das war&#39;s.&lt;/p&gt;
+&lt;h5&gt;Läuft bei mir&lt;/h5&gt;
+&lt;p&gt;pretix wäre bei mir jetzt unter &lt;a href=&#34;https://pretix.barcamp.kaus.uberspace.de&#34;&gt;https://pretix.barcamp.kaus.uberspace.de&lt;/a&gt; erreichbar.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Startbildschirm von pretix&#34; src=&#34;https://bullenscheisse.de/img/IMG_132_pretix.png&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;Da sieht man denn natürlich nicht viel, weswegen ich mich unter &lt;code&gt;http://pretix.barcamp.kaus.uberspace.de/control/login?next=/control/&lt;/code&gt; anmelden kann. Als Benutzername habe ich &lt;code&gt;admin@localhost&lt;/code&gt;, als Passwort &lt;code&gt;admin&lt;/code&gt; verwendet. &lt;strong&gt;Bitte denk daran, die Anmeldedaten zu ändern!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Anmeldebildschirm von pretix&#34; src=&#34;https://bullenscheisse.de/img/IMG_99.png&#34;/&gt;&lt;/p&gt;
+&lt;h4&gt;Was noch fehlt&lt;/h4&gt;
+&lt;h5&gt;Domain&lt;/h5&gt;
+&lt;p&gt;Wie dir vielleicht aufgefallen ist, läuft pretix unter einer Subdomain — apropos Domain: &lt;a href=&#34;https://pretix.barcamp.kaus.uberspace.de&#34;&gt;pretix.barcamp.kaus.uberspace.de&lt;/a&gt; ist wesentlich weniger lesbar als beispielsweise &lt;a href=&#34;https://pretix.domain.tld&#34;&gt;pretix.domain.tld&lt;/a&gt;, du willst vielleicht also eine &lt;a href=&#34;https://wiki.uberspace.de/domain&#34;&gt;Domain&lt;/a&gt; haben.&lt;/p&gt;
+&lt;p&gt;Ich habe es zwischendrin mal hinbekommen, dass pretix auch in einem Unterordner lief, mir aber nicht aufgeschrieben, wie es geklappt hat und nun kann ich als Django/Python-Amateur das nicht mehr nachvollziehen. Falls jemand einen Hinweis hat, bin ich dankbar.&lt;/p&gt;
+&lt;h5&gt;pretix-worker, Mails, MariaDB, Plugins...&lt;/h5&gt;
+&lt;p&gt;Was ebenfalls nicht läuft, ist der in der pretix-Dokumentation erwähnte &lt;em&gt;pretix-worker&lt;/em&gt;, ebenfalls fehlen sämtliche — bisweilen obligatorische — Zusatzssachen wie Mail, eine ordentliche Datenbank, &lt;em&gt;redis&lt;/em&gt;, HTTPS, Plugins... Kurz: Sieh diese Anleitung bitte als einen ersten Schritt und kümmere dich anschliessend selbst darum, dass deine pretix-Installation gut und sicher läuft. Danke.&lt;/p&gt;
+&lt;h4&gt;Links&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pretix.eu/about/de/&#34;&gt;pretix im Netz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pretix/pretix&#34;&gt;pretix auf Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.pretix.eu/en/latest/&#34;&gt;pretix-Dokumentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    </entry>
+    
         <entry>
         <title>Dein Freund und Rauswerfer</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2018/dein-freund-und-rauswerfer/" />
         <id>tag:bullenscheisse.de,2018-03-15:/2018/dein-freund-und-rauswerfer</id>
-        <updated>2018-03-15T12:51:00Z</updated>
+        <updated>2018-03-15T11:51:00Z</updated>
         
         <author>
             <name>Nathan</name>
@@ -39,7 +167,7 @@
         <title>Urteil am 6. Februar</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2018/urteil-am-6-februar/" />
         <id>tag:bullenscheisse.de,2018-01-30:/2018/urteil-am-6-februar</id>
-        <updated>2018-01-30T11:46:00Z</updated>
+        <updated>2018-01-30T10:46:00Z</updated>
         <category term="#wirsindafd" />
         
         <author>
@@ -56,7 +184,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>osstatus.com</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2018/osstatus-com/" />
         <id>tag:bullenscheisse.de,2018-01-24:/2018/osstatus-com</id>
-        <updated>2018-01-24T18:56:00Z</updated>
+        <updated>2018-01-24T17:56:00Z</updated>
         <category term="#development" />
         
         <author>
@@ -71,7 +199,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Gerichtstermin wegen wir-sind-afd.de</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2018/gerichtstermin-wegen-wir-sind-afd-de/" />
         <id>tag:bullenscheisse.de,2018-01-05:/2018/gerichtstermin-wegen-wir-sind-afd-de</id>
-        <updated>2018-01-05T12:00:00Z</updated>
+        <updated>2018-01-05T11:00:00Z</updated>
         <category term="#wirsindafd" />
         
         <author>
@@ -94,7 +222,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Aus Scheiße Gold machen</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/aus-scheisse-gold-machen/" />
         <id>tag:bullenscheisse.de,2017-12-10:/2017/aus-scheisse-gold-machen</id>
-        <updated>2017-12-10T11:01:00Z</updated>
+        <updated>2017-12-10T10:01:00Z</updated>
         <category term="#bahn" />
         
         <author>
@@ -115,7 +243,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Für nichts und wieder nichts</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/fuer-nichts-und-wieder-nichts/" />
         <id>tag:bullenscheisse.de,2017-12-09:/2017/fuer-nichts-und-wieder-nichts</id>
-        <updated>2017-12-09T11:35:00Z</updated>
+        <updated>2017-12-09T10:35:00Z</updated>
         <category term="#bitcoin" />
         
         <author>
@@ -139,7 +267,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Einkaufszettl 0.6</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/einkaufszettl-0-6/" />
         <id>tag:bullenscheisse.de,2017-12-05:/2017/einkaufszettl-0-6</id>
-        <updated>2017-12-05T21:40:00Z</updated>
+        <updated>2017-12-05T20:40:00Z</updated>
         <category term="#einkaufszettl" />
         
         <author>
@@ -158,7 +286,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>60 Euro. Bedauerlicherweise.</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/60-euro-bedauerlicherweise/" />
         <id>tag:bullenscheisse.de,2017-12-04:/2017/60-euro-bedauerlicherweise</id>
-        <updated>2017-12-04T07:11:00Z</updated>
+        <updated>2017-12-04T06:11:00Z</updated>
         <category term="#fahrscheinloseröpnv" />
         
         <author>
@@ -181,7 +309,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>miniflux + unread</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/miniflux-+-unread/" />
         <id>tag:bullenscheisse.de,2017-11-27:/2017/miniflux-+-unread</id>
-        <updated>2017-11-27T20:41:00Z</updated>
+        <updated>2017-11-27T19:41:00Z</updated>
         <category term="#rss" />
         <category term="#miniflux" />
         <category term="#unread" />
@@ -226,7 +354,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>XNetflixions - Gastbeitrag bei condomsbydefault.de</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/xnetflixions-gastbeitrag-bei-condomsbydefault-de/" />
         <id>tag:bullenscheisse.de,2017-10-31:/2017/xnetflixions-gastbeitrag-bei-condomsbydefault-de</id>
-        <updated>2017-10-31T13:55:00Z</updated>
+        <updated>2017-10-31T12:55:00Z</updated>
         <category term="#gastbeitrag" />
         
         <author>
@@ -244,7 +372,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Life Is Strange</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/life-is-strange/" />
         <id>tag:bullenscheisse.de,2017-10-04:/2017/life-is-strange</id>
-        <updated>2017-10-04T06:48:00Z</updated>
+        <updated>2017-10-04T05:48:00Z</updated>
         <category term="#lifeisstrange" />
         <category term="#mathe" />
         
@@ -308,7 +436,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Ich male mir die Welt</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/ich-male-mir-die-welt/" />
         <id>tag:bullenscheisse.de,2017-09-19:/2017/ich-male-mir-die-welt</id>
-        <updated>2017-09-19T18:55:00Z</updated>
+        <updated>2017-09-19T17:55:00Z</updated>
         
         <author>
             <name>Nathan</name>
@@ -369,7 +497,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Elite. My ass.</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/elite-my-ass/" />
         <id>tag:bullenscheisse.de,2017-09-03:/2017/elite-my-ass</id>
-        <updated>2017-09-03T16:45:00Z</updated>
+        <updated>2017-09-03T15:45:00Z</updated>
         <category term="#sport" />
         <category term="#app" />
         <category term="#hownottodoit" />
@@ -390,7 +518,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Update zur Abmahnung wegen wir-sind-afd.de</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/update-zur-abmahnung-wegen-wir-sind-afd-de/" />
         <id>tag:bullenscheisse.de,2017-05-17:/2017/update-zur-abmahnung-wegen-wir-sind-afd-de</id>
-        <updated>2017-05-17T22:20:00Z</updated>
+        <updated>2017-05-17T21:20:00Z</updated>
         <category term="#wirsindafd" />
         
         <author>
@@ -423,7 +551,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Gehalt - Ein kurzes Update</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/gehalt-ein-kurzes-update/" />
         <id>tag:bullenscheisse.de,2017-05-10:/2017/gehalt-ein-kurzes-update</id>
-        <updated>2017-05-10T15:40:00Z</updated>
+        <updated>2017-05-10T14:40:00Z</updated>
         <category term="#job" />
         <category term="#geld" />
         
@@ -441,7 +569,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Einkaufszettl 0.5.5</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/einkaufszettl-0-5-5/" />
         <id>tag:bullenscheisse.de,2017-05-03:/2017/einkaufszettl-0-5-5</id>
-        <updated>2017-05-03T08:48:00Z</updated>
+        <updated>2017-05-03T07:48:00Z</updated>
         <category term="#einkaufszettl" />
         
         <author>
@@ -470,7 +598,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Einkaufszettl 0.5.4</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/einkaufszettl-0-5-4/" />
         <id>tag:bullenscheisse.de,2017-04-21:/2017/einkaufszettl-0-5-4</id>
-        <updated>2017-04-21T22:01:00Z</updated>
+        <updated>2017-04-21T21:01:00Z</updated>
         <category term="#einkaufszettl" />
         
         <author>
@@ -491,7 +619,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Der Einkaufszettl - 2015 und 2016</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/der-einkaufszettl-2015-und-2016/" />
         <id>tag:bullenscheisse.de,2017-03-18:/2017/der-einkaufszettl-2015-und-2016</id>
-        <updated>2017-03-18T05:10:00Z</updated>
+        <updated>2017-03-18T04:10:00Z</updated>
         <category term="#einkaufszettl" />
         
         <author>
@@ -567,7 +695,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>JF-Umfrage: Was ist dein Lieblingsessen?</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/jf-umfrage-was-ist-dein-lieblingsessen/" />
         <id>tag:bullenscheisse.de,2017-03-07:/2017/jf-umfrage-was-ist-dein-lieblingsessen</id>
-        <updated>2017-03-07T07:45:00Z</updated>
+        <updated>2017-03-07T06:45:00Z</updated>
         <category term="#jf" />
         <category term="#maultaschen" />
         
@@ -595,7 +723,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Demokratie durch Los?</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/demokratie-durch-los/" />
         <id>tag:bullenscheisse.de,2017-02-13:/2017/demokratie-durch-los</id>
-        <updated>2017-02-13T21:56:00Z</updated>
+        <updated>2017-02-13T20:56:00Z</updated>
         <category term="#demokratie" />
         <category term="#los" />
         <category term="#interessanteidee" />
@@ -637,7 +765,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Locomore</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2017/locomore/" />
         <id>tag:bullenscheisse.de,2017-01-19:/2017/locomore</id>
-        <updated>2017-01-19T08:40:00Z</updated>
+        <updated>2017-01-19T07:40:00Z</updated>
         <category term="#berlin" />
         <category term="#heidelberg" />
         <category term="#locomore" />
@@ -695,7 +823,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Ihr seid scheiße</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2016/ihr-seid-scheisse/" />
         <id>tag:bullenscheisse.de,2016-11-28:/2016/ihr-seid-scheisse</id>
-        <updated>2016-11-28T20:44:00Z</updated>
+        <updated>2016-11-28T19:44:00Z</updated>
         <category term="#wirsindafd" />
         <category term="#feedback" />
         
@@ -722,7 +850,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Angst</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2016/angst/" />
         <id>tag:bullenscheisse.de,2016-11-04:/2016/angst</id>
-        <updated>2016-11-04T16:42:00Z</updated>
+        <updated>2016-11-04T15:42:00Z</updated>
         <category term="#job" />
         <category term="#angst" />
         <category term="#persönliches" />
@@ -745,7 +873,7 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
         <title>Gehalt</title>
         <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2016/gehalt/" />
         <id>tag:bullenscheisse.de,2016-11-03:/2016/gehalt</id>
-        <updated>2016-11-03T08:00:00Z</updated>
+        <updated>2016-11-03T07:00:00Z</updated>
         <category term="#job" />
         <category term="#geld" />
         
@@ -769,28 +897,5 @@ Der Richter hat das Urteil für den 6.2. angekündigt. Als juristischer Laie wü
 &lt;p&gt;Mir gefällt die Idee, dass wir anfangen, offen über Gehälter zu reden. In meinem Arbeitsvertrag steht zwar, dass ich nicht über mein Gehalt reden darf. Bevor ich den Vertrag vor ziemlich genau einem Jahr unterschrieben habe, habe ich bei der Personalabteilung angerufen und gefragt, warum eine &lt;a href=&#34;https://openjur.de/u/342735.html&#34;&gt;unwirksame Klausel&lt;/a&gt; enthalten ist. Die Personalabteilung ist sich der Unwirksamkeit bewusst, aber wollte diese Klausel nicht streichen. &lt;/p&gt;
 &lt;p&gt;Ich verdiene etwas mehr als ~36.100€ festes Gehalt, dazu kommen ~1.900€ variabler Anteil. (Edit: Beides brutto)&lt;/p&gt;
 &lt;p&gt;Was verdienst Du?&lt;/p&gt;</content>
-    </entry>
-    
-        <entry>
-        <title>Aus dem Maschinenraum</title>
-        <link rel="alternate" type="text/html" href="https://bullenscheisse.de/2016/aus-dem-maschinenraum/" />
-        <id>tag:bullenscheisse.de,2016-11-01:/2016/aus-dem-maschinenraum</id>
-        <updated>2016-11-01T09:04:00Z</updated>
-        
-        <author>
-            <name>Nathan</name>
-            <uri>https://bullenscheisse.de/</uri>
-            <email>hallo@bullenscheisse.de</email>
-        </author>
-        <content type="html">&lt;p&gt;Letztens fasste ich den Entschluss, dass ich wieder mehr bloggen möchte. Ja, ich weiß, das habe ich vor ein paar Monaten &lt;a href=&#34;https://bullenscheisse.de/2016/pixies-ein-plan-und-ein-aufkleber/&#34;&gt;schon einmal behauptet&lt;/a&gt; und seitdem ist relativ wenig passiert. Damals schrieb ich:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Einfach trotzdem machen. Versuchen, dran zu bleiben. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Neuer Versuch. Neulich bekam ich dann durch Zufall mit, dass &lt;a href=&#34;https://github.com/posativ/acrylamid&#34;&gt;acrylamid&lt;/a&gt; - der Static Site Generator, den ich für diesen Blog nutze - seit Mitte August &lt;a href=&#34;https://github.com/posativ/acrylamid/commit/c53c85088d9cd79335f69ad74fb647468c707afd&#34;&gt;nicht mehr weiterentwickelt&lt;/a&gt; wird. Das ist jetzt kurzfristig erstmal kein Weltuntergang, denn das HTML, das er bereits generiert hat, wird dadurch ja nicht schlecht.&lt;/p&gt;
-&lt;p&gt;Über kurz oder lang möchte ich jedoch wieder mal das Setup ändern. Mich stört es beispielsweise, dass ich keine Weboberfläche zum bloggen habe. Ich kann mich also nicht mal fix einloggen, bloggen und wieder ausloggen, sondern muss per SSH entweder auf den Server, was sich in Firmennetzen eher als schwierig herausstellt, oder ich schreibe den Blogpost, packe ihn in git, pushe, pulle und gehe dann per SSH auf den Server, was sich in Firmennetzen als eher schwierig herausstellt, um zu acralymid-en.&lt;/p&gt;
-&lt;p&gt;Andererseits finde ich, dass das aktuelle Setup (ich schreibe in Textdateien, werfe sie in git, pushe und pulle ein bisschen und lasse acrylamid dann eine ordentliche Seite draus machen) durchaus seinen Charme hat. Ausserdem ist der Blog dadurch, dass nur statische Dateien ausgeliefert werden, schnell. Trotzdem interessiert es mich, was es noch so gibt.&lt;/p&gt;
-&lt;p&gt;Gestern Abend war ich beispielsweise einen Blick auf &lt;a href=&#34;https://anchorcms.com&#34;&gt;anchorcms&lt;/a&gt;. Es ist einfach, es ist schnell, es hat keine Kommentare. Eine andere Alternative, mit der ich schon liebäugelte, bevor ich auf acrylamid setzte, ist &lt;a href=&#34;https://getkirby.com&#34;&gt;kirby&lt;/a&gt;, wobei ich sagen muss, dass 79€ plus Mehrwertsteuer schon ein Haufen Geld sind und ich nicht weiß, ob ich bereit bin, dafür so viel Geld auszugeben.&lt;/p&gt;
-&lt;p&gt;Egal, für was für ein Setup ich mich schlussendlich entscheide, ich werde nicht darum herum kommen, selbst ein bisschen Hand anlegen zu müssen. Ich will zum Beispiel Kommentare, ich will aber auch, dass mein Blog einfach und schnell ist. Ich will, dass ich von überall bloggen kann.&lt;/p&gt;
-&lt;p&gt;Gleichzeitig denke ich darüber nach, was ich inhaltlich an diesem Blog ändern kann. Vielleicht sollte ich mehr kurze Blogposts schreiben? Den Blog als Notizbuch verwenden? Andere Artikel kommentieren? Vielleicht auf englisch, wie letztens? Gemischt? Vielleicht sollte ich das einfach mal ausprobieren. Meine Gedanken zu Dingen, die ich gelesen habe, zu sammeln, klingt gut. Einfach trotzdem machen. Fehlt nur noch, dass ich von überall aus bloggen kann. Sonst vergesse ich noch, was ich zu dem einen oder anderen Artikel sagen wollte.&lt;/p&gt;</content>
     </entry>
     </feed>
