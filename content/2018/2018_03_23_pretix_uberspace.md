@@ -127,7 +127,9 @@ pretix wäre bei mir jetzt unter [https://pretix.barcamp.kaus.uberspace.de](http
 
 Wie dir vielleicht aufgefallen ist, läuft pretix unter einer Subdomain — apropos Domain: [pretix.barcamp.kaus.uberspace.de](https://pretix.barcamp.kaus.uberspace.de) ist wesentlich weniger lesbar als beispielsweise [pretix.domain.tld](https://pretix.domain.tld), du willst vielleicht also eine [Domain](https://wiki.uberspace.de/domain) haben.
 
-Ich habe es zwischendrin mal hinbekommen, dass pretix auch in einem Unterordner lief, mir aber nicht aufgeschrieben, wie es geklappt hat und nun kann ich als Django/Python-Amateur das nicht mehr nachvollziehen. Falls jemand einen Hinweis hat, bin ich dankbar.
+<del>Ich habe es zwischendrin mal hinbekommen, dass pretix auch in einem Unterordner lief, mir aber nicht aufgeschrieben, wie es geklappt hat und nun kann ich als Django/Python-Amateur das nicht mehr nachvollziehen. Falls jemand einen Hinweis hat, bin ich dankbar.</del>
+
+[Raphael schrieb eben auf Twitter](https://twitter.com/_rami_/status/978015739939577856), dass pretix im Unterordner schlicht nicht mehr unterstützt wird und üble Hacks braucht. Ich bin wohl auf so einen üblen Hack gestoßen und eventuell ist es gut, dass ich ihn nicht mehr nachvollziehen kann.
 
 ### pretix-worker, Mails, MariaDB, Plugins...
 
