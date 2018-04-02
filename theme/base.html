@@ -13,7 +13,6 @@
   <link href="{{ env.path + '/' }}" rel="home start" />
   <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
   <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
-  <script data-isso="/fcgi-bin/isso" src="/fcgi-bin/isso/js/embed.min.js"></script>
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -36,7 +35,7 @@
   {%- endblock -%}
   <footer>
     {% block footer %}
-    <p><a href="{{ env.path + '/about/' }}">Kontakt</a>  - <a href="{{ env.path + '/impressum.html' }}">Impressum</a> - <a href="{{ env.path + '/datenschutz.html' }}">Datenschutz</a></p>
+    <p><a href="{{ env.path + '/about/' }}">Kontakt</a>  - <a href="{{ env.path + '/impressum/' }}">Impressum</a> - <a href="{{ env.path + '/datenschutz/' }}">Datenschutz</a></p>
     {% endblock %}
   </footer>
   <!-- Piwik -->

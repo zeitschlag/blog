@@ -1,7 +1,6 @@
 Title: Über mich
-type: page
-Tags: [Kontakt]
-Date: 06.10.2017, 08:14
+Type: page
+Permalink: /about/
 
 Nathan ...
 
