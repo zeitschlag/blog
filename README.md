@@ -4,6 +4,8 @@ This is my personal website/blog. It's called “bullenscheisse", which is a ver
 
 The site doesn't use a CMS like wordpress, but is built using [acrylamid](https://github.com/posativ/acrylamid) — an (unmaintaned) static site/blog generator. I write my blogposts in Markdown and (mostly) in German.
 
+If you have any questions, please don't hesitate to contact me via [Email](https://encrypt.to/0xFD84809B), on [Twitter](https://twitter.com/zeitschlag), or on [Mastodon](http://chaos.social/@zeitschlag/).
+
 ## Build instructions
 
 To build this blog, setup a virtual environment — mine lives in a folder called `env` and I use python2.7 — and install [acrylamid](https://github.com/posativ/acrylamid). Then, run `acrylamid compile` or `acrylamid autocompile`.
