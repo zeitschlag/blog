@@ -60,3 +60,4 @@ THEME = "theme"
 ENGINE = "acrylamid.templates.jinja2.Environment"
 LANG = "de_DE"
 DATE_FORMAT = "%d.%m.%Y, %H:%M"
+STATIC = ["assets"]
