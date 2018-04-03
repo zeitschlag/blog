@@ -22,7 +22,7 @@ Wir kamen unter anderem am ehemaligen Rathaus vorbei, das ganz in der Nähe des 
 
 ![Bild von der Hausfront vom ehemaligen Rathaus](/img/Sczcecin_Rathaus.JPG)
 
-![Bild von einer Häuserfront am Marktplatz](/img/Sczcecin_Marktplatz.JPG)
+![Bild von einer Häuserfront am Marktplatz](/img/Sczeczin_Marktplatz.JPG)
 
 Danach liefen wir zum Bahnhof, um uns um die Rückfahrt zu kümmern. Währenddessen kam die Sonne raus und es wurde noch richtig schön. Wir spazierten an der Oder und am neuen Rathaus vorbei und fuhren mit den letzten Złoty auf den Kirchturm der [Jakobikirche](https://de.wikipedia.org/wiki/Jakobskathedrale_(Stettin)).
 
