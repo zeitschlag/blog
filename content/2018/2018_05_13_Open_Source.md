@@ -22,6 +22,8 @@ Vor Jahren hatte ich mal [ein Ziel](/2017/der-einkaufszettl-2015-und-2016/):
 
 Das hat seitdem nie auch nur ansatzweise geklappt, aber das war in Ordnung. Auch für den Einkaufszettl habe ich ein bisschen aufgeräumt, seitdem aber keine Zeit und Liebe mehr in das Projekt gesteckt. Das möchte und werde ich in den nächsten Tagen ändern.
 
-Ein anderes Projekt, dessem Quelltext ich veröffentlichen wollte, wenn es in einem entsprechend fertigen Zustand ist, ist [iPRETIX](https://gitlab.com/zeitschlag/ipretix) — eine Art [pretixdroid](https://github.com/pretix/pretixdroid) für iOS. Ich hatte Anfang des Jahres angefangen, das damals noch in einem privaten git-Repo — deshalb noch GitLab — zu bauen. Nun habe ich es konsequenterweise und in einem unfertigen Zustand auch direkt veröffentlicht.
+Eventuell sollten wir beim [Codestammtisch](https://codes.uber.space) mal über _Side Projects_ reden.
 
-Auch iPRETIX möchte ich in den nächsten Tagen vorantreiben. Vielleicht sollte ich den Fortschritt täglich verbloggen? Würde das jemand lesen?
+Ein anderes Projekt, dessen Quelltext ich veröffentlichen wollte, wenn es in einem entsprechend fertigen Zustand ist, ist [iPRETIX](https://gitlab.com/zeitschlag/ipretix) — eine Art [pretixdroid](https://github.com/pretix/pretixdroid) für iOS. Ich hatte Anfang des Jahres angefangen, das damals in einem privaten git-Repo — deshalb noch GitLab — zu bauen. Nun habe ich es konsequenterweise und in einem unfertigen Zustand auch direkt veröffentlicht. Auch iPRETIX möchte ich in den nächsten Tagen vorantreiben.
+
+Vielleicht sollte ich verbloggen, auf welche Hindernisse ich in den nächsten Tagen bei der Entwicklung vom Einkaufszettl und von iPRETIX stoße und wie ich damit umgehe. Würde das jemand lesen wollen?
