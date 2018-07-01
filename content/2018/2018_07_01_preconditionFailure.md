@@ -7,7 +7,7 @@ One of my goals for May 2018 was to finally read [The Pragmatic Programmer](http
 
 A few years ago, a dear friend of mine recommended reading this book to me and I should have listened to him. It is so interesting to read, I've learned a lot of things and I'm barely halfway through. What I like about this book is that it encourages you to think about your work and how you achieve it. It shows you good practices without being arrogant.
 
-As I'm reading this book quite intensively, I take a lot of notes. If you're interested to read them, I'd be more than happy to publish them in another blogpost. Just let me know. At the moment, they're written down in my old-fashioned notebook.
+As I'm reading this book quite intensively, I take a lot of notes. If you're interested to read them, I'd be more than happy to publish them in another blogpost. [Just let me know](https://twitter.com/zeitschlag). At the moment, they're written down in my old-fashioned notebook.
 
 In "The Pragmatic Programmer", there are several advices. Number 31 of them is:
 
