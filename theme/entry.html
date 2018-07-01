@@ -8,7 +8,7 @@
   {{ entry.content }}
   <footer>
   {% if 'tag' in env.views and entry.tags %}
-    <p>Schlagworte:
+    <p>Tags:
     {% for link in entry.tags | tagify -%}
       <a href="{{ env.path + link.href }}" rel="tag">{{ link.title }}</a>
       {%- if loop.revindex > 2 -%}
@@ -19,7 +19,6 @@
     {% endfor %}
     </p>
     {% elif not entry.draft %}
-      <p>Ohne Schlagworte</p>
     {% endif %}
   </footer>
 </article>
