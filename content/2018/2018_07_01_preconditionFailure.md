@@ -35,4 +35,4 @@ The meaning of Apple's `precondition` and `preconditionFailure` differs slightly
 
 So, yeah, as a conflusion one could say, that `precondition` the *DbC*-way seems to be different from *swifty* `precondition`.
 
-Another thing I'd like to mention is, that I'd like to write more blogposts like this: somehow programming-related, short articles in english. I'm not entirely sure about the format: Should I just use this — German — blog? Should I start another one?
+Another thing I'd like to mention is, that I'd like to write more blogposts like this: somehow programming-related, short articles in English. I'm not entirely sure about the format: Should I just use this — German — blog? Should I start another one?
