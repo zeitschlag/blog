@@ -10,6 +10,8 @@ Es gibt eine Bedingung: Auf dem Congress turnen genug weiße, heterosexuelle Mä
 
 Dafür brauche ich erstmal einen Voucher. Die normalen Voucher sind vergriffen — danke für diverse Hinweise auf Mastodon und Twitter — aber es gibt, soweit ich weiß, noch Engel-Voucher. Und so einen hätte ich gerne.
 
-**Wenn du noch einen Engel-Voucher hast, den du nicht mehr brauchst, oder jemanden kennst, der einen Engel-Voucher hat — und den nicht mehr benötigt — dann lass uns doch zusammenarbeiten: Du hast den Voucher, das dazugehörige Ticket geht auf mich.**
+<strike>Wenn du noch einen Engel-Voucher hast, den du nicht mehr brauchst, oder jemanden kennst, der einen Engel-Voucher hat — und den nicht mehr benötigt — dann lass uns doch zusammenarbeiten: Du hast den Voucher, das dazugehörige Ticket geht auf mich.</strike>
 
-Mit dem Ticket alleine ist es aber gegebenenfalls nicht getan. Aber das sind Herausforderungen, um die wir uns später kümmern können. Jetzt lasst uns erstmal einen Voucher suchen. Ich freue mich über [DMs](https://twitter.com/zeitschlag), [Mastodon-DMs](https://chaos.social/@zeitschlag) oder [Emails](http://bullenscheisse.de/about), wenn ihr mir da weiterhelfen könnt.
+**Update: Ich habe wen gefunden, der ein Ticket loswerden wollte. Danke Constantin.**
+
+Mit dem Ticket alleine ist es aber gegebenenfalls nicht getan. Aber das sind Herausforderungen, um die wir uns später kümmern können. Jetzt lasst uns erstmal einen Voucher suchen. <strike>Ich freue mich über [DMs](https://twitter.com/zeitschlag), [Mastodon-DMs](https://chaos.social/@zeitschlag) oder [Emails](http://bullenscheisse.de/about), wenn ihr mir da weiterhelfen könnt.</strike>
