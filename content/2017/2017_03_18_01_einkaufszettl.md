@@ -50,7 +50,9 @@ Anfangs verkaufte ich den Einkaufszettl für 1,99€, pro Verkauf blieben nach S
 
 Trotz allem war ich stolz wie Bolle, als Anfang 2016 - ironischerweise an meinem ersten Arbeitstag als angestellter Vollzeit-iOS-Entwickler - die erste Überweisung von Apple kam: 11,13€.
 
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="de"><p lang="de" dir="ltr">Die erste Auszahlung vom <a href="https://twitter.com/hashtag/einkaufszettl?src=hash">#einkaufszettl</a> ist da. Hab schon gekündigt. Rente, ich komme! <a href="https://t.co/rvguq82e3f">pic.twitter.com/rvguq82e3f</a></p>— Nathan (@zeitschlag) <a href="https://twitter.com/zeitschlag/status/684044337668321280">4. Januar 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Die erste Auszahlung vom [#einkaufszettl](https://twitter.com/hashtag/einkaufszettl?src=hash) ist da. Hab schon gekündigt. Rente, ich komme!
+>
+> — Nathan ([@zeitschlag](https://twitter.com/zeitschlag/)), [4. Januar 2016](https://twitter.com/zeitschlag/status/684044337668321280)
 
 Auch wenn etwas mehr als 11€ eher eine kleine Summe sind, es fühlte sich gut an: Du hast da was gemacht und du bist stolz darauf und dann bekommst Du Geld dafür. Das war ein schönes Gefühl.
 

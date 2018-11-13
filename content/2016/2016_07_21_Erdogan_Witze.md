@@ -14,10 +14,16 @@ Wir sollten ganz im Stile von [Radio Jerewan](https://de.wikipedia.org/wiki/Radi
 
 Beispiele?
 
-<blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">“Erdogan verliert nicht bei ‘Mensch ärgere dich nicht’. Er lässt einfach alle verhaften.“</p>&mdash; Nathan (@zeitschlag) <a href="https://twitter.com/zeitschlag/status/756069978747576320">21. Juli 2016</a></blockquote>
+> „Erdogan verliert nicht bei ‘Mensch ärgere dich nicht’. Er lässt einfach alle verhaften.“
+>
+> — Nathan ([@zeitschlag](https://twitter.com/zeitschlag/)), [21. Juli 2016](https://twitter.com/zeitschlag/status/756069978747576320)
 
-<blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">“Erdogan hat <a href="https://twitter.com/hashtag/PokemonGO?src=hash">#PokemonGO</a> durchgespielt. Er lässt einfach alle verhaften.”</p>&mdash; Nathan (@zeitschlag) <a href="https://twitter.com/zeitschlag/status/756069274502987776">21. Juli 2016</a></blockquote>
+> „Erdogan hat [#PokemonGO](https://twitter.com/hashtag/PokemonGO?src=hash) durchgespielt. Er lässt einfach alle verhaften.“
+>
+> — Nathan ([@zeitschlag](https://twitter.com/zeitschlag/)), [21. Juli 2016](https://twitter.com/zeitschlag/status/756069274502987776)
 
-<blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">“Erdogan lacht nicht über sich selbst. Er lässt einfach alle verhaften.”</p>&mdash; Nathan (@zeitschlag) <a href="https://twitter.com/zeitschlag/status/756069067161739264">21. Juli 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> „Erdogan lacht nicht über sich selbst. Er lässt einfach alle verhaften.“
+>
+> — Nathan ([@zeitschlag](https://twitter.com/zeitschlag/)), [21. Juli 2016](https://twitter.com/zeitschlag/status/756069067161739264)
 
 Der Gedanke kam mir vorhin auf Twitter, wo ich schon einige schlechte Witze - hoffentlich zählen die als Witze - gerissen habe. Es war mir nur irgendwie ein Bedürfnis, dieses Thema auch nochmal im Blog zu bringen. Zumindest bis Erdogan diesen Blog in einem türkischen Gefängnis verschwinden lässt.

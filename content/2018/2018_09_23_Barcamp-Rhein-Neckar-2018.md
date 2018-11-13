@@ -28,14 +28,11 @@ Vor dem Mittagessen — es gab Kartoffel-Kürbis-Eintopf mit Kichererbsen — na
 
 Vielleicht sollte ich Wordpress auch mal wieder eine Chance geben.
 
-<blockquote class="twitter-tweet" data-lang="de"><p lang="de" dir="ltr">Der Ursprung des BarCamp <a href="https://twitter.com/legerdemain?ref_src=twsrc%5Etfw">@legerdemain</a> <a href="https://twitter.com/hashtag/wikidach?src=hash&amp;ref_src=twsrc%5Etfw">#wikidach</a> <a href="https://twitter.com/hashtag/bcrn18?src=hash&amp;ref_src=twsrc%5Etfw">#bcrn18</a> <a href="https://t.co/Yz72W9MYlU">pic.twitter.com/Yz72W9MYlU</a></p>&mdash; WikiDACH (@WikiDACH_org) <a href="https://twitter.com/WikiDACH_org/status/1043799482746335233?ref_src=twsrc%5Etfw">23. September 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
 In der vorletzte Session erzählte uns [@flowfx](https://chaos.social/@flowfx) etwas zum Leben in Mexiko City, wo er zusammen mit seiner Frau ungefähr vier Jahre lebte. Und ganz zum Schluss präsentierte uns Sebastian mehr oder weniger gute Designs und warum ein Stuhl immer so aussehen wird wie ein Stuhl: [Form follows function](https://de.wikipedia.org/wiki/Form_follows_function).
 
 ## Danke
 
 Danke für ein spannendes, intensives <del>Bar</del>RheinNeckarCamp Rhein-Neckar. Danke an das Orga-Team, danke an die Menschen, die sich an Sessions beteiligt haben, danke an die Sponsoren, die das #bcrn18 zu einer besseren Veranstaltung gemacht haben, als es ohne sie gewesen wäre. Was das BarCamp über das [FooCamp](http://barcamp.org/w/page/402874/FooCamp) schrieb, gilt natürlich auch für BarCamps:
-
 
 > The important thing is that when good people get together, great things happen.
 
