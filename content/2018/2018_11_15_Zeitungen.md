@@ -44,7 +44,7 @@ Was will ich eigentlich? Ich will mich nicht entscheiden müssen und notfalls mo
 
 ![](NYT_Instagram.jpeg)
 
-Beeinflusst durch die arte-Dokumentation liebäugelte ich dann mit einem digitalen Abo der New York Times. Zwei Euro die Woche? Schon eher das, was mir für den Anfang vorschwebte. Mehr Geld kann ich ja später immer noch ausgeben. Trotzdem zögerte ich noch, weil es für diesen Preis doch bestimmt auch ein digitales Abo einer deutschen Zeitung geben muss. Ich ging auf Toilette und Instagram. Und da erwartete mich ein Angebot der Times: „New just <del>€2</del> €1 a week.“. Das entbehrt nicht einer gewissen Ironie: Ein Mitarbeiter der Timer bezeichnete Facebook und Google als die eigentlichen Konkurrenten aller Printmedien: Unternehmen würden ihre Werbebudgets jetzt nicht mehr in Print stecken, sondern eben in Facebook, Google und Instagram.
+Beeinflusst durch die arte-Dokumentation liebäugelte ich dann mit einem digitalen Abo der New York Times. Zwei Euro die Woche? Schon eher das, was mir für den Anfang vorschwebte. Mehr Geld kann ich ja später immer noch ausgeben. Trotzdem zögerte ich noch, weil es für diesen Preis doch bestimmt auch ein digitales Abo einer deutschen Zeitung geben muss. Ich ging auf Toilette und Instagram. Und da erwartete mich ein Angebot der Times: „Now just <del>€2</del> €1 a week.“. Das entbehrt nicht einer gewissen Ironie: Ein Mitarbeiter der Timer bezeichnete Facebook und Google als die eigentlichen Konkurrenten aller Printmedien: Unternehmen würden ihre Werbebudgets jetzt nicht mehr in Print stecken, sondern eben in Facebook, Google und Instagram.
 
 Wenige Minuten später war das Abo dann trotzdem abgeschlossen, die deutschen Zeitungen vergessen, mein Gewissen zumindest für einige Tage beruhigt. Bis jetzt.
 
