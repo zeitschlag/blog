@@ -1,4 +1,4 @@
-Title: Gedruckte Zeitungen und Bücher
+Title: Gedruckte Zeitungen und Notizbücher
 Tags: [#zeitung]
 Date: 29.11.2018, 19:46
 
