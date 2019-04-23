@@ -10,6 +10,25 @@ If you have any questions, please don't hesitate to contact me via [Email](https
 
 To build this blog, setup a virtual environment — mine lives in a folder called `env` and I use python2.7 — and install [acrylamid](https://github.com/posativ/acrylamid). Then, run `acrylamid compile` or `acrylamid autocompile`.
 
+### Installed packages
+
+```
+Package       Version
+------------- -------
+acrylamid     0.7.10
+asciimathml   0.9.5.1
+docutils      0.14
+Jinja2        2.6
+Markdown      2.6.9
+pip           19.0.3
+Pygments      2.3.1
+setuptools    41.0.0
+smartypants   2.0.1
+translitcodec 0.4.0
+Unidecode     1.0.23
+wheel         0.33.1
+```
+
 ## Fonts
 
 My blog uses [Fira Sans](https://github.com/mozilla/Fira) and [Charter](https://practicaltypography.com/charter.html) as fonts. You can find them in the `assets/fonts`-folder.
