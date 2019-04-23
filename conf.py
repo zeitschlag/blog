@@ -32,6 +32,7 @@ VIEWS = {
 
     "/articles/": {"view": "archive", "template": "articles.html"},
     "/about/": {"view": "page"},
+#    "/podcastanalytics/": {"view": "page"},
     "/impressum/": {"view": "page"},
     "/privacy/": {"view": "page"},
     "/sitemap.xml": {"view": "sitemap"},
