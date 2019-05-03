@@ -1,4 +1,4 @@
-Title: Podcast Analytic
+Title: Podcast Analytics (Release: 6. Mai 2019)
 Date: 03.05.2019, 06:46
 Type: page
 Permalink: /podcastanalytics/

@@ -18,4 +18,4 @@ Streng genommen ist Podcast Analytics bisher eine relativ rudimentäre App. Aber
 
 [![](Preorder_in_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
 
-Wirklich erscheinen wird so wohl am Montag, dem 6.5. um 19:00 Uhr, parallel zu einer neuen Folge vom Codestammtisch. Schaut euch Podcast Analytics doch einfach mal an und gebt mir Feedback und findet sie genauso gut wie ich!
+Wirklich erscheinen wird die App wohl am Montag, dem 6.5. um 19:00 Uhr, parallel zu einer neuen Folge vom Codestammtisch. Schaut euch Podcast Analytics doch einfach mal an und gebt mir Feedback und findet sie genauso gut wie ich!
