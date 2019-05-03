@@ -1,4 +1,5 @@
-Title: Podcast Analytics (Demnächst im App Store)
+Title: Podcast Analytic
+Date: 03.05.2019, 06:46
 Type: page
 Permalink: /podcastanalytics/
 
@@ -10,6 +11,12 @@ Permalink: /podcastanalytics/
 
 - Anzeige der Downloadzahlen für deinen Podcast auf deinem iPhone oder iPad
 - Das war's.
+
+# Her damit
+
+Du kannst die App im App Store vorbestellen, das Release ist zum 6.5.2019, 19:00 Uhr geplant.
+
+[![](Preorder_in_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
 
 # Voraussetzungen
 
