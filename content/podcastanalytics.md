@@ -1,4 +1,4 @@
-Title: Podcast Analytics (Release: 6. Mai 2019)
+Title: Podcast Analytics
 Date: 03.05.2019, 06:46
 Type: page
 Permalink: /podcastanalytics/
@@ -14,9 +14,7 @@ Permalink: /podcastanalytics/
 
 # Her damit
 
-Du kannst die App im App Store vorbestellen, das Release ist zum 6.5.2019, 19:00 Uhr geplant.
-
-[![](Preorder_in_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
+[![](Download_on_the_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
 
 # Voraussetzungen
 
