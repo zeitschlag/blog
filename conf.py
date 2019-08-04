@@ -60,6 +60,6 @@ VIEWS = {
 
 THEME = "theme"
 ENGINE = "acrylamid.templates.jinja2.Environment"
-LANG = "de_DE"
+LANG = "de_DE.UTF-8"
 DATE_FORMAT = "%d.%m.%Y, %H:%M"
 STATIC = ["assets"]
