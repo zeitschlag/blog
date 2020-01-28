@@ -1,5 +1,5 @@
 Title: Goldener Käfig
-Date: 19.01.2020, 12:00
+Date: 19.01.2020, 15:42
 Tags: []
 
 Am Wochenende war ich unter anderem im noch Vereinigten Königreich -- zum ersten Mal seit etwas mehr als zwei Jahren. Eine Freundin feierte Geburtstag und so ließ ich es mir nicht nehmen, mit dem Zug anzureisen. Das habe ich mir vor fünf Jahren zum Abschluss meines Bachelorstudiums schon einmal geschenkt und ich hatte es sehr angenehm in Erinnerung.
