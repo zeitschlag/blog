@@ -1,0 +1,9 @@
+acrylamid==0.7.10
+asciimathml==0.9.5.1
+docutils==0.14
+Jinja2==2.6
+Markdown==2.6.9
+Pygments==2.3.1
+smartypants==2.0.1
+translitcodec==0.4.0
+Unidecode==1.0.23
