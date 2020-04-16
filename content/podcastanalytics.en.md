@@ -1,5 +1,5 @@
 Title: Podcast Analytics
-Date: 03.05.2019, 06:46
+Date: 15.04.2020, 08:59
 Type: page
 Permalink: /podcastanalytics-en/
 
@@ -10,6 +10,7 @@ Permalink: /podcastanalytics-en/
 # Features
 
 - Shows the download numbers of your podcast hosted with Podlove on your iPhone or iPad.
+- You can see them either in a table or in an interactive chart.
 - That's it.
 
 # Download

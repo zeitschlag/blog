@@ -1,5 +1,5 @@
 Title: Podcast Analytics-App
-Date: 03.05.2019, 06:46
+Date: 15.04.2020, 08:59
 Type: page
 Permalink: /podcastanalytics/
 
@@ -10,6 +10,7 @@ Permalink: /podcastanalytics/
 # Features
 
 - Anzeige der Downloadzahlen für deinen Podcast auf deinem iPhone oder iPad
+- Es gibt eine Tabelle und ein interaktives Diagramm
 - Das war's.
 
 # Her damit
