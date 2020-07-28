@@ -12,7 +12,7 @@ OUTPUT_DIR = "output"
 METASTYLE = 'native'
 FILTERS = ["markdown+codehilite(css_class=highlight)", "hyphenate", "h1"]
 
-SUMMARIZE_LINK = "<span>&#8230;<a href=\"%s\" class=\"continue\">weiterlesen</a>.</span>"
+SUMMARIZE_LINK = "<span>&#8230;<a href=\"%s\" class=\"continue\"> weiterlesen</a></span>"
 
 VIEWS = {
     "/": {"filters": "summarize", "view": "index",
