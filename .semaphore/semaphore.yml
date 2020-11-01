@@ -13,18 +13,11 @@ blocks:
         - name: Using sem-version
           commands:
             - sem-version python 2.7
-  - name: "Install dependencies"
+  - name: Build blog
     task:
       prologue:
         commands:
-          - sudo apt-get update && sudo apt-get install -y python2.7
-      jobs:
-        - name: pip
-          commands:
-            - checkout
-            - pip install -r requirements.txt
-  - name: Build blog
-    task:
+          - pip install -r requirements.txt
       jobs:
         - name: build
           commands:
