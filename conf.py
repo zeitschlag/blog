@@ -65,5 +65,5 @@ DATE_FORMAT = "%d.%m.%Y, %H:%M"
 STATIC = ["assets"]
 
 DEPLOYMENT = {
-        "default": "rsync -rav --delete /home/semaphore/blog/output n4th4n@chiron.uberspace.de:/var/www/virtual/n4th4n/bullenscheisse.de"
+        "default": "rsync -ravI output/ n4th4n@chiron.uberspace.de:/var/www/virtual/n4th4n/bullenscheisse.de"
 }
