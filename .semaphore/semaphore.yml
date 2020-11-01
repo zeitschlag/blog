@@ -21,4 +21,5 @@ blocks:
       jobs:
         - name: build
           commands:
+            - checkout
             - acrylamid compile
