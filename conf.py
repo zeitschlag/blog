@@ -5,8 +5,8 @@
 SITENAME = "bullshit"
 WWW_ROOT = "https://bullenscheisse.de/"
 
-AUTHOR = "Nathan"
-EMAIL = "hallo@bullenscheisse.de"
+AUTHOR = "Nathan Mattes"
+EMAIL = "wegwerf@bullenscheisse.de"
 
 OUTPUT_DIR = "output"
 METASTYLE = 'native'
@@ -63,3 +63,7 @@ ENGINE = "acrylamid.templates.jinja2.Environment"
 LANG = "de_DE.UTF-8"
 DATE_FORMAT = "%d.%m.%Y, %H:%M"
 STATIC = ["assets"]
+
+DEPLOYMENT = {
+        "default": "rsync -rav --delete $OUTPUT_DIR n4th4n@chiron.uberspace.de:/var/www/virtual/n4th4n/bullenscheisse.de"
+}
