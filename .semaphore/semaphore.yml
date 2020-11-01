@@ -25,7 +25,6 @@ blocks:
       jobs:
         - name: "Build and Deploy"
           commands:
-            - pwd
             - acrylamid compile
             - ssh-keyscan -H chiron.uberspace.de >> ~/.ssh/known_hosts
             - chmod 600 ~/.ssh/semaphore
