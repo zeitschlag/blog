@@ -17,9 +17,9 @@ blocks:
     task:
       prologue:
         commands:
+          - checkout
           - pip install -r requirements.txt
       jobs:
         - name: build
           commands:
-            - checkout
             - acrylamid compile
