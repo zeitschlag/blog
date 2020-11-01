@@ -19,6 +19,7 @@ blocks:
         commands:
           - checkout
           - pip install -r requirements.txt
+          - PATH="$PATH:$HOME/.local/bin"
       jobs:
         - name: build
           commands:
