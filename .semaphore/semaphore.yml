@@ -23,11 +23,9 @@ blocks:
           - pip install -r requirements.txt
           - PATH="$PATH:$HOME/.local/bin"
       jobs:
-        - name: build
+        - name: "Build and Deploy"
           commands:
             - acrylamid compile
-        - name: deploy
-          commands:
             - ssh-keyscan -H chiron.uberspace.de >> ~/.ssh/known_hosts
             - chmod 600 ~/.ssh/semaphore
             - ssh-add ~/.ssh/semaphore
