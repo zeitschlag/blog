@@ -1,0 +1,31 @@
+version: v1.0
+name: Build and Deploy Blog
+
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+blocks:
+  - name: sem-version
+    task:
+      jobs:
+        - name: Using sem-version
+          commands:
+            - sem-version python 2.7
+  - name: "Install dependencies"
+    task:
+      prologue:
+        commands:
+          - sudo apt-get update && sudo apt-get install -y python2.7
+      jobs:
+        - name: pip
+          commands:
+            - checkout
+            - pip install -r requirements.txt
+  - name: Build blog
+    tasks:
+      jobs:
+        - name: build
+          commands:
+            - acrylamid compile
