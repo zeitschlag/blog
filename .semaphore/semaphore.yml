@@ -24,7 +24,7 @@ blocks:
             - checkout
             - pip install -r requirements.txt
   - name: Build blog
-    tasks:
+    task:
       jobs:
         - name: build
           commands:
