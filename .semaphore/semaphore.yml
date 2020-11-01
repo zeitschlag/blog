@@ -15,6 +15,8 @@ blocks:
             - sem-version python 2.7
   - name: Build blog
     task:
+      secrets:
+        - name: SSH_KEY
       prologue:
         commands:
           - checkout
@@ -24,3 +26,9 @@ blocks:
         - name: build
           commands:
             - acrylamid compile
+        - name: deploy
+          commands:
+            - ssh-keyscan -H chiron.uberspace.de >> ~/.ssh/known_hosts
+            - chmod 600 ~/.ssh/semaphore
+            - ssh-add ~/.ssh/semaphore
+            - acrylamid deploy
