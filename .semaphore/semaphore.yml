@@ -13,8 +13,6 @@ blocks:
         - name: Using sem-version
           commands:
             - sem-version python 2.7
-            - sudo locale-gen de_DE.UTF-8
-            - sudo update-locale
   - name: Build blog
     task:
       env_vars:
@@ -25,6 +23,9 @@ blocks:
       prologue:
         commands:
           - checkout
+          - sudo locale-gen de_DE
+          - sudo locale-gen de_DE.UTF-8
+          - sudo update-locale LANG=de_DE.UTF-8
           - pip install -r requirements.txt
           - PATH="$PATH:$HOME/.local/bin"
       jobs:
