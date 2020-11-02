@@ -13,6 +13,8 @@ blocks:
         - name: Using sem-version
           commands:
             - sem-version python 2.7
+            - sudo locale-gen de_DE.UTF-8
+            - sudo update-locale
   - name: Build blog
     task:
       env_vars:
