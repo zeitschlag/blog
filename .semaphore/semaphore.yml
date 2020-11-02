@@ -15,6 +15,9 @@ blocks:
             - sem-version python 2.7
   - name: Build blog
     task:
+      env_vars:
+        - name: LANG
+          value: "de_DE.UTF-8"
       secrets:
         - name: SSH_KEY
       prologue:
