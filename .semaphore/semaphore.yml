@@ -15,11 +15,17 @@ blocks:
             - sem-version python 2.7
   - name: Build blog
     task:
+      env_vars:
+        - name: LANG
+          value: "de_DE.UTF-8"
       secrets:
         - name: SSH_KEY
       prologue:
         commands:
           - checkout
+          - sudo locale-gen de_DE
+          - sudo locale-gen de_DE.UTF-8
+          - sudo update-locale LANG=de_DE.UTF-8
           - pip install -r requirements.txt
           - PATH="$PATH:$HOME/.local/bin"
       jobs:
