@@ -8,4 +8,4 @@ Auf den ersten Blick ist das natürlich alles komplizierter, alles teurer, auf d
 
 Die Kiste Mate kostet bei dem kleinen Lieferdienst übrigens ein paar Euro weniger. Durch Treppengeld und Mindermengenzuschlag macht es dann aber — und das ist der dritte Blick — doch nicht so wirklich einen großen Unterschied. Und das ist ja die eigentliche Dienstleistung: Jemand _bringt_ Getränke. 
 
-Auch wenn es dieses kapitalistische System weder abschaffen, noch signifikant aus den Angeln heben wird, ist es mir — gerade in diesen Zeiten — lieber, mein Geld kleinen Unternehmen zu geben. Durstexpress hat schon viel zu viel Geld von mir gesehen. Ich gehe jetzt zum Späti, kaufe mir eine [Mate](/2020/Mate/) und wenn ich wieder daheim bin, kaufe ich mir noch mehr Mate.
+Auch wenn es dieses kapitalistische System weder abschaffen, noch signifikant aus den Angeln heben wird, ist es mir — gerade in diesen Zeiten — lieber, mein Geld kleinen Unternehmen zu geben. Durstexpress hat schon viel zu viel Geld von mir gesehen. Ich gehe jetzt zum Späti, kaufe mir eine [Mate](/2020/mate/) und wenn ich wieder daheim bin, kaufe ich mir noch mehr Mate.
