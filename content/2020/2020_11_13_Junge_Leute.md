@@ -16,7 +16,7 @@ Also alles nur ein Wahrnehmungsproblem? Darüber hinaus habe ich keine Ahnung, w
 
 ![](diagram.png)
 
-## Ok, Boomer.
+## OK Boomer
 
 Luke und Jim fällt auf, dass es diesen jungen Leute von heute auch wirtschaftlich nicht gut geht und sie unzufrieden sind. Diese jungen Leute von heute finden es nicht so geil, was die Vorgängergeneration beispielsweise mit dem Planeten, der Bildung und den Immobilienpreisen in den Städten gemacht hat, von sozialer Ungleichheit mal ganz zu schweigen. Aber für Luke und Jim ist eine Sache glasklar: Es ist nicht das System, es ist nicht der Kapitalismus, denn:
 
