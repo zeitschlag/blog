@@ -1,6 +1,6 @@
 Title: Diese junge Leute
 Tags: []
-Date: 13.12.2020, 16:19
+Date: 13.11.2020, 16:19
 
 Die [Deutsche Bank](https://de.wikipedia.org/wiki/Deutsche_Bank) hat in einem [Paper](http://www.dbresearch.com/servlet/reweb2.ReWEB?rwsite=RPS_EN-PROD&rwobj=ReDisplay.Start.class&document=PROD0000000000513730) Ideen gesammelt, um die Wirtschaft und Gesellschaft nach der COVID—19-Pandemie wieder aufzubauen. 
 
