@@ -2,7 +2,7 @@ Title: How to Freizeichen
 Date: 29.12.2020, 10:05
 Tags: [#rc3, #eventphone]
 
-Dieses Jahr findet der Chaos Comunication Congress im Homeoffice statt und heisst Remote Chaos <del>E</del>3xperience. Aber eigentlich ist alles wie immer: Es ist wuselig, es gibt [Talks](https://media.ccc.de/c/rc3), Mate — und es gibt [Eventphone](https://eventphone.de/blog/).
+Dieses Jahr findet der [Chaos Communication Congress](https://de.wikipedia.org/wiki/Chaos_Communication_Congress) im Homeoffice statt und heisst Remote Chaos <del>E</del>3xperience. Aber eigentlich ist alles wie immer: Es ist wuselig, es gibt [Talks](https://media.ccc.de/c/rc3), Mate — und es gibt [Eventphone](https://eventphone.de/blog/).
 
 Gestern Abend schaute ich ein bisschen [Teleshopping](https://jetzt-mega-absahnen.shop/) und während der Werbung dachte ich mir, dass ich die Werbemusik gerne als Warteschleifenmusik hätte:
 
