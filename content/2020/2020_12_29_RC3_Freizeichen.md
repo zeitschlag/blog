@@ -10,7 +10,7 @@ Gestern Abend schaute ich ein bisschen [Teleshopping](https://jetzt-mega-absahne
 
 Gesagt, getan:
 
-- Zuerst habe ich die [Musik aus dem Stream](RC3_Hotline.mp3) mitgeschnitten und als MP3 exportiert. Ihr könnt aber natürlich jede Musik nehmen, die ihr euren Anrufer\*innen zumuten wollt. Wahrscheinlich müsst ihr dabei auch auf Lizenzen und Co. achten. Meine Warteschleifenmusik kommt vom [CCC](https://www.ccc.de/) und läuft unter [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de).
+- Zuerst habe ich die Musik aus dem Stream mitgeschnitten und als MP3 exportiert. Ihr könnt sie aber auch einfach auf [zapsplat.com](https://www.zapsplat.com/music/game-music-retro-arcade-melody-with-electro-drums-and-synth-elements/) herunterladen ([Danke an Tom für den Hinweis!](https://twitter.com/tomjschwanke/status/1343860823681327104)) oder jede andere Musik nehmen, die ihr euren Anrufer\*innen zumuten wollt. Wahrscheinlich müsst ihr dabei auch auf Lizenzen und Co. achten.
 - Anschliessend habe ich die Datei im [GURU3](https://guru3.eventphone.de/audio/my) als _Audio File_ hochgeladen und einen treffenden Namen vergeben, in diesem Fall _Hotline_. Dabei ist wichtig, dass nur MP3 und WAV kleiner als 5MB unterstützt werden.
 - Zum Schluss habe ich die [entsprechende Extension](https://guru3.eventphone.de/extension.asp/my?font=Comic%20Sans&force=true) bearbeitet...
 
