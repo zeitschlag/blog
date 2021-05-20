@@ -21,7 +21,7 @@ Du produzierst einen Podcast, nutzt Wordpress und den [Podlove Publisher](https:
 
 # Her damit
 
-[![](Download_on_the_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
+[![](Download_on_the_App_Store.png)](https://itunes.apple.com/de/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
 
 # Voraussetzungen
 
