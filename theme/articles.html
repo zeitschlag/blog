@@ -9,7 +9,10 @@
         {% for month in year %}
             <tr>
             {% if loop.first %}
-                <th>{{ year ~ ' ' ~ month.full }}</th>
+            <th>
+              <h3>{{ year }}</h3><br />
+              {{ month.full }}
+            </th>
             {% else %}
                 <th>{{ month.full }}</th>
             {% endif %}
