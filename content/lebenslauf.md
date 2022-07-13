@@ -11,7 +11,7 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 
 # Kompetenzen
 
-- Neu- und Weiterentwicklung nativer iOS-Apps (Xcode, AppCode, Swift, Objective-C, Foundation, UIKit, HealthKit, MapKit, AVFoundation, Core Data, XCTest, BLE, RESTful API, SwiftUI, Combine MVC, MVVM, Coordinator-Pattern, SPM, Cocoapods, Carthage, swiftgen, fastlane)
+- Neu- und Weiterentwicklung nativer iOS-Apps (Xcode, AppCode, Swift, Objective-C, Foundation, UIKit, HealthKit, MapKit, AVFoundation, Core Data, SwiftUI, Combine, XCTest, BLE, RESTful API, MVC, MVVM, Coordinator-Pattern, SPM, Cocoapods, Carthage, swiftgen, fastlane)
 - Softwareentwicklung in der Medzintechnik (IEC 62304)
 - CI/CD mit Jenkins und Github Actions
 - Backendentwicklung mit Python (Django, FastAPI, HTML, CSS, JS, JSON, sqlite, MySQL, MariaDB)
@@ -21,7 +21,7 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 - Jira, Confluence, Github, Gitlab, Bitbucket, redmine, CodeBeamer, Trello
 - git, svn, fossil
 
-# Berufliche Stationen
+# Relevante Arbeitserfahrung
 
 ## Februar 2020 bis September 2022: [Rocket Apes][rocket-apes] von Berlin aus
 
@@ -51,8 +51,18 @@ Für eine große Bank entwickelten wir beispielsweise eine Reihe von iPad-Apps f
 
 Auch hier lag die Betreuung von einigen Werkstudent\*innen in meiner Verantwortung.
 
+# Ausbildung
+
+## Oktober 2012 bis September 2015: Duales Studium Informatik
+
+Studienrichtung Informationstechnik an der [DHBW Mannheim][dhbw].<br>
+Praxisphasen bei der [ABB AG][abb] in Mannheim, Heidelberg und Ladenburg.<br>
+Abschluss: Bachelor of Engineering (1,9)
+
 [rocket-apes]: https://rocket-apes.com
 [pms]: https://cardiosecur.com
 [mms]: https://www.t-systems-mms.com
 [lidl]: https://lidl.com
 [lidl-app]: https://apps.apple.com/de/app/lidl-onlineshop/id398474140
+[dhbw]: https://www.mannheim.dhbw.de/startseite
+[abb]: https://new.abb.com/de
