@@ -3,7 +3,7 @@ Date: 02.07.2022, 20:00
 Type: page
 Permalink: /cv/
 
-Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ich an der Entwicklung innovativer Enterprise-Lösungen für Konzerne beteiligt, die Geschäftsprozesse optimieren. Zum anderen habe ich an Anwendungen für Endnutzer\*innen gearbeitet, die das Leben dieser Menschen vereinfachen. Immer der Anspruch: **Gutes Handwerk**.
+Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ich an der Entwicklung innovativer Enterprise-Lösungen für Konzerne beteiligt, die Geschäftsprozesse optimieren. Zum anderen habe ich an Anwendungen für Endnutzer\*innen gearbeitet, die das Leben dieser Menschen vereinfachen. Immer der Anspruch: **Gutes Handwerk. Passende Lösungen. Gute Software.**.
 
 Ich habe Erfahrung darin, als Teil eines größeren Teams passende, elegante Lösungen für Herausforderungen zu erarbeiten. Ehrliches, konstruktives Feedback halte ich für eine absolute Notwendigkeit, ebenso wie einen respektvollen, vertrauensvollen, rücksichtsvollen Umgang auf Augenhöhe.
 
@@ -47,13 +47,13 @@ Für ein paar Wochen durfte ich an der [Lidl-App][lidl-app] mitarbeiten. In dies
 
 Meine erste berufliche Station als iOS-Entwickler führte mich nach Berlin. Bei der „MMS“ war ich an einer Reihe von Apps für große Konzerne beteiligt, hauptsächlich aus der Automobil- und Finanzbranche. Das große Thema: **Digitalisierung**.
 
-Für eine große Bank entwickelten wir beispielsweise eine Reihe von iPad-Apps für die Beratung vermögender Kund\*innen, damals noch mit **Objective-C**. Später arbeitete ich dann von Berlin aus mit einem Team in Dresden an einem **digitalen Fahrtenbuch**, dann natürlich in Swift. Außerdem zeichnete ich mich für eine App für die Digitalisierung von Genehmigungsverfahren verantwortlich — liebevoll „Tinder für SAP“ genannt. Durch die Bank weg kamen bei der MMS **agile Vorgehensmodelle** zum Einsatz, meistens **Scrum**.
+Für eine große Bank entwickelten wir beispielsweise eine Reihe von iPad-Apps für die Beratung vermögender Kund\*innen, damals noch mit **Objective-C**. Später arbeitete ich dann von Berlin aus mit einem Team in Dresden an einem **digitalen Fahrtenbuch**, dann natürlich in Swift. Außerdem war ich für eine App verantwortlich, mit der aufwendige Genehmigungsverfahren einfach und benutzer\*innenfreundlich digitalisiert wurden. Durch die Bank weg kamen bei der MMS **agile Vorgehensmodelle** zum Einsatz, meistens **Scrum**.
 
 Auch hier lag die Betreuung von einigen Werkstudent\*innen in meiner Verantwortung.
 
 # Ausbildung
 
-## Oktober 2012 bis September 2015: Duales Studium Informatik
+## 2012 bis 2015: Duales Studium Informatik
 
 Studienrichtung Informationstechnik an der [DHBW Mannheim][dhbw].<br>
 Praxisphasen bei der [ABB AG][abb] in Mannheim, Heidelberg und Ladenburg.<br>
