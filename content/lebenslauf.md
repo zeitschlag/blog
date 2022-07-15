@@ -3,7 +3,7 @@ Date: 02.07.2022, 20:00
 Type: page
 Permalink: /cv/
 
-Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ich an der Entwicklung innovativer Enterprise-Lösungen für Konzerne beteiligt, die Geschäftsprozesse optimieren. Zum anderen habe ich an Anwendungen für Endnutzer\*innen gearbeitet, die das Leben dieser Menschen vereinfachen. Immer der Anspruch: **Gutes Handwerk. Passende Lösungen. Gute Software.**.
+Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ich an der Entwicklung innovativer Enterprise-Lösungen für Konzerne beteiligt, die Geschäftsprozesse optimieren. Zum anderen habe ich an Anwendungen für Endnutzer\*innen gearbeitet, die das Leben dieser Menschen vereinfachen. Immer der Anspruch: **Gutes Handwerk. Passende Lösungen. Gute Software.**
 
 Ich habe Erfahrung darin, als Teil eines größeren Teams passende, elegante Lösungen für Herausforderungen zu erarbeiten. Ehrliches, konstruktives Feedback halte ich für eine absolute Notwendigkeit, ebenso wie einen respektvollen, vertrauensvollen, rücksichtsvollen Umgang auf Augenhöhe.
 
