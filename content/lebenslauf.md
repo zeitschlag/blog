@@ -1,4 +1,4 @@
-Title: Profil — Nathan Mattes
+Title: Nathan Mattes, iOS Engineer
 Date: 02.07.2022, 20:00
 Type: page
 Permalink: /cv/
@@ -7,19 +7,24 @@ Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ic
 
 Ich habe Erfahrung darin, als Teil eines größeren Teams passende, elegante Lösungen für Herausforderungen zu erarbeiten. Ehrliches, konstruktives Feedback halte ich für eine absolute Notwendigkeit, ebenso wie einen respektvollen, vertrauensvollen, rücksichtsvollen Umgang auf Augenhöhe.
 
-Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen gelernt, Projekte durch eine selbstständige Arbeitsweise voranzutreiben und andere mitzunehmen. Ich mag Stillstand nicht, aber umso mehr, Probleme gründlich zu lösen. Es bereitet mir Freude, Projekte und Menschen wachsen zu sehen.
+Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen gelernt, Projekte durch eine selbstständige Arbeitsweise voranzutreiben und andere mitzunehmen. Ich mag Stillstand nicht, aber umso mehr, Probleme gründlich zu lösen. Dafür übernehme ich gerne Vorantwortung. Es bereitet mir Freude, Projekte und Menschen wachsen zu sehen.
+
+# Kontakt
+
+- Per Email an `hallo-at-bullenscheisse.de`
 
 # Kompetenzen
 
-- Neu- und Weiterentwicklung nativer iOS-Apps (Xcode, AppCode, Swift, Objective-C, Foundation, UIKit, HealthKit, MapKit, AVFoundation, Core Data, SwiftUI, Combine, XCTest, BLE, RESTful API, MVC, MVVM, Coordinator-Pattern, SPM, Cocoapods, Carthage, swiftgen, fastlane)
+- Neu- und Weiterentwicklung nativer iOS-Apps (Xcode, AppCode, Swift, Objective-C, Foundation, UIKit, HealthKit, MapKit, IAP/StoreKit, AVFoundation, Core Data, SwiftUI, Combine, XCTest, BLE, RESTful API, MVC, MVVM, Coordinator-Pattern, SPM, Cocoapods, Carthage, swiftgen)
 - Softwareentwicklung in der Medzintechnik (IEC 62304)
-- CI/CD mit Jenkins und Github Actions
+- CI/CD mit Jenkins und Github Actions, Automatisierung mit fastlane
 - Backendentwicklung mit Python (Django, FastAPI, HTML, CSS, JS, JSON, sqlite, MySQL, MariaDB)
 - Grundkenntnisse in Elixir und Phoenix
 - Selbstständige, pragmatische, lösungsorientierte Arbeitsweise
 - Agile Vorgehensmodelle (Scrum, Kanban)
 - Jira, Confluence, Github, Gitlab, Bitbucket, redmine, CodeBeamer, Trello
 - git, svn, fossil
+- Sketch, Figma
 
 # Relevante Arbeitserfahrung
 
