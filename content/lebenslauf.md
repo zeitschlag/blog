@@ -1,5 +1,5 @@
 Title: Nathan Mattes, iOS Engineer
-Date: 02.07.2022, 20:00
+Date: 22.08.2022, 12:51
 Type: page
 Permalink: /cv/
 
@@ -7,11 +7,12 @@ Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ic
 
 Ich habe Erfahrung darin, als Teil eines größeren Teams passende, elegante Lösungen für Herausforderungen zu erarbeiten. Ehrliches, konstruktives Feedback halte ich für eine absolute Notwendigkeit, ebenso wie einen respektvollen, vertrauensvollen, rücksichtsvollen Umgang auf Augenhöhe.
 
-Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen gelernt, Projekte durch eine selbstständige Arbeitsweise voranzutreiben und andere mitzunehmen. Ich mag Stillstand nicht, aber umso mehr, Probleme gründlich zu lösen. Dafür übernehme ich gerne Vorantwortung. Es bereitet mir Freude, Projekte und Menschen wachsen zu sehen.
+Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen gelernt, Projekte durch eine selbstständige Arbeitsweise voranzutreiben und andere mitzunehmen. Ich mag Stillstand nicht, aber umso mehr, Probleme gründlich zu lösen. Dafür übernehme ich gerne Verantwortung. Es bereitet mir Freude, Projekte und Menschen wachsen zu sehen.
 
 # Kontakt
 
 - Per Email an `hallo-at-bullenscheisse.de`
+- [Lebenslauf als PDF](/lebenslauf/Nathan_Mattes.pdf)
 
 # Kompetenzen
 
@@ -22,9 +23,9 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 - Grundkenntnisse in Elixir und Phoenix
 - Selbstständige, pragmatische, lösungsorientierte Arbeitsweise
 - Agile Vorgehensmodelle (Scrum, Kanban)
-- Jira, Confluence, Github, Gitlab, Bitbucket, redmine, CodeBeamer, Trello
+- Jira, Confluence, Youtrack, Github, Gitlab, Bitbucket, redmine, CodeBeamer, Trello
 - git, svn, fossil
-- Sketch, Figma
+- Sketch, Figma, InVision
 
 # Relevante Arbeitserfahrung
 
