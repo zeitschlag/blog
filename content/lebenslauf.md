@@ -17,7 +17,7 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 # Kompetenzen und Werkzeuge
 
 - Neu- und Weiterentwicklung nativer iOS-Apps (Xcode, AppCode, Swift, Objective-C, Foundation, UIKit, HealthKit, MapKit, IAP/StoreKit, AVFoundation, Core Data, SwiftUI, Combine, XCTest, BLE, RESTful API, MVC, MVVM, Coordinator-Pattern, SPM, Cocoapods, Carthage, swiftgen)
-- Softwareentwicklung in der Medzintechnik (IEC 62304)
+- Softwareentwicklung in der Medizintechnik (IEC 62304)
 - CI/CD mit Jenkins und Github Actions, Automatisierung mit fastlane
 - Backendentwicklung mit Python (Django, FastAPI, HTML, CSS, JS, JSON, sqlite, MySQL, MariaDB)
 - Grundkenntnisse in Elixir und Phoenix
@@ -31,7 +31,7 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 
 ## Seit Oktober 2022: Freiberuflicher Software Engineer für iOS-Apps
 
-Nachdem ich einige Jahre viele Erfahrungen in Festanstellungen sammeln konnte, hatte ich Lust auf den nächsten Schritt, Lust auf mehr Freiheit. Deshalb beschloss ich, mich als freifberuflicher iOS Engineer selbstständig zu machen. **Und da kommen jetzt Sie ins Spiel**: Wenn auch Sie von meinen Kompetenzen profitieren wollen, wenn ich Sie bei einer App unterstützen kann, <a href="#contact">lassen Sie uns doch mal miteinander reden</a>.
+Nachdem ich einige Jahre viele Erfahrungen in Festanstellungen sammeln konnte, hatte ich Lust auf den nächsten Schritt, Lust auf mehr Freiheit. Deshalb beschloss ich, mich als freiberuflicher iOS Engineer selbstständig zu machen. **Und da kommen jetzt Sie ins Spiel**: Wenn auch Sie von meinen Kompetenzen profitieren wollen, wenn ich Sie bei einer App unterstützen kann, <a href="#contact">lassen Sie uns doch mal miteinander reden</a>.
 
 ## Februar 2020 bis September 2022: [Rocket Apes][rocket-apes] von Berlin aus
 
