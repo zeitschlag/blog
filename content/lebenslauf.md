@@ -9,12 +9,12 @@ Ich habe Erfahrung darin, als Teil eines größeren Teams passende, elegante Lö
 
 Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen gelernt, Projekte durch eine selbstständige Arbeitsweise voranzutreiben und andere mitzunehmen. Ich mag Stillstand nicht, aber umso mehr, Probleme gründlich zu lösen. Dafür übernehme ich gerne Verantwortung. Es bereitet mir Freude, Projekte und Menschen wachsen zu sehen.
 
-# Kontakt
+<h1 id="contact">Kontakt</h1>
 
 - Per Email an `hallo-at-bullenscheisse.de`
 - [Lebenslauf als PDF](/lebenslauf/Nathan_Mattes.pdf)
 
-# Kompetenzen
+# Kompetenzen und Werkzeuge
 
 - Neu- und Weiterentwicklung nativer iOS-Apps (Xcode, AppCode, Swift, Objective-C, Foundation, UIKit, HealthKit, MapKit, IAP/StoreKit, AVFoundation, Core Data, SwiftUI, Combine, XCTest, BLE, RESTful API, MVC, MVVM, Coordinator-Pattern, SPM, Cocoapods, Carthage, swiftgen)
 - Softwareentwicklung in der Medzintechnik (IEC 62304)
@@ -28,6 +28,10 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 - Sketch, Figma, InVision
 
 # Relevante Arbeitserfahrung
+
+## Seit Oktober 2022: Freiberuflicher Software Engineer für iOS-Apps
+
+Nachdem ich einige Jahre viele Erfahrungen in Festanstellungen sammeln konnte, hatte ich Lust auf den nächsten Schritt, Lust auf mehr Freiheit. Deshalb beschloss ich, mich als freifberuflicher iOS Engineer selbstständig zu machen. **Und da kommen jetzt Sie ins Spiel**: Wenn auch Sie von meinen Kompetenzen profitieren wollen, wenn ich Sie bei einer App unterstützen kann, <a href="#contact">lassen Sie uns doch mal miteinander reden</a>.
 
 ## Februar 2020 bis September 2022: [Rocket Apes][rocket-apes] von Berlin aus
 
