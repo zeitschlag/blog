@@ -10,6 +10,7 @@
 
 {% block head %}
     {{- super() }}
+    <link href="https://chaos.social/@zeitschlag" rel="me">
     {%- if entry is defined %}
     <meta name="description" content="{{ entry.description | e }}" />
     <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
