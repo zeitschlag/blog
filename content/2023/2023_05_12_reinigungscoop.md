@@ -14,6 +14,6 @@ aus gründen kommt heute deshalb ein mensch von der [reinigungscoop][reinigungsc
 
 [kollektive-super]: /2022/re-betriebsbesetzungen-und-arbeiten-in-selbstverwaltung/
 [reinigungscoop]: https://reinigungscoop.wordpress.com/
-[interview-kehrwork]: https://www.nd-aktuell.de/artikel/1171977.care-arbeit-im-kleinen-damit-anfangen-toxische-strukturen-aufzuloesen.html
+[kehrwork-interview]: https://www.nd-aktuell.de/artikel/1171977.care-arbeit-im-kleinen-damit-anfangen-toxische-strukturen-aufzuloesen.html
 [kehrwork]: https://kehrwork.de/
 [klara-gruen]: https://www.klara-gruen.de/
