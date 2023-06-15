@@ -14,7 +14,7 @@ ich würde jetzt nicht soweit gehen und behaupten, dass nina chuba antikapitalis
 
 > Eine von David Graeber's wichtigsten Erkenntnissen war, dass wir selbst in massiv kapitalistischen Systemen einen Großteil unserer Leben nach kommunistischen Ideen strukturieren. Weil wir alle keine Soziopathen sind. — quelle: [internet][tante-twitter]
 
-wie [hafti][hafti-wiki], der [sich hochgearbeitet hat und deshalb mit seinem reichtum flext][https://www.youtube.com/watch?v=BbAfFO44oOQ], flext auch nina chuba im video. nur war hafti kein gefeierter kinderdarsteller. [aber es kann nicht jede\*r haftbefehl werden][mareicares-rp23].
+wie [hafti][hafti-wiki], der [sich hochgearbeitet hat und deshalb mit seinem reichtum flext][mareicares-rp23], flext auch nina chuba im video. nur war hafti kein gefeierter kinderdarsteller. [aber es kann nicht jede\*r haftbefehl werden][mareicares-rp23].
 
 zurück zur ursprungsthese, die lässt sich nämlich auch noch weiter fassen, wenn man quasi rauszoomt: fast allen geht es in diesem system, im kapitalismus scheisse. wir versuchen nur mit unterschiedlichen mitteln, dass die folgen uns verschonen. manche beuten andere menschen aus, treten also nach unten. manche bauen sich halbwegs geschützte inseln. manche bekämpfen das system direkter oder indirekter, durch dienst nach vorschrift, SiLeNt QuItTiNg oder eben millitanter und offensiver.
 
