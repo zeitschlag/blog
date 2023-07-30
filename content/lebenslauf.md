@@ -11,7 +11,7 @@ Auf der anderen Seite habe ich durch die Arbeit in kleinen, agilen Gruppen geler
 
 <h1 id="contact">Kontakt</h1>
 
-- Per Email an `hallo-at-bullenscheisse.de`
+- Per Email an `hallo-at-zeitschlag.net`
 - [Lebenslauf als PDF](/lebenslauf/Nathan_Mattes.pdf)
 
 # Kompetenzen und Werkzeuge
