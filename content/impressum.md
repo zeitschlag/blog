@@ -5,13 +5,16 @@ permalink: /impressum/
 ## Angaben gemäß §5 TMG:
 
 Nathan Mattes<br>
-Georg-Blank-Strasse 12<br>
-10409 Berlin
+c/o WTF Kooperative eG<br>
+Hinterhaus, 3. OG<br>
+Forsmannstraße 14 B<br>
+22303 Hamburg
 
 ## Kontakt
 
 **Telefon:** Auf Anfrage<br>
-**E-Mail:** hallo-at-bullenscheisse.de
+**Fax:** Auf Anfrage<br>
+**E-Mail:** rechtsstreit-at-bullenscheisse.de, aber halt ohne -at-, ihr wisst schon.
 
 ## Umsatzsteuer-ID
 
@@ -20,8 +23,10 @@ Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE301076689
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
 Nathan Mattes<br>
-Georg-Blank-Strasse 12<br>
-10409 Berlin
+c/o WTF Kooperative eG<br>
+Hinterhaus, 3. OG<br>
+Forsmannstraße 14 B<br>
+22303 Hamburg
 
 Quelle: *http://www.e-recht24.de*
 
