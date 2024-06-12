@@ -3,6 +3,9 @@ base_url = "https://bullenscheisse.de"
 
 theme = "zola-bearblog"
 output_dir = "output"
+default_language = "de"
+title = "bullshit"
+author = "nathan mattes"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -15,5 +18,23 @@ build_search_index = false
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+[languages.de.translations]
+no_posts = "Keine Einträge"
+remove_filter = "Filter entfernen"
+filtering_for = "Filtern nach"
+table_of_contents = "Inhaltsverzeichnis"
+language = "Sprache"
+site = "Seite"
+
 [extra]
 # Put all your custom variables here
+
+hide_made_with_line = true
+
+[[extra.main_menu]]
+name = "blog"
+url = "@/_index.md"
+
+[[extra.main_menu]]
+name = "über mich"
+url = "@/about.md"
