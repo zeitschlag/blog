@@ -1,7 +1,6 @@
 +++
 title = "Podcast Analytics"
 date = 2024-06-12
-slug =  "podcastanalytics-en"
 +++
 
 ## Podlove-Stats for on the go

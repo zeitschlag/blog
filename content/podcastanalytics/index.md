@@ -1,7 +1,6 @@
 +++
 title = "Podcast Analytics"
-date = 2021-05-20T11:36:00Z
-slug =  "podcastanalytics"
+date = 2024-06-12
 +++
 
 ## Podlove Analytics für unterwegs
