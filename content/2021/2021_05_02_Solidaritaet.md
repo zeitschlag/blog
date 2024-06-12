@@ -1,6 +1,7 @@
-Title: Hashtag TechWorkerSolidarity
-Tags: []
-Date: 02.05.2021, 22:54
++++
+title = "Hashtag TechWorkerSolidarity"
+date = 2021-05-02T22:54:00Z
++++
 
 Am Wochenende war [1. Mai](https://de.wikipedia.org/wiki/Erster_Mai). Das ist Tag der Arbeit, wie jeder andere auch, aber eben ein besonderer. So besonders, dass er in Deutschland ein gesetzlicher Feiertag ist, an dem man nicht arbeiten muss. Außer halt man muss es. Dieses Jahr fiel der besondere Tag der Arbeit auf einen Samstag und so waren die Supermärkte freitags voll, weil man konnte ja nicht samstags einkaufen.
 

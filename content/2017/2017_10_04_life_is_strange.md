@@ -1,6 +1,8 @@
-Title: Life Is Strange
-Date: 4.10.2017, 7:48
-Tags: [#lifeisstrange, #mathe]
++++
+title = "Life Is Strange"
+date = 2017-10-04T07:48:00Z
++++
+
 filters: [markdown+mathml]
 
 Am Wochenende — das dauerte dieses Mal von Donnerstag bis Dienstag, gerne mehr davon — habe ich das erste Mal [Life is Strange](https://de.wikipedia.org/wiki/Life_Is_Strange) gespielt, bisher habe ich die erste Episode geschafft. Mir gefällt die Musik unglaublich gut, eigentlich könnte man das Spiel starten, im Hauptmenü verweilen und einfach nur der Musik lauschen. Aber dann würde man ihm Unrecht tun.

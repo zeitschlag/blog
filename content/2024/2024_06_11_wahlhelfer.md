@@ -1,6 +1,8 @@
-Title: wahlhelfer
-Date: 11.06.2024, 21:33
-Tags: []
++++
+title = "wahlhelfer"
+date = 2024-06-11T21:33:00Z
++++
+
 
 vergangenen sonntag war in deutschland europawahl, [das beschissene ergebnis][tagesschau-wahl] dürfte hinlänglich bekannt sein: die gesellschaftliche linke säuft ab, die leute wählen rechts, es wird rechte politik gemacht wird und die leute haben bock auf rechte politik.
 

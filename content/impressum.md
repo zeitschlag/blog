@@ -1,6 +1,7 @@
-title: Impressum
-type: page
-permalink: /impressum/
++++
+title = "Impressum"
+date = 2024-06-12
++++
 
 ## Angaben gemäß §5 TMG:
 

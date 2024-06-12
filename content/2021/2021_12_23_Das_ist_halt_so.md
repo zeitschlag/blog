@@ -1,6 +1,8 @@
-Title: Das ist halt so.
-Date: 23.12.2021, 11:02
-Tags: []
++++
+title = "Das ist halt so."
+date = 2021-12-23T11:02:00Z
++++
+
 
 Dieses Jahr habe ich den einen oder anderen Abend im Dezember damit verbracht, [Vanillekipferl][kipferl] zu backen und sie an Freund\*innen und Familienmitglieder zu verschicken. Die Päckchen sind mittlerweile alle angekommen und die Reaktionen reichen von „Das ist nicht fancy geil, aber bodenständig geil, aber geil!“ über „Vielen Dank für die leckeren Plätzchen 🎄“ bis zu einem „Die sind sensationell gut!“.
 

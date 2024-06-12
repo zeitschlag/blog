@@ -1,6 +1,8 @@
-Title: Kapitalismus? Nein, danke.
-Date: 20.09.2021, 10:06
-Tags: []
++++
+title = "Kapitalismus? Nein, danke."
+date = 2021-09-20T10:06:00Z
++++
+
 
 In der aktuellen brandeins feiern die Zeitschrift und der Wirtschaftshistoriker [Werner Plumpe](https://de.wikipedia.org/wiki/Werner_Plumpe) den Kapitalismus ziemlich ab. Plumpe sagt [im Interview](https://www.brandeins.de/magazine/brand-eins-wirtschaftsmagazin/2021/kapitalismus/es-geht-nicht-um-moral-sondern-um-beduerfnisbefriedigung) unter anderem:
 

@@ -1,6 +1,8 @@
-Title: Marianengraben
-Date: 15.02.2020, 12:22
-Tags: [#buecher, #tod]
++++
+title = "Marianengraben"
+date = 2020-02-15T12:22:00Z
++++
+
 
 Es gibt Filme und Erinnerungen, die ich mit mir herumtrage und die ich noch nicht oder nicht mehr ansehen kann. Irgendwo ganz tief hinten in meinem Herzen ist ein Zimmer, in dem ich solche Dinge einlagere. Eben weil sie mir so wichtig sind und trotzdem so scheisse weh tun. So ein bisschen wie ein Schuhkarton mit Erinnerungen an und Geschenken von Expartner\*innen. Oder ein atomares Endlager.
 

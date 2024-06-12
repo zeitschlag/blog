@@ -1,6 +1,8 @@
-Title: vergessen
-Date: 25.04.2021, 09:18
-Tags: []
++++
+title = "vergessen"
+date = 2021-04-25T09:18:00Z
++++
+
 
 vor ein paar tagen las ich auf twitter, dass die nominierung laschets sich als durchaus kluger schachzug erweisen könnte, denn: menschen vergessen. ein freund wiederholte dieses argument, denn wenn die leute in deutschland erst mal alle geimpft sind, dann werden sie vergessen, dass es eine pandemie gibt. dann werden sie ihrer grundrecht auf schnitzel und urlaub einfordern und ausleben und gleichzeitig weiter verhindern, dass die impfstoff-patente freigegeben werden. und dann werden sie wieder korrupte politiker*innen wählen und solche, die klausurennoten würfeln. besser bekannt als [cdu und csu](https://www.clankriminalitaet.de/).
 

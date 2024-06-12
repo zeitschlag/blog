@@ -1,6 +1,8 @@
-Title: Mondlicht
-Date: 14.01.2020, 23:42
-Tags: []
++++
+title = "Mondlicht"
+date = 2020-01-14T23:42:00Z
++++
+
 
 In der letzten Zeit habe ich die Angewohnheit entwickelt, spazieren zu gehen. Manchmal habe ich einen Podcast auf den Ohren, manchmal habe ich keinen Podcast auf den Ohren. Aber wenn ich am Ende des Tages nicht meine paar tausend Schritte und meine paar Minuten gegangen bin, dann fehlt mir mittlerweile etwas.
 

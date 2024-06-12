@@ -1,6 +1,7 @@
-Title: Kundenbetreuer
-Tags: []
-Date: 30.08.2018, 19:11
++++
+title = "Kundenbetreuer"
+date = 2018-08-30T19:11:00Z
++++
 
 Ich wollte mehr bloggen und nicht immer so große und aufwendige Sachen schreiben. Als ob das, was ich bisher gebloggt habe, groß und aufwendig wäre.
 

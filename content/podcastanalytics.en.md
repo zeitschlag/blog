@@ -1,7 +1,8 @@
-Title: Podcast Analytics
-Date: 20.05.2021, 11:36
-Type: page
-Permalink: /podcastanalytics-en/
++++
+title = "Podcast Analytics"
+date = 2024-06-12
+slug =  "podcastanalytics-en"
++++
 
 ## Podlove-Stats for on the go
 

@@ -1,5 +1,7 @@
-Title: Angela Merkel ist Hitlers Tochter
-Date: 24.08.2018, 18:18
++++
+title = "Angela Merkel ist Hitlers Tochter"
+date = 2018-08-24T18:18:00Z
++++
 
 Im September 2001 zogen wir nach Franken. Am 11. September 2001 passierte 9/11. Zufall? Ein paar Jahre später besuchten wir mit Tante, Cousins, Cousinen und Freund*innen das [Bardentreffen in Nürnberg](https://de.wikipedia.org/wiki/Bardentreffen). Die Fahrt mit dem Zug dauerte eine halbe Stunde, wir diskutieren über alles Mögliche. Smartphones gab es damals noch nicht, MP3-Player waren unbezahlbar und das Internet war damals noch wirklich Neuland und in weiter Ferne.
 

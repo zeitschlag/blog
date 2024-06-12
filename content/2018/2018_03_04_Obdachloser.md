@@ -1,6 +1,8 @@
-Title: Dein Freund und Rauswerfer 
-Date: 15.03.2018, 13:51
-Tags: []
++++
+title = "Dein Freund und Rauswerfer "
+date = 2018-03-15T13:51:00Z
++++
+
 
 Vor ein paar Tagen gab es einen dieser Abende, an denen es so furchtbar kalt war. Gut verpackt lief ich vom Späti nach Hause, wobei der Späti mangels echter Spätis im Kiez eigentlich ein Discounter war. An einer Strassenecke parkte ein Polizeiwagen. Die beiden dazugehörigen Polizisten standen im Hauseingang eines Gebäudes, das seinerseits hinter dem Polizeiwagen stand. Ein Angestellter eines Sicherheitsdienstes hatte sie gerufen, weil sich ein Mensch in eben diesem Hauseingang schlafen gelegt hatte — es war ungefähr 22:00 Uhr.
 

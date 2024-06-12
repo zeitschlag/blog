@@ -1,6 +1,8 @@
-Title: preconditionFailure
-Date: 01.07.2018, 22:08
-Tags: [swift, pragmaticprogrammer]
++++
+title = "preconditionFailure"
+date = 2018-07-01T22:08:00Z
++++
+
 Lang: en
 
 One of my goals for May 2018 was to finally read [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer). I haven't succeeded yet, that's why this year, June was May, Extended Edition and July is June, Extended Edition.

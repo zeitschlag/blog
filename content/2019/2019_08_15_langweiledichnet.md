@@ -1,6 +1,7 @@
-Title: langweilemichnochlänger.net
-Tags: [#blogs]
-Date: 15.08.2019, 18:23
++++
+title = "langweilemichnochlänger.net"
+date = 2019-08-15T18:23:00Z
++++
 
 Ich weiß nicht, wann ich [langweiledich.net](https://langweiledich.net) zum ersten Mal entdeckt habe — wahrscheinlich bin ich so 2010 rum auf der [Bilderparade](https://www.langweiledich.net/category/unterhaltung/bilderparade/) hängen geblieben und habe den Blog seitdem im Feedreader abonniert. Shit, was habe ich eigentlich die letzten 9 Jahre meines Lebens gemacht?!
 

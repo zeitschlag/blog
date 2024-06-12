@@ -1,6 +1,7 @@
-Title: Für nichts und wieder nichts
-Tags: [#bitcoin]
-Date: 09.12.2017, 12:35
++++
+title = "Für nichts und wieder nichts"
+date = 2017-12-09T12:35:00Z
++++
 
 2013 konnte man einen [Bitcoin](https://de.wikipedia.org/wiki/Bitcoin) für ungefähr 800 Euro kaufen. Damals gab es einen ersten Hype, auf dessen Höhepunkt ich ein bisschen Geld investierte. Im schlimmsten Fall würde ich das bisschen Geld verlieren, dachte ich mir, das könnte ich verkraften. Im besten Fall hätte ich halt ein bisschen verdient. Ich nahm mir vor, einfach mal zu schauen, was daraus wird.
 

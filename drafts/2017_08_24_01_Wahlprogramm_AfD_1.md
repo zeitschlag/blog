@@ -1,6 +1,7 @@
-Title: Wahlprogramm einer rechtsextremen Kleinstpartei, Teil 1: Vertragsfreiheit
-Tags: [#bundestagswahl, #afd]
-Date: 24.08.2017, 08:26
++++
+title = "Wahlprogramm einer rechtsextremen Kleinstpartei, Teil 1: Vertragsfreiheit"
+date = 2017-08-24T08:26:00Z
++++
 
 Bald ist Bundestagswahl. Aus Gründen lese ich deswegen das eine oder andere Wahlprogramm, unter anderem auch das einer rechtsextremen Kleinstpartei, die gerne in den Bundestag einziehen möchte.
 

@@ -1,6 +1,8 @@
-Title: Nachhaltiger Stundenlohn von Zwofuffzig
-Date: 25.03.2020, 22:21
-Tags: []
++++
+title = "Nachhaltiger Stundenlohn von Zwofuffzig"
+date = 2020-03-25T22:21:00Z
++++
+
 
 Ich bin ein weißer cis Dude, bin weder betroffen, noch habe ich Ahnung. Damit könnte dieser Blogpost eigentlich auch schon enden. Aber ich habe eine Meinung und privat bin ich übrigens eigentlich auch ganz nett. 
 

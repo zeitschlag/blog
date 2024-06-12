@@ -1,6 +1,7 @@
-Title: Gedruckte Zeitungen und Notizbücher
-Tags: [#zeitung]
-Date: 29.11.2018, 19:46
++++
+title = "Gedruckte Zeitungen und Notizbücher"
+date = 2018-11-29T19:46:00Z
++++
 
 Vor rund zwei Wochen [blug](/2018/ich-will-gerade-nicht/) ich über Zeitungen. Seitdem ist fast nichts passiert: Ich habe mir jeweils Donnerstag zwei gedruckte Ausgaben vom [Freitag](https://www.freitag.de) gekauft. Und beide Ausgaben tatsächlich gelesen. Aber weil Traditionen meistens problematisch sind, verhindere ich die Bildung einer neuen gleich mal — und kaufe mir den neuen Freitag Freitag.
 

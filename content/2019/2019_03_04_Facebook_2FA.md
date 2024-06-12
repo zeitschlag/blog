@@ -1,6 +1,7 @@
-Title: Mehr als 2FA
-Tags: []
-Date: 04.03.2019, 21:45
++++
+title = "Mehr als 2FA"
+date = 2019-03-04T21:45:00Z
++++
 
 ## tl;dr
 

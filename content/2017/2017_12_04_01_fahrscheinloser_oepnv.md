@@ -1,6 +1,7 @@
-Title: 60 Euro. Bedauerlicherweise.
-Tags: [#fahrscheinloseröpnv]
-Date: 4.12.2017, 08:11
++++
+title = "60 Euro. Bedauerlicherweise."
+date = 2017-12-04T08:11:00Z
++++
 
 Ich stieg vorhin in eine Regionalbahn. Dort lächelte mich ein Aufkleber des Verkehrsverbundes zum Thema Fahren ohne Fahrschein an:
 

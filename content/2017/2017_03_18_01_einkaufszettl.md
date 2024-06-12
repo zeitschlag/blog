@@ -1,6 +1,7 @@
-Title: Der Einkaufszettl - 2015 und 2016
-Tags: [#einkaufszettl]
-Date: 18.03.2017, 06:10
++++
+title = "Der Einkaufszettl - 2015 und 2016"
+date = 2017-03-18T06:10:00Z
++++
 
 2016 war in vielerlei Hinsicht ein schlechtes Jahr: Donald Trump. Viele bekannte Menschen sind gestorben. Donald Trump. Kommen wir also schnell zum eigentlichen Thema: Dem [Einkaufszettl](https://bullenscheisse.de/einkaufszettl/).
 

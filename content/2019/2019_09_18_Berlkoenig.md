@@ -1,6 +1,7 @@
-Title: Berlkönig
-Tags: [#berlin]
-Date: 18.09.2019, 06:49
++++
+title = "Berlkönig"
+date = 2019-09-18T06:49:00Z
++++
 
 Am letzten Wochenende habe ich den [Berlkönig](https://www.berlkoenig.de) ausprobiert. Das ist ein Ride-Sharing-Angebot der [BVG](https://de.wikipedia.org/wiki/Berliner_Verkehrsbetriebe), das sich seit einem Jahr in einer Testphase befindet und somit nur einen bestimmten Bereichs Berlin bedient. Zu meinem eigenen Glück/Pech wohne ich knapp außerhalb dieses Bereichs.
 

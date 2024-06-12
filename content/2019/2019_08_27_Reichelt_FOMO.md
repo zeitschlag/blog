@@ -1,6 +1,7 @@
-Title: Foto-FOMO-Globuli
-Tags: []
-Date: 27.08.2019, 07:58
++++
+title = "Foto-FOMO-Globuli"
+date = 2019-08-27T07:58:00Z
++++
 
 Im November 2018 führte eine Schülerzeitung ein [Interview mit einem alten weißen Mann](https://go-public.jimdofree.com). Und im Moment ein Buch eben jenes [alten weißen Mannes](https://de.wikipedia.org/wiki/Julian_Reichelt), der unter akuter Katastrophen-[FOMO](https://de.wikipedia.org/wiki/Fear_of_missing_out) leidet. Sie treibt ihn an. Es ist so ein Buch, das wohl nur von alten weißen Männern geschrieben — und gelesen — werden kann. Sehr ruhig, ziemlich distanziert beschreiben, während man einfach einen Job erledigt und ein schlechtes Gewissen hat, dass man die Welt nicht retten kann. Also auch ein bisschen emotional.
 
