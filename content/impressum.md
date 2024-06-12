@@ -6,10 +6,8 @@ date = 2024-06-12
 ## Angaben gemäß §5 TMG:
 
 Nathan Mattes<br>
-c/o WTF Kooperative eG<br>
-Hinterhaus, 3. OG<br>
-Forsmannstraße 14 B<br>
-22303 Hamburg
+Georg-Blank-Strasse 12<br>
+10409 Berlin
 
 ## Kontakt
 
@@ -24,10 +22,8 @@ Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE301076689
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
 
 Nathan Mattes<br>
-c/o WTF Kooperative eG<br>
-Hinterhaus, 3. OG<br>
-Forsmannstraße 14 B<br>
-22303 Hamburg
+Georg-Blank-Strasse 12<br>
+10409 Berlin
 
 Quelle: *http://www.e-recht24.de*
 
