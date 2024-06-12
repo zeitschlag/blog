@@ -1,6 +1,8 @@
-Title: Jetzt auch von unterwegs
-Date: 04.08.2019, 20:20
-Tags: []
++++
+title = "Jetzt auch von unterwegs"
+date = 2019-08-04T20:20:00Z
++++
+
 
 Vor einiger Zeit posaunte ich auf Mastodon herum, dass ich neuerdings so viel mit meinem iPad machen würde. So viel, dass ich davon echt beeindruckt war. Ich wollte darüber bloggen, schrieb ich. Dann passierte relativ lange nichts.
 

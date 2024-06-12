@@ -1,6 +1,8 @@
-Title: Privilegal
-Date: 12.02.2021, 21:16
-Tags: [#corona, #privileg]
++++
+title = "Privilegal"
+date = 2021-02-12T21:16:00Z
++++
+
 
 > Ein Privileg (Plural Privilegien, von lateinisch privilegium „Ausnahmegesetz, Vorrecht“) ist ein Vorrecht, das einer einzelnen Person oder einer Personengruppe zugeteilt wird. — Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Privileg)
 

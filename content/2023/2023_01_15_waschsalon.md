@@ -1,6 +1,8 @@
-Title: waschsalon
-Date: 15.01.2023, 11:25
-Tags: []
++++
+title = "waschsalon"
+date = 2023-01-15T11:25:00Z
++++
+
 
 urlaub. endlich raus. raus aus der stadt. raus aufs land. alles geplant, kaum etwas gebucht. nur die hinfahrt, geplant ist eine kleine rundreise. klamotten für ein paar tage, denn: geplant ist, bei freund\*innen zu waschen. die freund\*innen fallen aus. corona. gut, dass ich nichts gebucht habe, also plane ich anders, fahre anders, buche anders als geplant. raus aus dem land, das ist nichts für mich. rein in die stadt.
 

@@ -1,6 +1,7 @@
-Title: Von Schiefertafel und Meißel
-Tags: [#ipad]
-Date: 16.09.2018, 19:53
++++
+title = "Von Schiefertafel und Meißel"
+date = 2018-09-16T19:53:00Z
++++
 
 ![](Schiefertafel_Meissel.png)
 

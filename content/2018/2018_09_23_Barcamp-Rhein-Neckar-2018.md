@@ -1,6 +1,8 @@
-Title: Barcamp Rhein-Neckar 2018 in Heidelberg
-Date: 23.09.2018, 18:32
-Tags: [#bcrn18, #barcamp, #heidelberg]
++++
+title = "Barcamp Rhein-Neckar 2018 in Heidelberg"
+date = 2018-09-23T18:32:00Z
++++
+
 
 Am 22. und 23. September 2018 fand das dritte [Barcamp Rhein-Neckar](https://barcamp-rhein-neckar.de) zum dritten Mal im [Dezernat 16](http://www.dezernat16.de) in Heidelberg statt. Nachdem wir es [2015](/2015/bcrn15/) gegründet und [2016](/2016/barcamp-rhein-neckar-2016-in-heidelberg/) wiederholt haben, war ich natürlich auch dieses Jahr wieder dabei. Das Team um Adrian und Valentin hat Großartiges geleistet.
 

@@ -1,6 +1,8 @@
-Title: Alles gesagt?
-Date: 15.01.2020, 12:19
-Tags: []
++++
+title = "Alles gesagt?"
+date = 2020-01-15T12:19:00Z
++++
+
 
 Ich produziere nicht nur selbst [einen Podcast](https://codestammtis.ch), ich höre sie natürlich auch gerne. Jemand sagte mal, dass Menschen in Podcasts laut denken und dabei kann man ihnen zuhören. Ist das nicht großartig?
 

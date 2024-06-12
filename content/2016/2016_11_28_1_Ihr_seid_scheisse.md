@@ -1,6 +1,7 @@
-Title: Ihr seid scheiße
-Tags: [#wirsindafd, #feedback]
-Date: 28.11.2016, 21:44
++++
+title = "Ihr seid scheiße"
+date = 2016-11-28T21:44:00Z
++++
 
 Vorhin erreichte mich eine Email. Verschlüsselt. Von Gerold. Gerold schrieb:
 

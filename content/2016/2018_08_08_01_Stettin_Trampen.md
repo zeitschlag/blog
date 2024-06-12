@@ -1,6 +1,7 @@
-Title: Szczecin
-Tags: [#stettin, #urlaub]
-Date: 11.08.2016, 08:47
++++
+title = "Szczecin"
+date = 2016-08-11T08:47:00Z
++++
 
 Am Samstag trampten wir von Berlin nach Stettin. Ich hatte ein paar Tage vorher erzählt, dass ich noch nie getrampt bin. Und als Art Geburtstagsüberraschung trampten wir dann nach Stettin. Wir informierten uns, wo man in [Berlin am besten weg kommt](http://hitchwiki.org/de/Berlin#Richtung_Nordosten_Szczecin.2C_Gdansk_.28Danzig.29), holten uns ein bisschen Proviant, malten Schilder - das Internet sagte uns, dass es sinnvoll ist, eins auf deutsch und eins auf polnisch dabei zu haben, also malten wir eins auf deutsch und eins auf polnisch - und gingen los.
 

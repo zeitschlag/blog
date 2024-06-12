@@ -1,6 +1,7 @@
-Title: 10:02
-Date: 12.05.2023
-Tags: []
++++
+title = "10:02"
+date = 2023-05-12
++++
 
 in diesem haushalt hat man ein großes herz für besetzte und kollektivbetriebe, das ist sicherlich [kein geheimnis][kollektive-super]. aber in diesem haushalt handhabt man den haushalt eher … sagen wir mal: pragmatisch. nicht gut, wie besuch anmerkte, aber meistens bin ich alleine und es juckt mich auch nicht besonders — ich bin froh und auch ein bisschen stolz, dass ich mittlerweile zumindest einmal am tag den abwasch erledige.
 

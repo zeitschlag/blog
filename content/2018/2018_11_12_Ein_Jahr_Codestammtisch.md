@@ -1,6 +1,7 @@
-Title: Ein Jahr Codestammtisch
-Tags: [#codestammtisch, #podcast]
-Date: 12.11.2018, 19:06
++++
+title = "Ein Jahr Codestammtisch"
+date = 2018-11-12T19:06:00Z
++++
 
 Wer mir auf Twitter folgt, dürfte es schon lange mitbekommen haben: Seit einem Jahr nehmen ein sehr guter Freund und ich gemeinsam einen Podcast auf — seit Ende August mit erschreckender Regelmäßigkeit. Alle zwei Wochen erscheint eine Folge des [Codestammtisch](https://codestammtis.ch) und es ist mir wichtig, das einfach mal in meinem Blog zu erwähnen.
 

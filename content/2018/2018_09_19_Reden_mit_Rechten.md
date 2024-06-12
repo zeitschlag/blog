@@ -1,6 +1,8 @@
-Title: Reden mit Rechtspopulist*innen
-Date: 18.09.2018, 15:03
-Tags: [#keinfussbreit]
++++
+title = "Reden mit Rechtspopulist*innen"
+date = 2018-09-18T15:03:00Z
++++
+
 
 Auf dem diesjährigen, sehr schönen [Barcamp Stuttgart](https://www.barcamp-stuttgart.de) ging es unter anderem um das Thema Rechtspopulist*innen, -extreme, woher dieser Rechtsruck auf einmal kommt und wie mit ihm umgegangen werden soll. Dabei war es einigen Menschen sehr wichtig, zwischen Rechtspopulist\*innen und Rechtsextremen zu unterscheiden. Sie waren der Meinung, dass man mit Rechtspopulist\*innen noch diskutieren könne und auch müsste. Obwohl das sehr nobel ist, halte ich es für Blödsinn, mit Menschen zu diskutieren, die weder an einer Diskussion interessiert sind, noch daran, eine gemeinsame Lösung zu finden. Und wahrscheinlich haben das auch schon klügere Menschen als ich gesagt und geschrieben.
 

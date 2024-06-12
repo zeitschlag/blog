@@ -1,6 +1,7 @@
-Title: Treppengeld
-Tags: []
-Date: 12.11.2020, 08:20
++++
+title = "Treppengeld"
+date = 2020-11-12T08:20:00Z
++++
 
 Ich möchte keine Getränke mehr bei Durstexpress, [Flaschenpost](https://de.wikipedia.org/wiki/Flaschenpost_(Unternehmen)) und Co. bestellen. Als Alternative habe ich einen kleinen [Berliner Getränkelieferdienst](https://www.flinkeflasche.de/) gefunden. Und da lerne ich gleich mal neue Wörter kennen. Treppengeld, zum Beispiel. Oder Mindermengenzuschlag.
 

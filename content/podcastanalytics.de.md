@@ -1,7 +1,8 @@
-Title: Podcast Analytics
-Date: 20.05.2021, 11:36
-Type: page
-Permalink: /podcastanalytics/
++++
+title = "Podcast Analytics"
+date = 2021-05-20T11:36:00Z
+slug =  "podcastanalytics"
++++
 
 ## Podlove Analytics für unterwegs
 

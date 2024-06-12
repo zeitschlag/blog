@@ -1,6 +1,7 @@
-Title: Einkaufszettl 0.6
-Tags: [#einkaufszettl]
-Date: 05.12.2017, 22:40
++++
+title = "Einkaufszettl 0.6"
+date = 2017-12-05T22:40:00Z
++++
 
 Eine kurze Durchsage zum [Einkaufszettl](https://bullenscheisse.de/einkaufszettl/): Es gibt mal wieder eine neue Version im [App Store](https://itunes.apple.com/de/app/einkaufszettl/id1016435355?l=de&ls=1&mt=8).
 

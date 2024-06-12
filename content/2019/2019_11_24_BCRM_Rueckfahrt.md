@@ -1,6 +1,8 @@
-Title: Auf der Rückfahrt vom Barcamp Rhein-Main
-Date: 24.11.2019, 09:21
-Tags [#bcrm19, #bahn]
++++
+title = "Auf der Rückfahrt vom Barcamp Rhein-Main"
+date = 2019-11-24T09:21:00Z
++++
+
 
 An diesem Wochenende findet in Wiesbaden das [diesjährige Barcamp Rhein-Main](https://barcamp-rheinmain.de) statt. Der Samstag war auf jeden Fall toll, gutes Essen, tolle Leute, interessante Sessions -- alles gut also. Auf der Rückfahrt gab es im Zug eine Fahrscheinkontrolle. Ein Mensch fand seinen Fahrschein nicht, durchwühlte dabei seinen Rucksack. Dabei versicherte er in gebrochenen Deutsch, dass er einen Fahrschein hätte und wenn er ihn jetzt nicht finden würde, notfalls auch gerne einen neuen kaufen würde. Der Zugbegleiter wurde immer nervöser und irgendwann laut.
 

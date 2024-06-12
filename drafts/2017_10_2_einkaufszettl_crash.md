@@ -1,6 +1,8 @@
-Title: Löschen-Bug im Einkaufszettl
-Date: 2.10.2017, 14:07
-Tags: [#einkaufszettl]
++++
+title = "Löschen-Bug im Einkaufszettl"
+date = 2017-10-0214:07:00Z
++++
+
 
 # Löschen-Bug im Einkaufszettl
 

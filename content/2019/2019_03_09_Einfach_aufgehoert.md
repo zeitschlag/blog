@@ -1,6 +1,8 @@
-Title: Einfach aufgehört
-Date: 09.03.2019, 23:39
-Tags: []
++++
+title = "Einfach aufgehört"
+date = 2019-03-09T23:39:00Z
++++
+
 
 Als ich vor einem Monat gelernt habe, woher das [Popcorn im Kino](https://twitter.com/zeitschlag/status/1094654285953019906) kommt, war mir noch nicht klar, dass ich einen Monat später keinen Bock mehr auf Kino — und Popcorn — haben würde. Damals schrieb ich:
 

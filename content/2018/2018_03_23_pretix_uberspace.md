@@ -1,6 +1,7 @@
-Title: pretix auf einem Uberspace
-Tags: [#pretix, #uberspace]
-Date: 23.03.2018, 13:21
++++
+title = "pretix auf einem Uberspace"
+date = 2018-03-23T13:21:00Z
++++
 
 Im Oktober 2015 schrieb ich eine [Anleitung](/2015/pretix-auf-einem-uberspace-installieren/), wie man [pretix](https://github.com/pretix/pretix) auf einem [Uberspace](https://uberspace.de) installiert. Nun ist heute nicht mehr Oktober 2015 und die alte Anleitung entsprechend nicht mehr aktuell. Mich haben mehrere Leute darauf hingewiesen. Ausserdem brauche ich aus [Gründen](/2018/osstatus-com/) selbst ab und an mal eine pretix-Instanz und habe mich entschlossen, die Anleitung mal zu überarbeiten und in diesem Blogpost auf einen neueren Stand zu bringen.
 

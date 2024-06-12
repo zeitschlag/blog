@@ -1,7 +1,8 @@
-Title: Nathan Mattes, iOS Engineer
-Date: 22.08.2022, 12:51
-Type: page
-Permalink: /cv/
++++
+title = "Nathan Mattes, iOS Engineer"
+date = 2024-06-12
+slug =  "cv"
++++
 
 Seit 2016 habe ich an rund zwanzig nativen iOS-Apps mitgewirkt. Zum einen war ich an der Entwicklung innovativer Enterprise-Lösungen für Konzerne beteiligt, die Geschäftsprozesse optimieren. Zum anderen habe ich an Anwendungen für Endnutzer\*innen gearbeitet, die das Leben dieser Menschen vereinfachen. Immer der Anspruch: **Gutes Handwerk. Passende Lösungen. Gute Software.**
 

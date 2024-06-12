@@ -1,6 +1,7 @@
-Title: Internatsschüler unter sich
-Tags: [#podcast]
-Date: 02.04.2018, 14:57
++++
+title = "Internatsschüler unter sich"
+date = 2018-04-02T14:57:00Z
++++
 
 Marco betreibt ein kleines, feines Medienimperium. Neben [unmus](https://www.unmus.de) — seinem Blog für längere Texte — schreibt er kürzere für die [Zimtwolke](https://www.unmus.de/zimtwolke/), lässt seine [Pinsel tanzen](https://www.unmus.de/pinseldisko/) und fotografiert [Raketenstaub](https://www.unmus.de/raketenstaub/). Und er führt Gespräche mit Menschen, nimmt sie auf und stellt sie als [Zirkusliebe](https://www.unmus.de/zirkusliebe/) ins Netz — neudeutsch: Podcast.
 

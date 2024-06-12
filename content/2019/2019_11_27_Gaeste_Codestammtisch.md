@@ -1,6 +1,8 @@
-Title: Gäste beim Codestammtisch
-Date: 27.11.2019, 21:19
-Tags: [#codestammtisch]
++++
+title = "Gäste beim Codestammtisch"
+date = 2019-11-27T21:19:00Z
++++
+
 
 Seit bald zwei Jahren und rund 40 Folgen podcaste ich mit einem guten Freund beim [Codestammtisch](https://codestammtis.ch). Bei den meisten meiner Jobs habe ich es nicht so lange ausgehalten. Und größtenteils nehmen Max und ich den Podcast alleine auf, von einigen Ausnahmen abgesehen.
 

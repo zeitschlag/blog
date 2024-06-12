@@ -1,6 +1,7 @@
-Title: Rote Brause
-Tags: []
-Date: 08.10.2020, 16:21
++++
+title = "Rote Brause"
+date = 2020-10-08T16:21:00Z
++++
 
 Gut zwei Monate ist es her, dass ich mir die [App vom neuen deutschland näher angeschaut](/2020/neues-deutschland-alte-app/) hatte. Gerade war ich spazieren und habe entdeckt, dass es den [Rote Brause-Podcast](https://www.neues-deutschland.de/podcasts/7) gibt:
 

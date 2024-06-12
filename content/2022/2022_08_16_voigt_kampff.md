@@ -1,6 +1,7 @@
-Title: 12:35
-Tags: []
-Date: 16.08.2022, 12:35
++++
+title = "12:35"
+date = 2022-08-16T12:35:00Z
++++
 
 > If I entered a room and found a sofa covered with your hide I'd score very high on the Voigt-Kampff test.
 >

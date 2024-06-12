@@ -1,6 +1,7 @@
-Title: Aus Scheiße Gold machen
-Tags: [#bahn]
-Date: 10.12.2017, 12:01
++++
+title = "Aus Scheiße Gold machen"
+date = 2017-12-10T12:01:00Z
++++
 
 Die ZEIT sammelt heute [Verbesserungsvorschläge](http://www.zeit.de/mobilitaet/2017-12/deutsche-bahn-fahrplan-probleme-kunden/komplettansicht) für die Deutsche Bahn. Das reicht von einem besseren Krisenmanagement und mehr Informationen, wenn etwas schief läuft, bis zu einer vereinfachten App.
 

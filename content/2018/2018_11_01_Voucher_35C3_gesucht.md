@@ -1,6 +1,7 @@
-Title: Voucher für den 35C3 gesucht
-Tags: []
-Date: 01.11.2018, 17:52
++++
+title = "Voucher für den 35C3 gesucht"
+date = 2018-11-01T17:52:00Z
++++
 
 Anfang Oktober hatte ich kein Geld und dann startete auf einmal aus heiterem Himmel der [Vorverkauf](https://tickets.events.ccc.de/35c3/) für den 35C3, den diesjährigen Congress.
 

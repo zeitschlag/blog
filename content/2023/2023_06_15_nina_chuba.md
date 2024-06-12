@@ -1,6 +1,7 @@
-Title: 23:34
-Date: 15.06.2023
-Tags: []
++++
+title = "23:34"
+date = 2023-06-15
++++
 
 dies ist im wesentlichen eine angereicherte version [einer reihe von toots][chuba-mastodon], die ich im dezember 2022 verfasst habe. bei der großartigen junaimnetz gab's mal eine reihe „[prokrastinieren mit popmusik][juna-popmusik]“ und in diese richtung geht es, aber im gegensatz zu mir hat juna ahnung von der materie.
 

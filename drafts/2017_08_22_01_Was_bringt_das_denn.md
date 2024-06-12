@@ -1,6 +1,7 @@
-Title: Was bringt das denn?
-Tags: [#podcast, #bcrn16]
-Date: 22.08.2017, 21:11
++++
+title = "Was bringt das denn?"
+date = 2017-08-22T21:11:00Z
++++
 draft: True
 
 Gerade höre ich die neunte Folge vom „Erzähl davon“-Podcast, in der Valentin über Barcamps spricht.

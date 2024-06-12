@@ -1,6 +1,8 @@
-Title: angst vorelektro
-Date: 22.12.2018, 10:01
-Tags: []
++++
+title = "angst vorelektro"
+date = 2018-12-22T10:01:00Z
++++
+
 
 Ich bin im Urlaub. Das Internet hier ist langsam und so wird im Urlaub so manch schlechte Angewohnheit sichtbar. Es gibt zu viel gutes Essen und ich kann der Versuchung nicht widerstehen. Und es gibt Autozeitschriften eines — nett formuliert — [streitbaren Verlags](https://de.wikipedia.org/wiki/Axel_Springer_SE), um dessen Produkte ich üblicherweise einen großen Bogen mache.
 

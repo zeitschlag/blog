@@ -1,6 +1,8 @@
-Title: JF-Umfrage: Was ist dein Lieblingsessen?
-Date: 07.03.2017, 08:45
-Tags: [#jf, #maultaschen]
++++
+title = "JF-Umfrage: Was ist dein Lieblingsessen?"
+date = 2017-03-07T08:45:00Z
++++
+
 
 Neulich erwähnte ich, dass ich unter anderem die [Junge Freiheit](https://de.wikipedia.org/wiki/Junge_Freiheit) in meinem Feedreader abonniert habe, um meine Filterblase aufzubrechen, wie ich schrieb. Mehr als einmal habe ich wegen der Artikel und ihrer unterschwelligen Aggressionen dort aufgeregt. Nun fiel mir dort vor ein paar Tagen eine Umfrage auf. Es wird gefragt:
 

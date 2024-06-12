@@ -1,6 +1,8 @@
-Title: Re: Der Mietspiegel hilft auch nicht weiter
-Date: 26.06.2021, 13:12
-Tags: [#dwenteignen]
++++
+title = "Re: Der Mietspiegel hilft auch nicht weiter"
+date = 2021-06-26T13:12:00Z
++++
+
 
 Am gestrigen Freitag trafen sich die coolen Kids von [Deutsche Wohnen & Co. enteignen][dw-enteignen] vor der Senatsverwaltung, um die restlichen rund 50.000 Unterschriften für den Volksentscheid zu übergeben. Gleichzeitig wurden die benötigten [175.000 gültigen Unterschriften][pm-berlin-dw-enteignen] erreicht, die für den Volksentscheid nötig sind. Wäre ich eine Partei, würde ich in den insgesamt ~350.000 Unterschriften ein schönes Wähler*innenpotential sehen, aber die SPD arbeitet mit <del>Dr.</del> Franziska Giffey auf der Seite der Immobilienlobby lieber an einer Stadt der Reichen — und am Ziel 5%-Hürde. 
 

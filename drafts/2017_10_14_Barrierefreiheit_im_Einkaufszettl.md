@@ -1,4 +1,5 @@
-Title: Barrierefreiheit im Einkaufszettl
++++
+title = "Barrierefreiheit im Einkaufszettl"
 
 - letztes Wochenende beim Barcamp Berlin
 - Eine Teilnehmerin war blind und hat ihr iPhone mithilfe von VoiceOver/Accessibility genutzt

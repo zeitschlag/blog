@@ -1,6 +1,8 @@
-Title: #ichwillihnberuehren
-Date: 09.02.2020, 10:51
-Tags: [#buecher]
++++
+title = "#ichwillihnberuehren"
+date = 2020-02-09T10:51:00Z
++++
+
 
 Ich wollte mehr zu Sachen sagen, die ich gut finde. Zu Menschen, die ich bewundere. Büchern, die ich genossen habe. Aufregen kann ich mich großartig und häufig, aber mich positiv zu äußern, das tue ich viel zu selten. Das würde ich gerne ändern, weil eigentlich finde ich viele Menschen und Dinge toll und großartig und unterstützenswert, auch wenn ich immer meckere. Den Anfang soll #ichwillihnberuehren machen, ein schönes Buch mit einer ganz wunderbaren Liebesgeschichte.
 

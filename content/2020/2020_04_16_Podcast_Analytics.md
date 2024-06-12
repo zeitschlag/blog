@@ -1,6 +1,7 @@
-Title: Podcast Analytics 2020.1
-Date: 16.04.2020 11:07
-Tags: []
++++
+title = "Podcast Analytics 2020.1"
+date = 2020-04-16T11:07:00Z
++++
 
 Letzte Woche habe ich es angekündigt — jetzt ist es soweit. Der Adler ist gelandet — und mit Adler meine ich die neue Version von [Podcast Analytics im App Store](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8) 🎉
 

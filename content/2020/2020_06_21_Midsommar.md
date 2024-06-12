@@ -1,6 +1,8 @@
-Title: Midsommar
-Date: 21.06.2020, 19:07
-Tags: []
++++
+title = "Midsommar"
+date = 2020-06-21T19:07:00Z
++++
+
 
 Wir gehen in den Grunewald, ein Ausflug. Ich weiß nicht mehr, ob Ende oder Anfang eines Jahres, es ist kalt. Hinterher gehen wir in ein kleines, gemütliches Café im Prenzlauer Berg. Meine Brillengläser beschlagen, es gibt Kuchen. Irgendwas mit Kirschen oder Himbeeren oder ist ja auch egal.
 

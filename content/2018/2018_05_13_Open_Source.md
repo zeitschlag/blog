@@ -1,6 +1,7 @@
-Title: Open Source
-Tags: []
-Date: 13.05.2018, 23:06
++++
+title = "Open Source"
+date = 2018-05-13T23:06:00Z
++++
 
 Vor dem Osterurlaub schlich sich ein Gedanke in meinen Kopf. Was würde passieren, wenn ich den Quellcode für das, was ich privat programmiere, einfach veröffentlichen würde? Ich finde das [Open Source](https://de.wikipedia.org/wiki/Open_Source)-Prinzip wichtig und vor ein [paar Jahren fragte ich](/2014/alte-geraete/): 
 

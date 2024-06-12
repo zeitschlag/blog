@@ -1,6 +1,7 @@
-Title: Unvorstellbar
-Date: 04.09.2020
-Tags: []
++++
+title = "Unvorstellbar"
+date = 2020-09-04
++++
 
 Die Ladebuchse von meinem Handy ist kaputt. Also so halb: Laden klappt noch, aber Daten übertragen nicht mehr. Und weil ich ein guter, grüner Kapitalist und auch sonst vollkommen widerspruchsfrei bin, habe ich das Handy vorhin in den Handyreparaturladen um die Ecke gebracht. Dass ich selbst zu faul, zu ungeduldig und zu inkompetent bin, die [Buchse selbst zu tauschen](https://de.ifixit.com/Anleitung/iPhone+7+Lightning+Connector+Einheit+austauschen/78122), ist natürlich ein weiterer Grund.
 

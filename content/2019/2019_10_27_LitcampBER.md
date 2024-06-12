@@ -1,6 +1,7 @@
-Title: Literaturcamp Berlin 2019
-Tags: [#barcamp, #litcampber]
-Date: 27.10.2019, 17:49
++++
+title = "Literaturcamp Berlin 2019"
+date = 2019-10-27T17:49:00Z
++++
 
 Irgendwann vor Ewigkeiten folgte ich mal [Sascha Pallenberg auf Twitter](https://twitter.com/sascha_p). Und irgendwann später ging er mir mit seinen von hier und da geklauten Bildern auf die Nerven und ich entfolge ihm wieder. Keine Ahnung, ob er das immer noch tut, aber darum soll es nicht gehen. Es soll um Barcamps gehen.
 

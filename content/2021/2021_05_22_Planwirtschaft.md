@@ -1,6 +1,7 @@
-Title: Die unsichtbare Hand des Plans
-Tags: []
-Date: 22.05.2021, 11:45
++++
+title = "Die unsichtbare Hand des Plans"
+date = 2021-05-22T11:45:00Z
++++
 
 Neulich lief ich an einem schönen Buchladen vorbei, aber es fiel mir partout kein Buch ein, das ich mir da kaufen hätte können. Seitdem suche ich ein bisschen nach neuem Lesestoff. Einfach nur, damit ich einen weiteren Grund habe, in diesen Laden zu gehen. Dass hier noch ein nicht unerheblicher <del>Stapel</del> Berg ungelesener Bücher wartet, lasse ich lieber mal unerwähnt. Und dass ich eine Leseliste mit reichlich Nachschube habe, auch.
 

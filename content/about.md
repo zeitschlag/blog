@@ -1,6 +1,7 @@
-Title: Über mich
-Type: page
-Permalink: /about/
++++
+title = "Über mich"
+date = 2024-06-12
++++
 
 Nathan ...
 

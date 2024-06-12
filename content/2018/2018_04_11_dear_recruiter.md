@@ -1,6 +1,7 @@
-Title: Dear recruiter
-Tags: []
-Date: 11.04.2018, 21:26
++++
+title = "Dear recruiter"
+date = 2018-04-11T21:26:00Z
++++
 
 Earlier this day I wrote a [thread on twitter](https://twitter.com/zeitschlag/status/983991433840480258). I wanted this thread to be on my blog in an extended version. So here we go:
 

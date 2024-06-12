@@ -1,6 +1,7 @@
-Title: #campOS
-Tags: [#berlin, #barcamp, #campOS]
-Date: 21.10.2016, 13:12
++++
+title = "#campOS"
+date = 2016-10-21T13:12:00Z
++++
 
 More than one month ago I attended [SwiftConf](https://swiftconf.com) in
 Cologne. It was my first developer conference ever and I really enjoyed it.

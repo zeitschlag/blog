@@ -1,6 +1,7 @@
-Title: A ten year old machine
-Tags: []
-Date: 09.04.2018, 21:35
++++
+title = "A ten year old machine"
+date = 2018-04-09T21:35:00Z
++++
 
 Over a year ago, a good friend of mine gave me his old [Late 2008 13-inch MacBook](https://en.wikipedia.org/wiki/MacBook#Unibody_aluminum_model). It is one of these beautiful unibody aluminum machines, that look like the later 13-inch MacBook Pros. I have considered it too nice to throw it away, so I bought an SSD and upgraded the memory. This is still possible on these old MacBooks. Another necessity was to buy a new MagSafe Power Adapter. Then I was ready to go. It is pretty amazing that a nearly ten year old computer still works.
 

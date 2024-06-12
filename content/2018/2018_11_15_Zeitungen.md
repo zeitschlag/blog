@@ -1,6 +1,7 @@
-Title: Ich will gerade nicht.
-Tags: [#zeitung]
-Date: 15.11.2018, 23:10
++++
+title = "Ich will gerade nicht."
+date = 2018-11-15T23:10:00Z
++++
 
 Ich bin krankgeschrieben. Irgendwann am letzten Wochenende habe ich mir eine Erkältung eingefangen, die den Spieß dann kurzerhand umdrehte und mich ihrerseits nicht mehr losließ. Nun verbringe ich meine Zeit also zwischen Schlaf, Aspirin Complex und Kamillentee auf dem Sofa. Eine Staffel „The Punisher“ habe ich ebenso hinter mir wie diverse Artikel der [New York Times](https://www.nytimes.com) und vier Teile einer großartigen, vierteiligen arte-Dokumentation über die [Zeitung aus New York und Donald Trump](https://www.arte.tv/de/videos/075596-000-A/mission-wahrheit-die-new-york-times-und-donald-trump-1-4/). O tempora, o mores.
 
