@@ -33,7 +33,7 @@ Auch in Berlin las ich weiter interessiert die Heidelberger Zeitung. Weil ich je
 
 Nach ungefähr einem Jahr waren die Heidelberger Neuigkeiten dann nicht mehr wirklich interessant und ich kündigte wieder. Dann passierte lange Zeit nichts, ich klickte nur ein paar hundert, wenn nicht gar tausend Mal auf „Gerade nicht“, „Schon dabei“ und „Jetzt nicht, ich will weiterlesen“ oder las einen Artikel dann eben gar nicht, wenn ich dafür meinen Werbeblocker hätte deaktivieren müssen.
 
-![](Gerade_nicht.jpeg)
+![](/2018/ich-will-gerade-nicht/Gerade_nicht.jpeg)
 
 Dabei ist Journalismus wichtig, in der heutigen Zeit vielleicht so wichtig wie nie zuvor: Er sollte mir etwas — in Form von Geld — wert sein. Nur: Wieviel? Netflix, Apple Music und Werbeblocker haben mich da wohl ein bisschen kaputt gemacht — schuld sind immer die anderen. Was bin ich bereit, für Journalismus auszugeben? Was sind er und die Menschen, die die Texte schreiben und die Bilder aussuchen mir wert? Was sind sie Dir wert?
 
@@ -43,7 +43,7 @@ Jetzt mal ehrlich: Weder die 39 Mark und 12 Pfennig, noch 11,90 Euro und auch ni
 
 Was will ich eigentlich? Ich will mich nicht entscheiden müssen und notfalls monatlich kündigen können — danke Netflix. Eine gedruckte Zeitung als PDF? Das ist eher so 2001. Gebt mir eine App, am liebsten hätte ich aber dann doch einen werbefreien [RSS-Feed](https://de.wikipedia.org/wiki/RSS_(Web-Feed)). Und ich will mich nicht jedes Mal irgendwo anmelden müssen. Gleichzeitig will ich keine Werbung und auch nicht getrackt werden. Und natürlich das volle Programm: Tagesaktuelle Nachrichten, Hintergrundartikel, grandiosen Journalismus, schlechte Wortwitze, investigative Reportagen — gebt mir **ALLES**.
 
-![](NYT_Instagram.jpeg)
+![](/2018/ich-will-gerade-nicht/NYT_Instagram.jpeg)
 
 Beeinflusst durch die arte-Dokumentation liebäugelte ich dann mit einem digitalen Abo der New York Times. Zwei Euro die Woche? Schon eher das, was mir für den Anfang vorschwebte. Mehr Geld kann ich ja später immer noch ausgeben. Trotzdem zögerte ich noch, weil es für diesen Preis doch bestimmt auch ein digitales Abo einer deutschen Zeitung geben muss. Ich ging auf Toilette und Instagram. Und da erwartete mich ein Angebot der Times: „Now just <del>€2</del> €1 a week.“. Das entbehrt nicht einer gewissen Ironie: Ein Mitarbeiter der Timer bezeichnete Facebook und Google als die eigentlichen Konkurrenten aller Printmedien: Unternehmen würden ihre Werbebudgets jetzt nicht mehr in Print stecken, sondern eben in Facebook, Google und Instagram.
 

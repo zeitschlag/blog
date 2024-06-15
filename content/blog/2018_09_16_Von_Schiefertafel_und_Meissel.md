@@ -3,7 +3,7 @@ title = "Von Schiefertafel und Meißel"
 date = 2018-09-16T19:53:00Z
 +++
 
-![](Schiefertafel_Meissel.png)
+![](/2018/von-schiefertafel-und-meissel/Schiefertafel_Meissel.png)
 
 Vor einigen Jahren hatte ich mal diesen Traum: Es gibt da so ein Gerät, quasi ein digitales Notizbuch. Ich könnte da einfach so meine Gedanken mit der Hand schreiben und hätte sie hinterher in digitaler Form.
 

@@ -10,7 +10,7 @@ das ungelöste problem der ungewaschenen wäsche aber bleibt. sonntag, google ma
 
 waschen drei fünfzig, trocknern einst ein euro für fünfzehn minuten. jetzt sind es drei. waschmittel fünfzig cent, aber der kassenautomat schluckt die münze ohne waschmittel auszuspucken. ich bin mit diesem problem nicht alleine, aber überrascht, wie viele leute montag morgen im waschsalon sind.
 
-![](waschsalon.jpeg)
+![](/2023/waschsalon/waschsalon.jpeg)
 
 also spreche ich eine person an, die ihr eigenes waschmittel dabei hat. sie ist meine rettung, sie teilt und hilft. ich danke ihr herzlich. die nächste halbe stunde sitze ich mangels alternativer sitzgelegenheit auf einer waschmaschine, lese zeitung, trinke mate. ab und zu versucht eine andere person, ein gespräch aufzubauen, wir tauschen gesprächsfetzen. soll ich ihr sagen, dass ich nicht gut mit menschen kann, vor allem small talk?
 

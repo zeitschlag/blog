@@ -15,7 +15,7 @@ Doch diese schlechte ist nur eine Idee, nur ein Teil dieses Papiers. In einem an
 
 Also alles nur ein Wahrnehmungsproblem? Darüber hinaus habe ich keine Ahnung, was Herrschaft des Volkes und Herrschaft des Kapitals miteinander zu tun haben. Aber ich bin weder Journalist, noch Forscher, sondern geniesse das Privileg aller Blogger\*innen: Ich muss keine Lösung anbieten, ich kann auch einfach mal nur rotzig meine Meinung rausblasen. Im Prinzip machen Luke und Jim ja auch nichts anderes, nur werden sie dafür vermutlich besser bezahlt als ich — oder überhaupt? — und malen ein paar schöne Diagramme in ihr Konzept. Das kann ich zwar auch, aber ich schweife ab.
 
-![](diagram.png)
+![](/2020/diese-junge-leute/diagram.png)
 
 ## OK Boomer
 

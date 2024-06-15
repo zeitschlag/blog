@@ -6,7 +6,7 @@ date = 2018-09-18T15:03:00Z
 
 Auf dem diesjährigen, sehr schönen [Barcamp Stuttgart](https://www.barcamp-stuttgart.de) ging es unter anderem um das Thema Rechtspopulist*innen, -extreme, woher dieser Rechtsruck auf einmal kommt und wie mit ihm umgegangen werden soll. Dabei war es einigen Menschen sehr wichtig, zwischen Rechtspopulist\*innen und Rechtsextremen zu unterscheiden. Sie waren der Meinung, dass man mit Rechtspopulist\*innen noch diskutieren könne und auch müsste. Obwohl das sehr nobel ist, halte ich es für Blödsinn, mit Menschen zu diskutieren, die weder an einer Diskussion interessiert sind, noch daran, eine gemeinsame Lösung zu finden. Und wahrscheinlich haben das auch schon klügere Menschen als ich gesagt und geschrieben.
 
-![](Rechtsruck.png)
+![](/2018/reden-mit-rechtspopulist-innen/Rechtsruck.png)
 
 Rechtspopulist\*innen verschieben den öffentlichen Diskurs und damit die Grenzen des Sagbaren immer weiter nach rechts. Das darf nicht sein. Aus diesem Grund müssen wir Rechtspopulismus und Rechtspopulist\*innen mindestens so hart angehen wie Rechtsextremismus und Rechtsextreme.
 
@@ -16,6 +16,6 @@ Wenn jemand behauptet, dass die Religionsfreiheit nicht für Menschen einer best
 
 Um sie zu überzeugen? Es ist ihm egal. Damit Dritte mitbekommen, was für eine menschenverachtende Scheiße Höcke, Weidel und Co. von sich geben? Das ist bekannt und Dritten meistens egal. Weil sie sich sonst in ihre Opferrolle begeben? Das schafft die AfD auch ohne Diskussion sehr gut. Nicht mit ihnen zu reden ist mit das Netteste, was wir als Gesellschaft mit ihnen tun können.
 
-![](Kein_Fussbreit.png)
+![](/2018/reden-mit-rechtspopulist-innen/Kein_Fussbreit.png)
 
 Wie auf Demos gegen Rechts muss auch bei Diskussionen gelten: #keinfussbreit.

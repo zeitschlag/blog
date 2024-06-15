@@ -5,11 +5,11 @@ date = 2019-09-18T06:49:00Z
 
 Am letzten Wochenende habe ich den [Berlkönig](https://www.berlkoenig.de) ausprobiert. Das ist ein Ride-Sharing-Angebot der [BVG](https://de.wikipedia.org/wiki/Berliner_Verkehrsbetriebe), das sich seit einem Jahr in einer Testphase befindet und somit nur einen bestimmten Bereichs Berlin bedient. Zu meinem eigenen Glück/Pech wohne ich knapp außerhalb dieses Bereichs.
 
-![](Berlkoenig_Gebiet.PNG)
+![](/2019/berlkoenig/Berlkoenig_Gebiet.PNG)
 
 Das Prinzip ist dem von Uber nicht ganz unähnlich: Ich lade mir eine App herunter und gebe an, mit wievielen Fahrgästen ich von wo nach wo gefahren werden möchte. Dann bietet mir die App zwei mögliche Fahrten an, beispielsweise in 5 und in 15 Minuten. Anschließend sehe ich, was mich der Spaß kostet und kann direkt buchen — gezahlt wird per PayPal. 
 
-![](Berlkoenig_Fahrt.PNG)
+![](/2019/berlkoenig/Berlkoenig_Fahrt.PNG)
 
 Und dann muss ich einfach nur noch zur vereinbarten Zeit am vereinbarten Treffpunkt stehen, werde abgeholt und zu meinem Ziel gebracht. Auf dem Weg können noch weitere Fahrgäste zusteigen, aber ich komme in absehbarer Zeit an meinem Ziel an.
 
@@ -17,7 +17,7 @@ Bisher bin ich zwei Mal mit dem Berlkönig gefahren, die jeweils pro Fahrt für 
 
 Beide Male saßen wir bei den Fahrten mit dem Berlkönig in Vans von Mercedes, einmal sogar in einem Elektroauto. Für mich war das erste Fahrt in einem Elektroauto überhaupt und ich muss gestehen, dass ich doch positiv überrascht war. Wie leise die Dinger sind. Und wie wenig man das Ruckeln des Verbrennungsmotors spürt. Was ich ein bisschen schade fand ist, dass nie andere Menschen zustiegen.
 
-![](Berlkoenig_Notifications.PNG)
+![](/2019/berlkoenig/Berlkoenig_Notifications.PNG)
 
 Smart waren die Push-Notifications. Vor der Fahrt wurde ich darauf aufmerksam gemacht, dass mein Berlkönig bald am vereinbarten Treffpunkt angekommen würde und auch am Ende der Fahrt kam ein entsprechender Hinweis, damit ich auch ja nichts im Fahrzeug vergesse. Clever!
 

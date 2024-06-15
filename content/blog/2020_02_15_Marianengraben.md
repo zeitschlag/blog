@@ -8,7 +8,7 @@ Es gibt Filme und Erinnerungen, die ich mit mir herumtrage und die ich noch nich
 
 Seit letztem Mittwoch gibt es in diesem Raum ein Bücherregal und vielleicht habe ich auch ein bisschen die Tür aufgelassen. Am letzten Mittwoch war ich auf einer Buchpremiere im [Krematorium Wedding](https://de.wikipedia.org/wiki/Krematorium_Berlin-Wedding): [Jasmin Schreiber](https://www.jasmin-schreiber.de) stellte „[Marianengraben](https://www.luebbe.de/eichborn/buecher/sonstige-belletristik/marianengraben/id_7725687)“” vor, einen Roman, der Ende des Monats erscheint und den ich eigentlich vorbestellt hatte. Relativ schnell an diesem Abend war da dann aber der Entschluss, dass ich nicht bis Ende Februar warten möchte und so habe ich mir das Buch direkt im Anschluss an die Lesung gekauft. Vielleicht auch ein bisschen deshalb, weil <del>Melanie</del> <del>Wem du willst</del> <del>F.J.Wagner</del> Jasmin ihr Werk signierte.
 
-![Buchcover von Marianengraben](Cover_Marianengraben.jpeg)
+![Buchcover von Marianengraben](/2020/marianengraben/Cover_Marianengraben.jpeg)
 
 In „Marianengraben“ geht es um Paula, Helmut und den Tod. Paulas Bruder ist gestorben. Und als sie sich endlich dazu überwinden kann, nachts auf dem Friedhof einzubrechen, Gras auszureissen und ihn zu besuchen, trifft sie Helmut. Helmut ist alt und buddelt gerade Helga — oder besser gesagt: ihre Asche — aus, weil er ein Versprechen abgegeben hat und das halten will, halten muss. Wenig später fahren die Beiden dann zusammen in die und in den Alpen herum, dabei lernen sie sich kennen. Mit dabei sind noch Judy und später auch ein Huhn namens Lutz mit eigenem Fanclub [#lutzultras](https://twitter.com/search?q=%23lutzultras&src=typed_query&f=live).
 

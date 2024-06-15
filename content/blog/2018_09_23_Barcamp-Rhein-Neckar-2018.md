@@ -12,11 +12,11 @@ Was mich wieder einmal beeindruckt hat, war das Themenspektrum der Sessions: Am 
 
 Anschliessend erzählte uns [Mikka](https://twitter.com/legerdemain) — von Beruf Neuropsychologe — in einem unterhaltsamen Vortrag, **was Katzen mit einer Zombieapokalypse zu tun haben** und was man unter anderem braucht, um eine auszulösen — Stichwort: [Toxoplasma gondii](https://de.wikipedia.org/wiki/Toxoplasma_gondii).
 
-![](BCRN18_Toxoplasma_gondii.jpeg)
+![](/2018/barcamp-rhein-neckar-2018-in-heidelberg/BCRN18_Toxoplasma_gondii.jpeg)
 
 [Sebastian](https://twitter.com/seppini) gab uns dann einen Einblick, wie es sich anfühlt, eine **Legasthenie**, auch bekannt als [Lese- und Rechtschreibstörung](https://de.wikipedia.org/wiki/Lese-_und_Rechtschreibstörung) zu haben. Ich habe versucht, diese Session als Sketchnotes festzuhalten, natürlich in Schreibschift. Ganz am Ende erwähnte Sebastian, dass Schreibschrift für Menschen mit Legasthenie die Hölle ist.
 
-![](BCRN18_Legasthenie.jpeg)
+![](/2018/barcamp-rhein-neckar-2018-in-heidelberg/BCRN18_Legasthenie.jpeg)
 
 Weil ich das erst seit knapp einer Woche mache, freue ich mich über Feedback und Verbesserungsvorschläge.
 
@@ -24,7 +24,7 @@ Vor dem Abendbrot diskutierten wir noch, **warum es legitim ist, Nazis zu boxen 
 
 Der Qualitätssonntag begann mit einer gemeinsamen Session von [Frieder](https://twitter.com/ittnerfa) und [Uwe](https://twitter.com/uwebartholomaei) zum Thema **New Work und Mensch+Arbeit**. Uwe erzählte unter anderem, wie [pro clima](https://twitter.com/proclimaDE) aufgebaut ist und Frieder sprach etwas genereller über neue Arbeit. Auch hier habe ich mich wieder versucht, die Session aufzuzeichnen und auch hier freue ich mich über Feedback:
 
-![](BCRN18_Mensch_Arbeit.jpeg)
+![](/2018/barcamp-rhein-neckar-2018-in-heidelberg/BCRN18_Mensch_Arbeit.jpeg)
 
 Vor dem Mittagessen — es gab Kartoffel-Kürbis-Eintopf mit Kichererbsen — nahm uns 🐈-🧟‍♀️-Mikka mit zur **Entstehung der ersten [BarCamps](http://barcamp.org/w/page/400184/BarCamp)**. Die „Bay Area Rejects“, die von Tim O'Reillys [Friends of O'Reilly's-Camp](https://en.wikipedia.org/wiki/Foo_Camp) geworfen wurden, machten kurzerhand ihr eigenes Ding im Büro von [Socialtext](https://en.wikipedia.org/wiki/Socialtext). Zwischendrin erschwerte das [Release von Wordpress 1.5](https://wordpress.org/news/2005/02/strayhorn/) die Organisation, am Ende hat aber alles geklappt. Und das mit einer Vorlaufzeit von knapp einer Woche — sie hatten laut Mikka sogar Bierflaschen mit einem eigenen Ettikett. Mikka hatte auch einige Funfacts parat, beispielsweise zum Namensschema von \*-Camps: Während „Bar“ eben für „Bay Area Rejects“ steht, sollte jedes andere Camp dieses Präfix durch etwas eigenes ersetzen: Das Saarcamp macht es bezüglich der Benennung besser als das Barcamp Rhein-Neckar, weil das Barcamp Rhein-Neckar eben nicht von „Bay Area Rejects“ ins Leben gerufen wurde. Hätten wir das 2014 mal gewusst.
 

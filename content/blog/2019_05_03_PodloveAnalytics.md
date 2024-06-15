@@ -10,7 +10,7 @@ Gerade weil ich so viele App-Ideen angefangen und nicht zu Ende gebracht habe, i
 
 Darf ich vorstellen? Vorhang auf für das Ergebnis von Ostern, Zeit im Zug, Abenden auf der Couch. Vorhang auf für **[Podcast Analytics](https://bullenscheisse.de/podcastanalytics)**!
 
-![](PA_Screenshots.jpeg)
+![](/2019/podcast-analytics-2019-1/PA_Screenshots.jpeg)
 
 Das ist eine App, mit der du deine Downloadstatistiken für deinen Podcast unterwegs auf deinem iPhone oder iPad betrachten kannst. Und es ist eine weitere App, die ich eigentlich nur für [mich selbst geschrieben habe](https://en.wikipedia.org/wiki/Eating_your_own_dog_food). Ich wollte mich nicht täglich mehrmals irgendwo einloggen, sondern schnell und einfach sehen, wie oft welche Folge vom [Codestammtisch](https://codestammtis.ch) bisher heruntergeladen wurde.
 
@@ -18,6 +18,6 @@ Und weil das in erster Linie eine App für mich ist, ist es nicht unbedingt eine
 
 Streng genommen ist Podcast Analytics bisher eine relativ rudimentäre App. Aber ich benutze sie mehrmals täglich und alleine dafür hat es sich schon gelohnt. Mit Graphen — wie im Webinterface — kann die App nur schöner werden. Und die werden kommen. Jetzt war es mir erstmal wichtiger, sie in den [App Store](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8) zu bringen. Dort könnt ihr sie jetzt übrigens auch vorbestellen, weil ich dieses Vorbestellen-Feature vom App Store unbedingt mal ausprobieren wollte:
 
-[![](Preorder_in_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
+[![](/2019/podcast-analytics-2019-1/Preorder_in_App_Store.png)](https://itunes.apple.com/us/app/podcast-analytics/id1460023828?l=de&ls=1&mt=8)
 
 Wirklich erscheinen wird die App wohl am Montag, dem 6.5. um 19:00 Uhr, parallel zu einer neuen Folge vom Codestammtisch. Schaut euch Podcast Analytics doch einfach mal an und gebt mir Feedback und findet sie genauso gut wie ich!

@@ -7,7 +7,7 @@ Letzte Woche habe ich es angekündigt — jetzt ist es soweit. Der Adler ist gel
 
 Und so sieht sie aus:
 
-![](PA_Screenshots.jpeg)
+![](/2020/podcast-analytics-2020-1/PA_Screenshots.jpeg)
 
 Neu hinzugekommen ist das Diagramm. Da kann ich auf einen Blick mehrere Folgen über die Zeit betrachten und darin ein bisschen zoomen — nichts Großes. Bei vielen Folgen wird das aber irgendwann unübersichtlich. Und so kann ich natürlich auswählen, welche Folgen mich interessieren.
 
