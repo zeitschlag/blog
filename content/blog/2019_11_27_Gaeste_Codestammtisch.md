@@ -17,7 +17,7 @@ Auf rund 40 Folgen kommen rund sechs Gäste, fast alles weisse Typen. Das würde
 
 Du bist kein weißer Cis-Dude und hast ein Thema, über das du gerne mal beim Codestammtisch reden möchtest? Wir fühlen uns geehrt und können es kaum erwarten, von dir zu hören oder zu lesen. Oder du bist kein weißer Cis-Dude und hast kein Thema, aber würdest trotzdem gerne mal in unserem Podcast zu Gast sein? Auch dann fühlen wir uns geehrt und freuen uns, wenn du dich bei uns meldest 🙂 Wir finden dann sicherlich gemeinsam etwas.
 
-In beiden Fällen gilt: **Du** bestimmst das Thema und hast das letzte Wort. Vor einiger Zeit habe ich in einem Handout mal grob aufgeschrieben, was es bedeutet, bei uns zu Gast zu sein. Dabei ist ein PDF entstanden, [das du hier findest](Handout_Gast.pdf) und das dir hoffentlich einen ersten Eindruck vermittelt 🙂
+In beiden Fällen gilt: **Du** bestimmst das Thema und hast das letzte Wort. Vor einiger Zeit habe ich in einem Handout mal grob aufgeschrieben, was es bedeutet, bei uns zu Gast zu sein. Dabei ist ein PDF entstanden, [das du hier findest](/2019/gaeste-beim-codestammtisch/Handout_Gast.pdf) und das dir hoffentlich einen ersten Eindruck vermittelt 🙂
 ## Und jetzt du?
 Du hast Lust, dich mit uns zu unterhalten? Oder eine Frage? Dann schreib uns einfach, eine kurze Nachricht genügt! Du erreichst uns am besten per [Mail an hallo-at-codestammtis.ch](mailto:hallo@codestammtis.ch), per [DM an @codestammtisch bei Twitter](https://twitter.com/Codestammtisch).
 

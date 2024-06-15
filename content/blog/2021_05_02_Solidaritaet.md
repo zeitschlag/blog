@@ -17,7 +17,7 @@ Im Anschluss an die Fahrradtour fand am Wochenende die [Revolutionäre 1. Mai De
 
 > „Die Server stehen still, wenn wir uns organisieren #TechWorkerSolidarity“
 
-![](techworkersolidarity.jpeg)
+![](/2021/hashtag-techworkersolidarity/techworkersolidarity.jpeg)
 
 Ich arbeite als „TechWorker“, als Programmierer für Apps. Ich abstrahiere Probleme und baue mit meinem Werkzeug — und nichts anderes sind Programmiersprache und Computer — Lösungen. Dabei versuche ich gute Arbeit zu leisten, denn auch ich habe so etwas wie eine Handwerksehre. Ich möchte stolz auf meine Arbeit sein, sie soll auch handwerklich gut gemacht sein. Dieses Selbstverständnis als „Handwerker“ lässt interessante Schlüsse zu.
 

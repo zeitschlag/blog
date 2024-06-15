@@ -8,7 +8,7 @@ Dieses Jahr findet der [Chaos Communication Congress](https://de.wikipedia.org/w
 
 Gestern Abend schaute ich ein bisschen [Teleshopping](https://jetzt-mega-absahnen.shop/) und während der Werbung dachte ich mir, dass ich die Werbemusik gerne als Warteschleifenmusik hätte:
 
-![](cat.jpg)
+![](/2020/how-to-freizeichen/cat.jpg)
 
 Gesagt, getan:
 
@@ -16,11 +16,11 @@ Gesagt, getan:
 - Anschliessend habe ich die Datei im [GURU3](https://guru3.eventphone.de/audio/my) als _Audio File_ hochgeladen und einen treffenden Namen vergeben, in diesem Fall _Hotline_. Dabei ist wichtig, dass nur MP3 und WAV kleiner als 5MB unterstützt werden.
 - Zum Schluss habe ich die [entsprechende Extension](https://guru3.eventphone.de/extension.asp/my?font=Comic%20Sans&force=true) bearbeitet...
 
-![](1.png)
+![](/2020/how-to-freizeichen/1.png)
 
 ... und eben jene Datei als Ringback Tone (Rückrufton?) ausgewählt.
 
-![](2.png)
+![](/2020/how-to-freizeichen/2.png)
 
 - Fertig. Wer mich jetzt aus dem RC3-Eventphone-Netz [anruft](tel:6846), bekommt coole Musik.
 

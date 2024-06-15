@@ -6,7 +6,7 @@ date = 2021-06-26T13:12:00Z
 
 Am gestrigen Freitag trafen sich die coolen Kids von [Deutsche Wohnen & Co. enteignen][dw-enteignen] vor der Senatsverwaltung, um die restlichen rund 50.000 Unterschriften für den Volksentscheid zu übergeben. Gleichzeitig wurden die benötigten [175.000 gültigen Unterschriften][pm-berlin-dw-enteignen] erreicht, die für den Volksentscheid nötig sind. Wäre ich eine Partei, würde ich in den insgesamt ~350.000 Unterschriften ein schönes Wähler*innenpotential sehen, aber die SPD arbeitet mit <del>Dr.</del> Franziska Giffey auf der Seite der Immobilienlobby lieber an einer Stadt der Reichen — und am Ziel 5%-Hürde. 
 
-![](IMG_1873.jpeg)
+![](/2021/re-der-mietspiegel-hilft-auch-nicht-weiter/IMG_1873.jpeg)
 
 Heute morgen [weinte ein alter, weißer Mann][alan-mimimi] rum, dass Enteignen keine neuen Wohnungen schafft — No shit, Sherlock. Hat das jemals irgendwer behauptet? Es geht darum, bestehenden Wohnraum bezahlbar zu machen und etwaige Profite nicht in den Taschen irgendwelche Milliardäre verschwinden zu lassen. Damit mehr für mehr bezahlbaren Neubau bleibt. Wenn Steuergeld ein Problem sein sollte, könnte man ja mit Vermögens- und höheren Unternehmenssteuern arbeiten oder Steuerflucht und -hinterziehung bekämpfen, aber andere Thema.
 
