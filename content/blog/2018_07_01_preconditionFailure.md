@@ -3,8 +3,6 @@ title = "preconditionFailure"
 date = 2018-07-01T22:08:00Z
 +++
 
-Lang: en
-
 One of my goals for May 2018 was to finally read [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer). I haven't succeeded yet, that's why this year, June was May, Extended Edition and July is June, Extended Edition.
 
 A few years ago, a dear friend of mine recommended reading this book to me and I should have listened to him. It is so interesting to read, I've learned a lot of things and I'm barely halfway through. What I like about this book is that it encourages you to think about your work and how you achieve it. It shows you good practices without being arrogant.

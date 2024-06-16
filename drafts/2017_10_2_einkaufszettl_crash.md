@@ -3,7 +3,6 @@ title = "Löschen-Bug im Einkaufszettl"
 date = 2017-10-0214:07:00Z
 +++
 
-
 # Löschen-Bug im Einkaufszettl
 
 - Neulich kleinere Umbauarbeiten im Zuge der iOS 11-Anpassungen

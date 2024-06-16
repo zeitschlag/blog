@@ -87,7 +87,7 @@ Sie haben ferner gem. Art. 77 DSGVO das Recht, eine Beschwerde bei der zuständi
 
 Sie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO mit Wirkung für die Zukunft zu widerrufen
 
-###Widerspruchsrecht
+### Widerspruchsrecht
 
 Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen.
 

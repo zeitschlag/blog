@@ -5,6 +5,8 @@ date = 2023-06-15
 
 dies ist im wesentlichen eine angereicherte version [einer reihe von toots][chuba-mastodon], die ich im dezember 2022 verfasst habe. bei der großartigen junaimnetz gab's mal eine reihe „[prokrastinieren mit popmusik][juna-popmusik]“ und in diese richtung geht es, aber im gegensatz zu mir hat juna ahnung von der materie.
 
+<!-- more -->
+
 manchmal höre ich deutsche popmusik. manchmal bilde ich mir was darauf ein, sie nur manchmal zu hören. ich _geniesse_ die musik nicht, ich höre sie. popmusik ist mir oft zu konstruiert, oft zu eingängig. aber manchmal genau das, was ich möchte. oder brauche. vielleicht habe ich extra apple music, damit dieses guilty pleasure, das kein guilty pleasure ist, keinen einfluss auf die empfehlungen bei spotify hat. und so hörte ich vor geraumer zeit „[wildberry lillet][wildberry-lillet-yt]“ von [nina chuba][chuba-wiki]. dazu schrieb ich:
 
 these: nina chuba hat, wie so viele, auch wohlhabende, eigentlich gar keinen bock auf kapitalismus und die folgen.

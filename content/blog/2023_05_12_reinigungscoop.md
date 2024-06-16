@@ -5,6 +5,8 @@ date = 2023-05-12
 
 in diesem haushalt hat man ein großes herz für besetzte und kollektivbetriebe, das ist sicherlich [kein geheimnis][kollektive-super]. aber in diesem haushalt handhabt man den haushalt eher … sagen wir mal: pragmatisch. nicht gut, wie besuch anmerkte, aber meistens bin ich alleine und es juckt mich auch nicht besonders — ich bin froh und auch ein bisschen stolz, dass ich mittlerweile zumindest einmal am tag den abwasch erledige.
 
+<!-- more -->
+
 es gibt ein paar reinigungsfirmen in berlin, die fair sein wollen, beispielsweise [kehrwork][kehrwork] oder [klara grün][klara-gruen]. das neue deutschland hat letztens mit [katharina florian, der gründerin von kehrwork gesprochen][kehrwork-interview]. nur sind die meisten klassische, ausbeuterische unternehmen: die profite bleiben bei den eigentümer\*innen, das sind üblicherweise nicht die arbeiter\*innen und genau das ist das problem. es gibt bessere, sogar ziemlich gute arbeitsbedingungen, die chef\*innen wollen sich um ihre leute kümmern, aber sie bieten keine nachhhaltige lösung, keine antwort auf die systemfrage, die verteilungsfrage. dazu kommt startup-sprech — das riecht ein bisschen nach greenwashing, ich möchte aber nichts unterstellen.
 
 alleine durch die eigentumsverhältnisse reproduzieren diese firmen undemokratische machtstrukturen, abhängigkeitsverhältnisse und hierarchien. trotzdem wünsche ich ihnen natürlich erfolg, denn in dieser welt ist leider auch ein so winziger schritt in die richtige richtung immerhin schon ein schritt und bessere arbeitsbedingungen sind besser als nichts.

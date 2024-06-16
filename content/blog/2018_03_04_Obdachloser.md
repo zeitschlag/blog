@@ -3,7 +3,6 @@ title = "Dein Freund und Rauswerfer "
 date = 2018-03-15T13:51:00Z
 +++
 
-
 Vor ein paar Tagen gab es einen dieser Abende, an denen es so furchtbar kalt war. Gut verpackt lief ich vom Späti nach Hause, wobei der Späti mangels echter Spätis im Kiez eigentlich ein Discounter war. An einer Strassenecke parkte ein Polizeiwagen. Die beiden dazugehörigen Polizisten standen im Hauseingang eines Gebäudes, das seinerseits hinter dem Polizeiwagen stand. Ein Angestellter eines Sicherheitsdienstes hatte sie gerufen, weil sich ein Mensch in eben diesem Hauseingang schlafen gelegt hatte — es war ungefähr 22:00 Uhr.
 
 Man hörte ein wütendes Fluchen auf einer fremden Sprache. Ich hielt inne und beobachtete die Szene aus einigen Metern Entfernung, bis einer der Polizisten auf mich aufmerksam wurde. Was ich hier wolle, fragte er mich. Schauen, was Sie jetzt täten, entgegnete ich, schauen, was jetzt passiere. Der Plan war anscheinend, den schlafenden Menschen einfach in die Kälte zu schicken, weil er jegliche Hilfe abgelehnt hätte. In Notunterkünften würde er nur beklaut werden und dafür waren ihm seine Habseligkeiten verständlicherweise zu wichtig. Er — und nicht die Obdachlosigkeit — war ein Problem und der Job war nicht, das Problem zu lösen, sondern es loszuwerden.

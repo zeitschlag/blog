@@ -3,8 +3,9 @@ title = "waschsalon"
 date = 2023-01-15T11:25:00Z
 +++
 
-
 urlaub. endlich raus. raus aus der stadt. raus aufs land. alles geplant, kaum etwas gebucht. nur die hinfahrt, geplant ist eine kleine rundreise. klamotten für ein paar tage, denn: geplant ist, bei freund\*innen zu waschen. die freund\*innen fallen aus. corona. gut, dass ich nichts gebucht habe, also plane ich anders, fahre anders, buche anders als geplant. raus aus dem land, das ist nichts für mich. rein in die stadt.
+
+<!-- more -->
 
 das ungelöste problem der ungewaschenen wäsche aber bleibt. sonntag, google maps, waschsalon. es gibt sie, aber es gibt ein problem: sonntags haben sie geschlossen. also montag morgen. vorbei am späti, anschliessend mit einer mate — man soll ja immer das gute sehen, auch in dieser scheiß gentrizifierung — und einer zeitung in den waschsalon direkt nebenan. nur barzahlung, aber das stand ja schon im internet.
 

@@ -3,7 +3,6 @@ title = "Guardians of the Galaxy"
 date = 2021-11-27T22:29:00Z
 +++
 
-
 Ich bin gestern ein bisschen schwach geworden — aus Gründen habe ich gerade nicht sonderlich viel Kraft, da fällt mir das leicht — und habe mir mit „[Guardians of the Galaxy][wiki-gotg]“ ein neues Spiel für die Playstation gekauft. Heute morgen kam ich dann zum ersten Mal dazu, die Disc einzulegen und das Spiel zu starten. Und dann war eigentlich auch schon jetzt und ich habe mir nichts, dir nichts ein paar Stunden in dem Spiel versenkt.
 
 ![](/2021/guardians-of-the-galaxy/gotg.jpeg)

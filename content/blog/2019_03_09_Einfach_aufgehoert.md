@@ -3,7 +3,6 @@ title = "Einfach aufgehört"
 date = 2019-03-09T23:39:00Z
 +++
 
-
 Als ich vor einem Monat gelernt habe, woher das [Popcorn im Kino](https://twitter.com/zeitschlag/status/1094654285953019906) kommt, war mir noch nicht klar, dass ich einen Monat später keinen Bock mehr auf Kino — und Popcorn — haben würde. Damals schrieb ich:
 
 > (Eigentlich wollte ich so Kram mal auf den Blog statt auf Twitter posten.) ([Quelle](https://twitter.com/zeitschlag/status/1094655474081910784))

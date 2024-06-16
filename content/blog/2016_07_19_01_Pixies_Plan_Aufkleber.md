@@ -3,7 +3,6 @@ title = "Pixies, ein Plan und ein Aufkleber"
 date = 2016-07-19T22:29:00Z
 +++
 
-
 S. meldete mich gestern kurzfristig zum heutigen Umsonst-und-Drinnen-Konzert der [Pixies](https://de.wikipedia.org/wiki/Pixies) im [SchwuZ](https://de.wikipedia.org/wiki/SchwuZ) an. arte zeichnete auf, das Konzert wird am 21. Oktober dort zu sehen sein.
 
 ![Bild der Bühne ohne Pixies](/img/IMG_116.jpg)

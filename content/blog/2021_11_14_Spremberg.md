@@ -3,7 +3,6 @@ title = "Re: Ein Haus mit 200 Geschäftsführern"
 date = 2021-11-14T19:31:00Z
 +++
 
-
 Einmal im Monat liegt dem [nd](https://www.nd-aktuell.de/) am Wochenende eine Ausgabe von [OXI](https://oxiblog.de/) bei. Diese Monatszeitung mit dem Untertitel „Wirtschaft anders denken“ hat in der aktuellen Ausgabe den Schwerpunkt „Gemeinsam machen“ — es geht auch um Genossenschaften und Corinna Meisenbach schreibt aus recht aktuellem Anlass [über Genossenschaften bei linken Zeitungen](https://www.nd-aktuell.de/artikel/1158534.genossenschaften-bildet-zeitungsbanden.html). Wichtiger Bestandteil — und Zielgruppe — solcher linken Zeitungsbanden:
 
 > Eine treue Leser:innenschaft, der eine Gegenöffentlichkeit wichtig ist ist, um über Themen, Probleme oder soziale Gruppen, die sonst untergehen, zu berichten.

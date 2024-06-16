@@ -3,7 +3,6 @@ title = "Alles gesagt?"
 date = 2020-01-15T12:19:00Z
 +++
 
-
 Ich produziere nicht nur selbst [einen Podcast](https://codestammtis.ch), ich höre sie natürlich auch gerne. Jemand sagte mal, dass Menschen in Podcasts laut denken und dabei kann man ihnen zuhören. Ist das nicht großartig?
 
 In der letzten Zeit hat es sich — wahrscheinlich auch durch meine Spaziergänge — eingeschlichen, dass ich mir auch mehr Zeit für die großen Podcasts mit längeren Folgen nehme. Wie beim Lesen finde ich das irgendwie schön. Wahrscheinlich bin ich da einfach mal wieder ziemlich spät zu der Party und ihr alle macht das schon seit immer so beim Wäsche aufhängen.

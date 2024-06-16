@@ -3,7 +3,6 @@ title = "Podcast Analytics 2019.1"
 date = 2019-05-03T06:19:00Z
 +++
 
-
 Da arbeite ich ewig — oder drei Tage — an einem Projekt und finde hier noch etwas, das ich besser machen kann, oder dort drüben. Aber irgendwann muss ich gut auch einfach mal gut sein lassen. Und dann kommt eigentlich der befriedigendste Teil des Ganzen: Hier ist es jetzt ein Blogpost, im Büro eine Mail an alle. Ein schriftliches „Hey, seht mal alle her, was ich erreicht habe! Schaut euch das Ergebnis an! Gebt mir Feedback und findet es gefälligst mindestens genauso gut wie ich!!!!”. Ein Blogpost — oder eben eine Mail — dass etwas fertig geworden ist.
 
 Gerade weil ich so viele App-Ideen angefangen und nicht zu Ende gebracht habe, ist so ein Blogpost um ein Vielfaches befriedigender. Weil es mir eben auch zeigt, dass ich Sachen durchaus beenden kann — sofern man bei Software davon reden kann. Und nächstes Mal fällt es mir wahrscheinlich ein bisschen leichter. Genug geschwaffelt, ihr müsst ja jetzt schließlich das Ergebnis betrachten und es mindestens genauso gut finden wie ich.

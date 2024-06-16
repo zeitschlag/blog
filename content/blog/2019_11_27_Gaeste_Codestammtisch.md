@@ -3,7 +3,6 @@ title = "Gäste beim Codestammtisch"
 date = 2019-11-27T21:19:00Z
 +++
 
-
 Seit bald zwei Jahren und rund 40 Folgen podcaste ich mit einem guten Freund beim [Codestammtisch](https://codestammtis.ch). Bei den meisten meiner Jobs habe ich es nicht so lange ausgehalten. Und größtenteils nehmen Max und ich den Podcast alleine auf, von einigen Ausnahmen abgesehen.
 
 - Los ging es mit [Raphael in CST004 über die Cloud](https://codestammtis.ch/2018/01/19/cst004-heiter-bis-wolkig/).

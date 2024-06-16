@@ -3,10 +3,11 @@ title = "Privilegal"
 date = 2021-02-12T21:16:00Z
 +++
 
-
 > Ein Privileg (Plural Privilegien, von lateinisch privilegium „Ausnahmegesetz, Vorrecht“) ist ein Vorrecht, das einer einzelnen Person oder einer Personengruppe zugeteilt wird. — Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Privileg)
 
 Das war's. Damit habe ich wahrscheinlich bis an mein Lebensende Hausverbot im Elfenbeinturm der Akademia. Wie dem auch es: Es geht um <del>Sonderrechte</del> <del>Aufhebung von Beschränkungen</del> Privilegien für Menschen, die ihre Impfung gegen COVID—19 erhalten haben. Das [Sturmgeschütz der Bourgeoisie](https://lagedernation.org/2021/01/21/ldn225-bidens-inauguration-zero-covid-regeln-fuer-geimpfte-hochschulpruefungen-cdu-vorsitzender-laschet-fall-nawalny/) und [tante](https://tante.cc/2021/01/25/lagebesprechung/) haben sich da vor ein paar Tagen gefetzt — eine [Dokumentation kommt Ende März in die Kinos](https://de.wikipedia.org/wiki/Godzilla_vs._Kong). Also vielleicht.
+
+<!-- more -->
 
 Nachdem die Lage tantes Kommentar [aufgegriffen](https://lagedernation.org/2021/02/05/ldn227-impfungen-ethikrat-stellungnahme-nawalny-myanmar-putsch-lesbare-gesetzesentwuerfe/) hat, hat Stefan eine [lesenswerte Lagenachbesprechung geschrieben](https://stefan.bloggt.es/2021/02/lagenachbesprechung/) und den Aspekt Klasse eingebracht. Außerdem schreibt er:
 

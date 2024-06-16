@@ -19,11 +19,6 @@ build_search_index = false
 highlight_code = true
 
 [languages.de.translations]
-no_posts = "Keine Einträge"
-remove_filter = "Filter entfernen"
-filtering_for = "Filtern nach"
-table_of_contents = "Inhaltsverzeichnis"
-language = "Sprache"
 site = "Seite"
 
 [extra]

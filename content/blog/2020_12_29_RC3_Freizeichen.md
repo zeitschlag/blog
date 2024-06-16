@@ -3,8 +3,9 @@ title = "How to Freizeichen"
 date = 2020-12-29T10:05:00Z
 +++
 
-
 Dieses Jahr findet der [Chaos Communication Congress](https://de.wikipedia.org/wiki/Chaos_Communication_Congress) im Homeoffice statt und heisst Remote Chaos <del>E</del>3xperience. Aber eigentlich ist alles wie immer: Es ist wuselig, es gibt [Talks](https://media.ccc.de/c/rc3), Mate — und es gibt [Eventphone](https://eventphone.de/blog/).
+
+<!-- more -->
 
 Gestern Abend schaute ich ein bisschen [Teleshopping](https://jetzt-mega-absahnen.shop/) und während der Werbung dachte ich mir, dass ich die Werbemusik gerne als Warteschleifenmusik hätte:
 
