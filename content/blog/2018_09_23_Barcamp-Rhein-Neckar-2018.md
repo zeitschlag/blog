@@ -3,7 +3,6 @@ title = "Barcamp Rhein-Neckar 2018 in Heidelberg"
 date = 2018-09-23T18:32:00Z
 +++
 
-
 Am 22. und 23. September 2018 fand das dritte [Barcamp Rhein-Neckar](https://barcamp-rhein-neckar.de) zum dritten Mal im [Dezernat 16](http://www.dezernat16.de) in Heidelberg statt. Nachdem wir es [2015](/2015/bcrn15/) gegründet und [2016](/2016/barcamp-rhein-neckar-2016-in-heidelberg/) wiederholt haben, war ich natürlich auch dieses Jahr wieder dabei. Das Team um Adrian und Valentin hat Großartiges geleistet.
 
 Das BCRN — eigentlich, so habe ich gelernt, müsste es es „HeidelCamp“ oder „RheinNeckarCamp“ heißen — ist eines der kleineren Barcamps in Deutschland, aber vielleicht gerade deswegen ein sehr feines. Dieses Jahr gab es eine Kooperation mit [WikiDACH](https://de.wikipedia.org/wiki/Wikipedia:WikiDACH/2018), dem deutschsprachigen Wiki-Barcamp. Weil beide Camps sonst wahrscheinlich nicht stattgefunden hätten, schlossen sich die Orga-Teams einfach kurzerhand zusammen und organisierten eins für alle.

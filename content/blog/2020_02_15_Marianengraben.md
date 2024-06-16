@@ -3,7 +3,6 @@ title = "Marianengraben"
 date = 2020-02-15T12:22:00Z
 +++
 
-
 Es gibt Filme und Erinnerungen, die ich mit mir herumtrage und die ich noch nicht oder nicht mehr ansehen kann. Irgendwo ganz tief hinten in meinem Herzen ist ein Zimmer, in dem ich solche Dinge einlagere. Eben weil sie mir so wichtig sind und trotzdem so scheisse weh tun. So ein bisschen wie ein Schuhkarton mit Erinnerungen an und Geschenken von Expartner\*innen. Oder ein atomares Endlager.
 
 Seit letztem Mittwoch gibt es in diesem Raum ein Bücherregal und vielleicht habe ich auch ein bisschen die Tür aufgelassen. Am letzten Mittwoch war ich auf einer Buchpremiere im [Krematorium Wedding](https://de.wikipedia.org/wiki/Krematorium_Berlin-Wedding): [Jasmin Schreiber](https://www.jasmin-schreiber.de) stellte „[Marianengraben](https://www.luebbe.de/eichborn/buecher/sonstige-belletristik/marianengraben/id_7725687)“” vor, einen Roman, der Ende des Monats erscheint und den ich eigentlich vorbestellt hatte. Relativ schnell an diesem Abend war da dann aber der Entschluss, dass ich nicht bis Ende Februar warten möchte und so habe ich mir das Buch direkt im Anschluss an die Lesung gekauft. Vielleicht auch ein bisschen deshalb, weil <del>Melanie</del> <del>Wem du willst</del> <del>F.J.Wagner</del> Jasmin ihr Werk signierte.

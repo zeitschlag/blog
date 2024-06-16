@@ -3,8 +3,9 @@ title = "wahlhelfer"
 date = 2024-06-11T21:33:00Z
 +++
 
-
 vergangenen sonntag war in deutschland europawahl, [das beschissene ergebnis][tagesschau-wahl] dürfte hinlänglich bekannt sein: die gesellschaftliche linke säuft ab, die leute wählen rechts, es wird rechte politik gemacht wird und die leute haben bock auf rechte politik.
+
+<!-- more -->
 
 vor einigen monaten hatte ich mich als wahlhelfer beworben und vor einige wochen kam dann der brief, dass ich doch bitte ab 15 uhr im lokalen briefwahllokal wahlhelfen solle. ich lese mir einige dutzend seiten pdfs durch und führe mir über dreissig minuten video zu gemüte, weil man will ja schliesslich vorbereitet sein auf diese verantwortungsvolle aufgabe.
 

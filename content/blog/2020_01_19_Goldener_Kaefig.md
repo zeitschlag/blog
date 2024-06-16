@@ -3,7 +3,6 @@ title = "Goldener Käfig"
 date = 2020-01-19T15:42:00Z
 +++
 
-
 Am Wochenende war ich unter anderem im noch Vereinigten Königreich -- zum ersten Mal seit etwas mehr als zwei Jahren. Eine Freundin feierte Geburtstag und so ließ ich es mir nicht nehmen, mit dem Zug anzureisen. Das habe ich mir vor fünf Jahren zum Abschluss meines Bachelorstudiums schon einmal geschenkt und ich hatte es sehr angenehm in Erinnerung.
 
 Ich fahre gerne Zug. Für mich ist das meistens eine sehr entspannte Form des Reisens. Wie beim letzten Mal fuhr ich über Brüssel und von dort mit dem [Eurostar](https://de.wikipedia.org/wiki/Eurostar_International) nach [London St Pancras International](https://de.wikipedia.org/wiki/Bahnhof_St_Pancras) — einem wunderschönem Banhof. Eine Fahrt dauerte rund sechs Stunden. Wäre ich geflogen, wäre ich wohl auch nicht schneller gewesen.

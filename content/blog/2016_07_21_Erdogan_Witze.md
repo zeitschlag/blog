@@ -3,7 +3,6 @@ title = "Erdoğan-Witze"
 date = 2016-07-21T12:34:00Z
 +++
 
-
 Während meiner Ausbildung trafen wir uns regelmässig mittwochs oder donnerstags zu einer englischen Gesprächsrunde, in der wir uns - das macht man wohl so, habe ich hinterher erfahren- auf Englisch unterhielten. S., unser damaliger Gesprächsrundenleiter, kam aus England, damals gehörte das noch zur EU.
 
 Irgendwann diskutierten wir unter anderem über schlechten, bösen, keinen und schwarzen Humor. Er erzählte uns, dass sein Vater im KZ gestorben sei. Schweigen. Er sei besoffen vom Wachturm gefallen. Und dann diskutierten wir und diskutierten.

@@ -3,10 +3,11 @@ title = "Bittere Brötchen"
 date = 2021-01-07T20:37:00Z
 +++
 
-
 Heute las ich in „[Schulden — die ersten 5000 Jahre](https://de.wikipedia.org/wiki/Schulden%3A_Die_ersten_5000_Jahre)“ einen schönen Satz:
 
 > Wir klammern uns an das Vorhandene, weil wir uns keine Alternative [zum Kapitalismus] mehr vorstellen können, die nicht noch schlimmer ist.
+
+<!-- more -->
 
 Eigentlich ist es ganz einfach: Ich will in einer Welt mit einem Wirtschaftssystem leben, das allen Menschen dient. Das Besitz und Wohlstand auf alle aufteilt. In dem Menschen teilen. In dem Wohnraum, Essen, Netze allen gehören und frei genutzt werden können. In dem Menschen keine anderen Menschen hungern, frieren, Angst haben lassen. Ohne Kapitalismus, auch ohne grünen. Ohne Faschismus. Oder ohne Faschist*innen, das geht auch. Ohne Rassismus. Ohne Unterdrückung. Diese Liste ist unvollständig. Eigentlich ganz einfach, oder?
 

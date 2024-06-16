@@ -5,6 +5,8 @@ date = 2021-01-03T19:19:00Z
 
 Gestern las ich einen Artikel im Guardian. Dr. Daisy Fancourt forscht am University College London zu den sozialen Auswirkungen von COVID—19. Eine Erkenntnis (und der Titel des Artikels): [People started breaking Covid rules when they saw those with privilege ignore them](https://www.theguardian.com/commentisfree/2021/jan/02/follow-covid-restrictions-break-rules-compliance), auf Deutsch: Die Menschen haben angefangen, die Corona-Regeln zu brechen, als sie gesehen haben, dass Privilegierte sie ignorieren.
 
+<!-- more -->
+
 Was eigentlich zu tun ist, wissen wir alle:
 
 > Everyone needs to play their part, regardless of status or privilege. Any exemptions or modifications of rules can affect the compliance of others and sends a message that the rules are mere guidelines and personal sacrifices are not necessary. ([Quelle](https://www.theguardian.com/commentisfree/2021/jan/02/follow-covid-restrictions-break-rules-compliance))

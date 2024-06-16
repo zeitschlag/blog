@@ -3,7 +3,6 @@ title = "Jetzt auch von unterwegs"
 date = 2019-08-04T20:20:00Z
 +++
 
-
 Vor einiger Zeit posaunte ich auf Mastodon herum, dass ich neuerdings so viel mit meinem iPad machen würde. So viel, dass ich davon echt beeindruckt war. Ich wollte darüber bloggen, schrieb ich. Dann passierte relativ lange nichts.
 
 Und heute habe ich mich endlich mal hingesetzt, einen [Texteditor](https://kodex.app) heruntergeladen, einen [git-Client](https://workingcopyapp.com) installiert und dafür gesorgt, dass ich auf [entfernte Server zugreifen](https://www.panic.com/prompt/) kann. Mit anderen Worten: Ich habe ein paar Apps installiert, damit ich jetzt endlich auch von unterwegs aus bloggen kann.

@@ -3,8 +3,9 @@ title = "Das ist halt so."
 date = 2021-12-23T11:02:00Z
 +++
 
-
 Dieses Jahr habe ich den einen oder anderen Abend im Dezember damit verbracht, [Vanillekipferl][kipferl] zu backen und sie an Freund\*innen und Familienmitglieder zu verschicken. Die Päckchen sind mittlerweile alle angekommen und die Reaktionen reichen von „Das ist nicht fancy geil, aber bodenständig geil, aber geil!“ über „Vielen Dank für die leckeren Plätzchen 🎄“ bis zu einem „Die sind sensationell gut!“.
+
+<!-- more -->
 
 Ob das Feedback nur deshalb nur so gut ist, weil die Leute Kipferl von mir bekommen haben? Wir werden es wohl nie erfahren und es ist mir eigentlich auch egal, weil jede Person, die sich beschwert, wird halt nächstes Jahr nicht mehr bedacht. Ganz einfach.
 

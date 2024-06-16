@@ -3,7 +3,6 @@ title = "Nachhaltiger Stundenlohn von Zwofuffzig"
 date = 2020-03-25T22:21:00Z
 +++
 
-
 Ich bin ein weißer cis Dude, bin weder betroffen, noch habe ich Ahnung. Damit könnte dieser Blogpost eigentlich auch schon enden. Aber ich habe eine Meinung und privat bin ich übrigens eigentlich auch ganz nett. 
 
 Die Corona-Pandemie verbringe ich größtenteils im bequemen Homeoffice, das höchstens dann kalt wird, wenn ich das Fenster zu lange auflasse. Privilegien ohne Ende. Neuerdings mache ich täglich nach der Arbeit einen längeren Spaziergang. Das soll verhindern, dass mir die Decke auf den Kopf fällt. Immer eine ähnliche Strecke, immer irgendwie um den Block. 

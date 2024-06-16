@@ -5,6 +5,8 @@ date = 2020-09-04
 
 Die Ladebuchse von meinem Handy ist kaputt. Also so halb: Laden klappt noch, aber Daten übertragen nicht mehr. Und weil ich ein guter, grüner Kapitalist und auch sonst vollkommen widerspruchsfrei bin, habe ich das Handy vorhin in den Handyreparaturladen um die Ecke gebracht. Dass ich selbst zu faul, zu ungeduldig und zu inkompetent bin, die [Buchse selbst zu tauschen](https://de.ifixit.com/Anleitung/iPhone+7+Lightning+Connector+Einheit+austauschen/78122), ist natürlich ein weiterer Grund.
 
+<!-- more -->
+
 Die Reparatur dauert rund vier Stunden — drei sind schon um — und so habe ich mich im Prenzlauer Berg in ein Café gesetzt, atme Autoabgase ein, lese, trinke Tee, blogge, gehe spazieren. Es lohnt sich ja schliesslich nicht so richtig, in der Zwischenzeit nochmal nach Hause zu gehen.
 
 Wenn ich meine Wohnung verlasse, habe ich drei Dinge immer dabei: Schlüssel, Handy, Geldbeutel. Damit lassen sich viele Probleme lösen, die unterwegs auftauchen sollten. Jetzt bin ich also hier und denke: Da fehlt doch etwas! Irgendwas! Irgendwas ist anders als sonst. Die eine Hosentasche ist seltsam leer.

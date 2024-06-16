@@ -13,20 +13,24 @@
             </time>
           </i>
         </p>
+      {%- endif %}
+      {%- if page.summary %}
+        {{ page.summary | safe }} <a href="{{ page.permalink }}#continue-reading">weiterlesen ›</a>
+      {%- else %}
         {{ page.content | safe }}
+      {%- endif %}
       </article>
-    {%- endif %}
-    {% else %}
-      No posts yet
     {% endfor %}
   </main>
+  
+  <hr>
 
   <nav class="pagination">
       {% if paginator.previous %}
-          <a class="previous" href="{{ paginator.previous }}">‹ Newer posts</a>
+          <a class="previous" href="{{ paginator.previous }}">‹ neuer</a>
       {% endif %}
       {% if paginator.next %}
-          <a class="next" href="{{ paginator.next }}">Older posts ›</a>
+          <a class="next" href="{{ paginator.next }}">älter ›</a>
       {% endif %}
   </nav>
 {% endblock %}
