@@ -34,3 +34,10 @@ url = "/"
 name = "über mich"
 url = "@/about/_index.md"
 
+[[extra.main_menu]]
+name = "impressum"
+url = "@/impressum/_index.md"
+
+[[extra.main_menu]]
+name = "datenschutz"
+url = "@/datenschutz/_index.md"
