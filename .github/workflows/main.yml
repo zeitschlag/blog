@@ -5,10 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     name: "Build and deploy blog"
     steps:
-      - name: "Check out repository"
-        uses: actions/checkout@v3
+      - name: "Check out latest commit"
+        uses: actions/checkout@v4
         with:
           submodules: "true"
+          fetch-depth: 1
       - name: "Setup everything"
         run: |
           sudo locale-gen de_DE
