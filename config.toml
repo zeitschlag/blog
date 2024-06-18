@@ -25,6 +25,7 @@ site = "Seite"
 
 [extra]
 # Put all your custom variables here
+date_format = "%d. %B %Y"
 
 hide_made_with_line = true
 
