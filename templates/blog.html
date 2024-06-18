@@ -9,7 +9,7 @@
         <p>
           <i>
             <time datetime='{{ page.date | date(format='%+') }}' pubdate>
-              {{- page.date | date(format=config.extra.date_format) -}}
+              {{- page.date | date(format=config.extra.date_format, locale="de_DE") -}}
             </time>
           </i>
         </p>
