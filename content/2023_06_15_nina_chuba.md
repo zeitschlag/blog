@@ -1,6 +1,6 @@
 +++
 title = "23:34"
-date = 2023-06-15
+date = 2023-06-15T23:34:00Z
 +++
 
 dies ist im wesentlichen eine angereicherte version [einer reihe von toots][chuba-mastodon], die ich im dezember 2022 verfasst habe. bei der großartigen junaimnetz gab's mal eine reihe „[prokrastinieren mit popmusik][juna-popmusik]“ und in diese richtung geht es, aber im gegensatz zu mir hat juna ahnung von der materie.
