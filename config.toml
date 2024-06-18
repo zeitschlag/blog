@@ -13,7 +13,7 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 generate_feed = true
-feed_filename = "rss.xml"
+feed_filename = "atom.xml"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -37,9 +37,14 @@ name = "über mich"
 url = "@/about/_index.md"
 
 [[extra.main_menu]]
+name = "feed"
+url = "/atom.xml"
+
+[[extra.main_menu]]
 name = "impressum"
 url = "@/impressum/_index.md"
 
 [[extra.main_menu]]
 name = "datenschutz"
 url = "@/datenschutz/_index.md"
+
