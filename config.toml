@@ -2,7 +2,7 @@
 base_url = "https://bullenscheisse.de"
 
 theme = "zola-bearblog"
-output_dir = "output"
+output_dir = "public"
 default_language = "de_DE"
 title = "bullshit"
 author = "nathan mattes"

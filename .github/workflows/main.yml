@@ -19,13 +19,13 @@ jobs:
         uses: kytta/zola-build-pages@v1
         with:
           zola-version: "0.18.0"
-          output-dir: "./output"
+          output-dir: "./public"
       - name: "Deploy site"
         if: ${{ github.ref_name == 'main' }}
         uses: burnett01/rsync-deployments@7.0.1
         with:
           switches: -rav --delete
-          path: output/
+          path: public/
           remote_path: /var/www/virtual/n4th4n/html/bullenscheisse.de/
           remote_host: chiron.uberspace.de
           remote_user: n4th4n
