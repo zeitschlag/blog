@@ -15,7 +15,7 @@
         </p>
       {%- endif %}
       {%- if page.summary %}
-        {{ page.summary | safe }} <a href="{{ page.permalink }}#continue-reading">weiterlesen ›</a>
+        {{ page.summary | safe }} <a href="{{ page.permalink }}#continue-reading">weiterlesen →</a>
       {%- else %}
         {{ page.content | safe }}
       {%- endif %}
@@ -27,10 +27,10 @@
 
   <nav class="pagination">
       {% if paginator.previous %}
-          <a class="previous" href="{{ paginator.previous }}">‹ neuer</a>
+          <a class="previous" href="{{ paginator.previous }}" style="float: left;">⇐ neuer</a>
       {% endif %}
       {% if paginator.next %}
-          <a class="next" href="{{ paginator.next }}">älter ›</a>
+          <a class="next" href="{{ paginator.next }}" style="float: right;">älter ⇒</a>
       {% endif %}
   </nav>
 {% endblock %}
