@@ -1,6 +1,5 @@
 +++
 title = "Datenschutzerklärung"
-date = 2024-06-12
 template = "index.html"
 +++
 

@@ -18,7 +18,7 @@ jobs:
       - name: "Build site"
         uses: kytta/zola-build-pages@v1
         with:
-          zola-version: "0.18.0"
+          zola-version: "0.19.1"
           output-dir: "./public"
       - name: "Deploy site"
         if: ${{ github.ref_name == 'main' }}

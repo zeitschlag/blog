@@ -1,6 +1,5 @@
 +++
 title = "Impressum"
-date = 2024-06-12
 template = "index.html"
 +++
 
