@@ -1,7 +1,6 @@
 +++
-title = "nd.zwo — Die Lage"
-slug = "nd-zwo-lage"
-date = 2024-07-04T22:13:00Z
+title = "Die Lage der Publikation"
+slug = "nd-zwo-die-lage"
 draft = true
 +++
 
@@ -18,23 +17,27 @@ Anlässlich der Generalversammlung habe ich mir Gedanken zu einer möglichen Alt
 Zu Beginn ein paar Hinweise:
 
 1. Ich bin weder Journalist, noch Zeitungsmacher und auch wenn mein Name Gegenteiliges suggeriert, habe ich die Weisheit nicht mit Löffeln gefressen. Ich habe von Zeitung, Medien und Co. entsprechend wenig Ahnung, möchte aber, dass sich etwas ändert, habe mit verschiedenen Leuten gesprochen und möchte meinen Plan skizzieren.
-2. Ich schreibe für das _nd_ montags den [Newsletter Muckefuck](https://newsletter.nd-aktuell.de/muckefuck) und werde dafür bezahlt. Außerdem habe ich bei der Appentwicklung ausgeholfen und auch dafür eine (überschaubare) Rechnung gestellt. Eigentlich bin ich [selbstständiger Programmierer](https://zeitschlag.net/lebenslauf/).
+2. Ich schreibe für das _nd_ montags den [Newsletter Muckefuck](https://newsletter.nd-aktuell.de/muckefuck) und werde dafür bezahlt. Außerdem habe ich bei der Appentwicklung ausgeholfen und auch dafür eine (überschaubare) Rechnung gestellt, denn eigentlich bin ich [selbstständiger Programmierer](https://zeitschlag.net/lebenslauf/).
 
 Zurück zum Thema: 
 
 --------
 
-## Die Lage
+## Die Lage der Publikation
 
 Das _neue deutschland_ ist eine linke Tages- und Wochenzeitung aus Berlin. Sie sitzt in Friedrichshain im [FMP 1](https://de.wikipedia.org/wiki/Verlagsgebäude_Neues_Deutschland) und ist wirtschaftlich mal wieder kurz vor dem Ende -- oder immer noch? Die Lage ist gelinde gesagt jedenfalls angespannt.
 
-Nachdem die damalige Geschäftsführung der Belegschaft im Februar 2021 mitteilte, dass die _Neues Deutschland Druckerei und Verlags GmbH_ zum 31. Dezember 2021 aufgelöst werden würde, gründete sich die _nd.Genossenschaft_, in die Zeitung und Belegschaft überführt wurden. Die Anteile an der Immobilie "FMP 1" hingegen sind nicht in das Eigentum der Genossenschaft übergegangen, sondern wurden 2021 verkauft. Zufall? Anders als die _taz_ sitzt das _nd_ somit jedenfalls nicht auf Betongold.
+Nachdem die damalige Geschäftsführung der Belegschaft im Februar 2021 mitteilte, dass die _Neues Deutschland Druckerei und Verlags GmbH_ zum 31. Dezember 2021 aufgelöst werden würde, gründete sich die _nd.Genossenschaft_, in die Zeitung und Belegschaft überführt wurden. Die Anteile an der Immobilie "FMP 1" hingegen sind nicht in das Eigentum der Genossenschaft übergegangen, sondern wurden 2021 verkauft. Zufall? Anders als die _taz_ sitzt das _nd_ somit jedenfalls nicht auf Betongold. Ironischerweise berichtete gerade die _taz_ vor einigen Jahren [zu genau diesem Thema](https://taz.de/Neues-Deutschland-Auflage-broeckelt/!5504099/).
 
 Gesellschafter der GmbH war damals unter anderem die Partei "Die Linke", weswegen die Belegschaft mithilfe von ver.di vor einem Parteitag demonstrierte und Flyer verteilte. Die Gewerkschaft schrieb:
 
 > Der Aufbau einer Genossenschaft braucht Zeit und Geld. Ein Betrieb funktioniert nicht von heute auf morgen genossenschaftlich.
 
-Die andere Hälfte der Zeitung gehörte zu einem großen Teil [Matthias Schindler](https://de.wikipedia.org/wiki/Matthias_Schindler_(Manager)). Die Altgesellschafter versprachen, die Genossenschaft über mehrere Jahre hinweg mit Zahlungen zu unterstützen, was sie auch taten.
+Die andere Hälfte der Zeitung gehörte zu einem großen Teil [Matthias Schindler](https://de.wikipedia.org/wiki/Matthias_Schindler_(Manager)). Im _taz_-Artikel wird er übrigens mit den Worten zitiert:
+
+> Ich glaube an das ND und will es erhalten.
+
+Die Altgesellschafter versprachen, die Genossenschaft über mehrere Jahre hinweg mit Zahlungen zu unterstützen, und hielten Wort.
 
 Weil linker Journalismus wichtig ist und eine linke Zeitung mehr besser als eine weniger, beteiligte auch ich mich damals mit einem Anteil in Höhe von 500 Euro, später einem weiteren. Ich war und bin ehrlich gesagt stolz darauf, einen Teil dieser Zeitung zu besitzen: Der Genossenschaftsanteil hängt gerahmt über meinem Schreibtisch. 
 
