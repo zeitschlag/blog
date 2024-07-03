@@ -18,6 +18,7 @@ Zu Beginn ein paar Hinweise:
 
 1. Ich bin weder Journalist, noch Zeitungsmacher und auch wenn mein Name Gegenteiliges suggeriert, habe ich die Weisheit nicht mit Löffeln gefressen. Ich habe von Zeitung, Medien und Co. entsprechend wenig Ahnung, möchte aber, dass sich etwas ändert, habe mit verschiedenen Leuten gesprochen und möchte meinen Plan skizzieren.
 2. Ich schreibe für das _nd_ montags den [Newsletter Muckefuck](https://newsletter.nd-aktuell.de/muckefuck) und werde dafür bezahlt. Außerdem habe ich bei der Appentwicklung ausgeholfen und auch dafür eine (überschaubare) Rechnung gestellt, denn eigentlich bin ich [selbstständiger Programmierer](https://zeitschlag.net/lebenslauf/).
+3. Ich besitze zwei Anteile an der nd.Genossenschaft.
 
 Zurück zum Thema: 
 
@@ -33,7 +34,7 @@ Gesellschafter der GmbH war damals unter anderem die Partei "Die Linke", weswege
 
 > Der Aufbau einer Genossenschaft braucht Zeit und Geld. Ein Betrieb funktioniert nicht von heute auf morgen genossenschaftlich.
 
-Die andere Hälfte der Zeitung gehörte zu einem großen Teil [Matthias Schindler](https://de.wikipedia.org/wiki/Matthias_Schindler_(Manager)). Im _taz_-Artikel wird er übrigens mit den Worten zitiert:
+Die andere Hälfte der Zeitung gehörte zu einem großen Teil [Matthias Schindler](https://de.wikipedia.org/wiki/Matthias_Schindler_(Manager)). Im obrigen _taz_-Artikel wird er übrigens mit den Worten zitiert:
 
 > Ich glaube an das ND und will es erhalten.
 
