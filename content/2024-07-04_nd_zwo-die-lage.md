@@ -32,7 +32,7 @@ Zu Beginn ein paar Hinweise:
 ## Die Lage der Publikation
 
 Das _neue deutschland_ ist eine linke Tages- und Wochenzeitung aus Berlin.
-Sie sitzt in Friedrichshain im [FMP 1](https://de.wikipedia.org/wiki/Verlagsgebäude_Neues_Deutschland) und ist wirtschaftlich mal wieder kurz vor dem Ende -- oder immer noch?
+Sie sitzt in Friedrichshain im [FMP 1](https://de.wikipedia.org/wiki/Verlagsgebäude_Neues_Deutschland) und ist wirtschaftlich mal wieder kurz vor dem Ende — oder immer noch?
 Die Lage ist gelinde gesagt angespannt.
 
 Nachdem die damalige Geschäftsführung der Belegschaft im Februar 2021 mitteilte, dass die _Neues Deutschland Druckerei und Verlags GmbH_ zum 31. Dezember 2021 aufgelöst werden würde, gründete sich die _nd.Genossenschaft_, in die Zeitung und Belegschaft überführt wurden.

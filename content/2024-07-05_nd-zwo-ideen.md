@@ -35,6 +35,8 @@ Ein solcher Grund ist eine bezahlbare, aber harte Paywall.
 Ansätze gibt es mit der App bereits, nur unterlaufen der hohe Preis von 15—20 Euro und dass sämtliche Artikel frei zugänglich auf der Webseite stehen, diese Bestrebungen.
 Stattdessen lautet der erste, konkrete Vorschlag: Paywall und 5 Euro pro Monat. Fertig.
 
+Menschen sind solidarisch, sie beteiligen sich gerne. es ist in Ordnung für sie, zu zahlen. Aber es gibt eine Grenze.
+
 Menschen, die einen Großteil ihres Erwerbslebens hinter sich haben, haben ganz andere finanzielle Möglichkeiten als junge Erwachsene in Zeiten von Krisen, Kriegen, Inflation.
 Das ist eine Realität und dafür braucht es ein entsprechendes Angebot.
 
@@ -47,25 +49,28 @@ Abgesehen von Inseraten der Linkspartei und ihrem Umfeld und _Zapf Umzüge_ gibt
 Anstatt einer klaren Linie zu folgen, ist das _nd_ voller unmoderierter Widersprüche. Problematische Palästinasolidarität, die auch bei _Klasse gegen Klasse_ oder _junger Welt_ erscheinen könnte, findet dort genauso ihren Platz wie Texte vom anderen Ende des Spektrums, auch Putin-Freund\*innen wie Gabriele Krone-Schmalz wird eine Bühne geboten. Im Redaktionsstatus ist explizit von einem "linkspluralistischen Profil" die Rede, aber vielleicht geht es dem _nd_ auch deshalb wirtschlaftlich schlecht, weil es einfach kein Bedarf nach einer linkspluralistischen Zeitung gibt?
 Dank _nd.Dreitausend_ sind die Leser\*innen jetzt in der Verantwortung, wenn das _nd_ nicht gerettet werden kann, man selbst muss bequemerweise also nicht das Konzept, die Zeitung, die Inhalte hinterfragen und ändern.
 
-Axel Springer hat seine fünf Grundsätze. Die muss man nicht teilen, aber dadurch gibt es ein festes Wertegerüst, das dem _nd_ fehlt. Das _nd_ hingegen will es allen irgendwie recht machen — oder auch nicht — und ist dadurch alles und nichts. Ein Ort der unterschwelligen innerlinken Debatte ohne große Außenwirkung. Ein Sturm im Wasserglas.
+Axel Springer hat seine [fünf Grundsätze](https://www.axelspringer.com/de/was-uns-ausmacht). Die muss man nicht teilen, aber dadurch gibt es ein festes Wertegerüst, das dem _nd_ fehlt.
+Das _nd_ hingegen will es allen irgendwie recht machen — oder auch nicht — und ist dadurch alles und nichts.
+Ein Ort der unterschwelligen innerlinken Debatte ohne große Außen- und Auswirkung.
+Ein Sturm im Wasserglas.
 
-Dazu kommt: Im _nd_ produzieren älteren Akademiker\*innen eher Journalismus für ältere Akademiker\*innen. Und das, obwohl man junge Leute vom Digital-Abo überzeugen möchte?
+Dazu kommt: Im _nd_ produzieren älteren Akademiker\*innen eher Journalismus auf Totholz für ältere Akademiker\*innen und möchten damit weitermachen. Und das, obwohl man junge Leute vom Digital-Abo überzeugen möchte?
 
-Wo ist der Mut? Warum setzt man nicht konsequent von Montag bis Freitag auf die Digitalausgabe und am Wochenende zusätzlich auf gedrucktes Papier? Dieser Schritt wird auf lange Sicht eh kommen, ihn vorzuziehen sorgt im schlimmsten Fall lediglich dafür, dass das Unausweichliche früher eintritt.
+Wo ist der Mut? Warum setzt man nicht konsequent von Montag bis Freitag auf die Digitalausgabe und am Wochenende zusätzlich auf gedrucktes Papier?
+Dieser Schritt wird auf lange Sicht eh kommen, ihn vorzuziehen sorgt im schlimmsten Fall lediglich dafür, dass das Unausweichliche früher eintritt.
 
 ## Krawall und Remmidemmi
 
 Eine digitale Ausgabe hat einen weiteren Vorteil: Man muss nicht krampfhaft Seiten füllen.
 Es fällt nicht auf, wenn ein Text mehr oder weniger erscheint, man kann auf Qualität statt Quantität setzen.
 Mit einem klaren Wertegerüst bietet das außerdem die Möglichkeit, konsequent Forderungen zu formulieren.
-Konsequent linke Politik zu machen.
+Konsequent linke Politik zu machen. Links der _taz_, weniger verstrahlt als die _Junge Welt_.
 Laut sein, populistisch sein, Öffentlichkeit generieren.
 Ich glaube, hier gibt es ein großes Potential.
-Ein Markt.
 
-Tagesaktuelle Nachrichten bekomme ich aus den öffentlich-rechtlichen Medien, dafür brauche ich das _nd_ nicht.
+Tagesaktuelle Nachrichten bekomme ich aus den öffentlich-rechtlichen Medien, dafür brauche ich das _nd_ [nicht](https://tyrol.social/@matthiasdrexel/112717980942060639).
 Ich will Hintergründe.
-Und ich will kurze, knallige und/oder unterhaltsame Beiträge, gerne auch in anderen Formaten, gerne auch nebeneinander im gleichen Produkt.
+Und ich will kurze, knallige und/oder unterhaltsame Beiträge, gerne auch in anderen Formaten, gerne auch nebeneinander.
 Gute Ansätze vom _nd_ dafür sind "[Anarchist\*innen in der Ukraine](https://www.youtube.com/watch?v=lIXRO8LBvCY&list=PL0zPxhlmI6jpSNZ1WVW2Oo02zWQxmmHZM)" oder auch die "[Rote Brause](https://www.nd-aktuell.de/podcasts/rote-brause)". 
 
 Ich will mehr Kooperationen, national und international.
@@ -80,27 +85,41 @@ Mir ist bewusst, dass das bisweilen fundamentale Brüche mit dem _nd_ wären.
 Und ob das Gesamtpaket aus bezahlbarem Preis und guten Inhalten ausreichen, um auch kurzfristig (genug) Geld zu erwirtschaften und Gehälter zu bezahlen, ist fraglich.
 
 Aber wann wäre angesichts der desolaten wirtschaftlichen Situation des _nd_ eine bessere Gelegenheit, ein besserer Zeitpunkt, das in Erfahrung zu bringen?
-Als Kontrast zum "Weiter so!", das wohl absehbar gegen die Wand fährt, ein "Anders!", das eine Perspektive bietet.
+Als Kontrast zum "Weiter so!" ein "Anders!", das eine Perspektive bietet.
 Vorwärts immer, rückwärts nimmer.
+Noch ist Zeit, Alternativen auszuprobieren, den Print-Abonnent\*innen sei Dank.
 
 Und hier kommt _nd.zwo_ ins Spiel.
+Journalismus mit Wumms und Haltung von links für Junge und für Arbeiter\*innen.
 Wenn sich die Änderungen nicht im _nd_ umsetzen lassen, dann vielleicht daneben, ganz gleich ob unter dem Dach des _nd_ oder eigenständig als Kollektivbetrieb.
 
-Ein [Ghost](https://tryghost.org) inklusive Paywall ist schnell aufgesetzt, ein einfaches Design schnell darübergelegt.
-Mit dem _nd.digital_ gibt es ebenfalls eine App, die man anpassen könnte.
-Fehlt das Wichtigste: Gute, knallige Inhalte. Journalismus. Menschen, die diese Inhalte erstellen.
+Ein [Ghost](https://tryghost.org) inklusive Paywall und API ist schnell aufgesetzt, ein einfaches Design mit überschaubarem Aufwand darübergelegt.
+Mit dem _nd.digital_ gibt es ebenfalls eine App, die man anpassen kann.
+Pragmatismus statt Perfektion, aber gleichzeitig Qualität statt Quantität.
+Fehlt das Wichtigste: Gute, knallige Inhalte. Journalismus.
+Menschen, die diese Inhalte erstellen.
+Menschen, die Arbeit erledigen und sich einbringen.
+
 Und vielleicht eine Mastodon-Instanz für die Belegschaft, um die Botschaft in die Welt zu tragen.
 
-Ob das reicht?
-Ich kann es wie gesagt nicht einschätzen.
-Aber man hätte etwas, mit dem man notfalls wie ein Phoenix aus der Asche der Insolvenz erwachsen könnte.
+Ob das reicht? Vielleicht. Vielleicht auch nicht. Ich weiß es nicht.
+Aber man hat etwas, mit dem man notfalls wie ein Phoenix aus der Asche einer Insolvenz erwachsen könnte.
+Etwas, auf dem man auch aufbauen und wachsen kann.
 
 ## Was tun!
 
-Vor der Generalversammlung im Juni 2024 habe ich ganz bewusst keinen dritten Anteil gezeichnet, weil ich auf den Plan vom Vorstand warten wollte, wie es weitergeht.
-Den habe ich nicht wahrgenommen. Es gibt keine Vision, stattdessen herrschen im Großen die Prinzipien "Hoffnung" und "Weiter so".
+Vor der Generalversammlung im Juni 2024 habe ich ganz bewusst keinen dritten Anteil gezeichnet, weil ich den Plan vom Vorstand hören wollte, wie es weitergeht:
+Ich habe ihn nicht wahrgenommen.
+Es gibt keine Vision, stattdessen die Prinzipien "Hoffnung" und "Weiter so".
 
-Ich möchte eine Alternative zur Debatte stellen.
-Journalismus mit Wumms von links für Junge und für Arbeiter\*innen.
+Der Plan _nd.zwo_ ist sicherlich riskant, aber es ist mir ein Bedürfnis, einen Weg mit Schritten zu skizzieren und zur Debatte zu stellen.
+Ich möchte für Mut, Tatendrang und einen Ruck sorgen
+Und ich möchte besonders dem Vorstand zurufen: Traut euch!
+
 Denn in einem sind wir uns sicher einig: Es braucht eine starke linke Zeitung, eine Zeitung mit Haltung in diesen Zeiten.
+Und es muss sich etwas verändern.
 Wenn man nichts tut, gibt es demnächst eine linke Zeitung weniger.
+
+-------
+
+Ich freue mich über euer Feedback, eure Kommentare und gemeinsame nächste Schritte. Ihr erreicht mich auf [Mastodon](https://chaos.social/@zeitschlag) oder über bekannte Mailadressen. Danke fürs Lesen.
