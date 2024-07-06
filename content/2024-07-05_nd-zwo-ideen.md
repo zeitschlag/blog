@@ -49,7 +49,8 @@ Abgesehen von Inseraten der Linkspartei und ihrem Umfeld und _Zapf Umzüge_ gibt
 Anstatt einer klaren Linie zu folgen, ist das _nd_ voller unmoderierter Widersprüche. Problematische Palästinasolidarität, die auch bei _Klasse gegen Klasse_ oder _junger Welt_ erscheinen könnte, findet dort genauso ihren Platz wie Texte vom anderen Ende des Spektrums, auch Putin-Freund\*innen wie Gabriele Krone-Schmalz wird eine Bühne geboten. Im Redaktionsstatus ist explizit von einem "linkspluralistischen Profil" die Rede, aber vielleicht geht es dem _nd_ auch deshalb wirtschlaftlich schlecht, weil es einfach kein Bedarf nach einer linkspluralistischen Zeitung gibt?
 Dank _nd.Dreitausend_ sind die Leser\*innen jetzt in der Verantwortung, wenn das _nd_ nicht gerettet werden kann, man selbst muss bequemerweise also nicht das Konzept, die Zeitung, die Inhalte hinterfragen und ändern.
 
-Axel Springer hat seine [fünf Grundsätze](https://www.axelspringer.com/de/was-uns-ausmacht). Die muss man nicht teilen, aber dadurch gibt es ein festes Wertegerüst, das dem _nd_ fehlt.
+Die _Junge Welt_ ist verlässlich putinfreundlich und palästinasolidarisch.
+_Axel Springer hat seine [fünf Grundsätze](https://www.axelspringer.com/de/was-uns-ausmacht). Die muss man nicht teilen, aber dadurch gibt es ein festes Wertegerüst, das dem _nd_ fehlt.
 Das _nd_ hingegen will es allen irgendwie recht machen — oder auch nicht — und ist dadurch alles und nichts.
 Ein Ort der unterschwelligen innerlinken Debatte ohne große Außen- und Auswirkung.
 Ein Sturm im Wasserglas.
