@@ -6,6 +6,9 @@ output_dir = "public"
 default_language = "de_DE"
 title = "bullshit"
 author = "nathan mattes"
+smart_punctuation = true
+external_links_no_follow = true
+external_links_no_referrer = true
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
