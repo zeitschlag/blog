@@ -27,7 +27,7 @@ In mehreren Artikeln möchte ich diese Idee entwickeln und vorstellen. Projektna
 
 Zu Beginn ein paar Hinweise:
 
-1. Ich bin weder Journalist, noch Zeitungsmacher und auch wenn mein Name Gegenteiliges suggeriert, habe ich die Weisheit nicht mit Löffeln gefressen. Ich habe von Zeitung, Medien und Co. entsprechend wenig Ahnung, habe mit verschiedenen Leuten gesprochen und möchte aber, dass sich etwas ändert.
+1. Ich bin weder Journalist, noch Zeitungsmacher und auch wenn mein Name Gegenteiliges suggeriert, habe ich die Weisheit nicht mit Löffeln gefressen. Ich habe von Zeitung, Medien und Co. entsprechend wenig Ahnung, aber eine Meinung und mit verschiedenen Leuten gesprochen. Ich möchte, dass sich etwas ändert.
 2. Ich schreibe für das _nd_ montags den [Newsletter Muckefuck](https://newsletter.nd-aktuell.de/muckefuck) und werde dafür bezahlt. Außerdem habe ich bei der Appentwicklung ausgeholfen und auch dafür eine (überschaubare) Rechnung gestellt, denn eigentlich bin ich [selbstständiger Programmierer](https://zeitschlag.net/lebenslauf/).
 3. Ich besitze zwei Anteile an der nd.Genossenschaft.
 

@@ -55,7 +55,7 @@ Bei mehr als 1.200 Genoss\*innen wundert mich das ein bisschen.
 
 Das _nd_ will einen Journalismus _von_ links bieten, gleichzeitig aber Nachrichten verkaufen, bei denen eine gedruckte Zeitung 2024 naturgemäß hinterherläuft.
 Mir drängt sich auch der Eindruck auf, dass es bisweilen eher Journalismus _über_ links ist: Das _nd_ ist eine Zeitung der Redaktion für die Redaktion, eine Zeitung für Genoss\*innen, die sich für teuer Geld eingekauft haben.
-Von den Mitarbeiter\*innen des _nd_ haben übrigens nicht alle Anteile: Viele können es sich die 500 Euro schlicht nicht leisten.
+Von den Mitarbeiter\*innen des _nd_ haben übrigens nicht alle Anteile: Viele können sich die 500 Euro schlicht nicht leisten.
 Auf der letzten Generalversammlung bezeichnete es jemand so:
 
 > Man kann es sich nur leisten, beim _nd_ zu arbeiten, wenn der Partner, die Partnerin gut verdienen.
