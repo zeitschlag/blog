@@ -1,7 +1,6 @@
 +++
 title = "Die Lage der Publikation"
 slug = "nd-zwo-die-lage"
-draft = true
 +++
 
 Das [nd](https://nd-aktuell.de), ehemals _neues deutschland_, wurde vor mehr als zwei Jahren in eine Genossenschaft umgewandelt.

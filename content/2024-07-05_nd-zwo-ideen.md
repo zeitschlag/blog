@@ -1,7 +1,6 @@
 +++
 title = "Und nun? Was tun!"
 slug = "nd-zwo-was-tun"
-draft = true
 +++
 
 Im ersten Teil ging es um die wirtschaftliche Lage, im zweiten Teil ging es um die bisherigen Versuche.

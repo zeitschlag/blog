@@ -1,7 +1,6 @@
 +++
 title = "Was bisher (nicht) geklappt hat"
 slug = "nd-zwo-lief-nicht"
-draft = true
 +++
 
 Nachdem es im ersten Teil um den aktuellen Stand ging, möchte ich in diesem Artikel darauf eingehen, was probiert wurde und warum es nicht geklappt hat.
