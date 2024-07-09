@@ -1,6 +1,7 @@
 +++
 title = "Die Lage der Publikation"
 slug = "nd-zwo-die-lage"
+date = date = 2024-07-99T14:22:00Z
 +++
 
 Das [nd](https://nd-aktuell.de), ehemals _neues deutschland_, wurde vor mehr als zwei Jahren in eine Genossenschaft umgewandelt.
@@ -14,7 +15,11 @@ Eine Zeitung, die ihre Leute gut bezahlen kann.
 Aber wie? Woher nehmen? Wie geht es besser weiter?
 
 Anlässlich der Generalversammlung habe ich mir Gedanken zu einer möglichen Alternative gemacht.
-In mehreren Artikeln möchte ich diese Idee entwickeln und vorstellen. Projektname: _nd.zwo_.
+In mehreren Artikeln möchte ich diese Idee entwickeln und vorstellen. Projektname: _nd.zwo_:
+
+1. Die Lage der Publikation
+2. [Was bisher (nicht) geklappt hat](/nd-zwo-lief-nicht)
+3. [Und nun? Was tun!](/nd-zwo-was-tun)
 
 <!-- more -->
 

@@ -5,6 +5,10 @@ slug = "nd-zwo-lief-nicht"
 
 Nachdem es im ersten Teil um den aktuellen Stand ging, möchte ich in diesem Artikel darauf eingehen, was probiert wurde und warum es nicht geklappt hat.
 
+1. [Die Lage der Publikation](/nd-zwo-die-lage)
+2. Was bisher (nicht) geklappt hat
+3. [Und nun? Was tun!](/nd-zwo-was-tun)
+
 <!-- more -->
 
 ## Was bisher geschah
