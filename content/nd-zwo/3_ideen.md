@@ -54,7 +54,7 @@ Linker Journalismus hin oder her.
 Abgesehen von Inseraten der Linkspartei und ihrem Umfeld und _Zapf Umzüge_ gibt es kaum Werbung im _nd_, also auch kein Geld. Es müssen die Inhalte _der_ Grund sein, das _nd_ zu lesen und zu bezahlen. Und da ist viel Luft nach oben.
 
 Anstatt einer klaren Linie zu folgen, ist das _nd_ voller unmoderierter Widersprüche. 
-Problematische Palästinasolidarität, die auch bei _Klasse gegen Klasse_ oder _junger Welt_ erscheinen könnte, findet dort genauso ihren Platz wie Texte vom anderen Ende des Spektrums.
+Problematische Palästinasolidarität, die auch bei _Klasse gegen Klasse_ oder in der _Jungen Welt_ erscheinen könnte, findet dort genauso ihren Platz wie Texte vom anderen Ende des Spektrums.
 Auch Putin-Freund\*innen wie Gabriele Krone-Schmalz wird eine Bühne geboten.
 Im Redaktionsstatus ist explizit von einem „linkspluralistischen Profil“ die Rede, aber vielleicht geht es dem _nd_ auch deshalb wirtschlaftlich schlecht, weil es einfach keinen Bedarf nach einer linkspluralistischen Zeitung gibt?
 Dank _nd.Dreitausend_ sind die Leser\*innen jetzt [selbst in der Verantwortung](https://www.nd-aktuell.de/artikel/1183442.kampagne-digital-abos-fuer-das-nd.html), wenn das _nd_ nicht gerettet werden kann.
@@ -66,7 +66,7 @@ Die muss man nicht teilen, aber dadurch gibt es ein festes Wertegerüst, das dem
 Das _nd_ hingegen will es allen irgendwie recht machen — oder auch nicht — und ist dadurch wischiwaschi, alles und nichts.
 Ein Ort der unterschwelligen innerlinken Debatte ohne große Außen- und Auswirkung.
 Ein Sturm im Wasserglas.
-Ein klares Wertegerüst bedeutet für Verlässlichkeit.
+Ein klares Wertegerüst bedeutet Verlässlichkeit.
 
 Dazu kommt: Im _nd_ produzieren älteren Akademiker\*innen eher Journalismus auf Totholz für ältere Akademiker\*innen und möchten damit weitermachen.
 Und das, obwohl man junge Leute vom Digital-Abo überzeugen möchte?
@@ -86,7 +86,7 @@ Ich glaube, hier gibt es ein großes Potential.
 Tagesaktuelle Nachrichten bekomme ich aus den öffentlich-rechtlichen Medien, dafür brauche ich das _nd_ [nicht](https://tyrol.social/@matthiasdrexel/112717980942060639).
 Ich will Hintergründe.
 Und ich will kurze, knallige und/oder unterhaltsame Beiträge, gerne auch in anderen Formaten, gerne auch nebeneinander.
-Gute Ansätze vom _nd_ dafür sind "[Anarchist\*innen in der Ukraine](https://www.youtube.com/watch?v=lIXRO8LBvCY&list=PL0zPxhlmI6jpSNZ1WVW2Oo02zWQxmmHZM)" oder auch die "[Rote Brause](https://www.nd-aktuell.de/podcasts/rote-brause)". 
+Gute Ansätze vom _nd_ dafür sind „[Anarchist\*innen in der Ukraine](https://www.youtube.com/watch?v=lIXRO8LBvCY&list=PL0zPxhlmI6jpSNZ1WVW2Oo02zWQxmmHZM)“ oder auch die „[Rote Brause](https://www.nd-aktuell.de/podcasts/rote-brause)“. 
 
 Ich will mehr Kooperationen, national und international.
 Inhalte und Perspektiven, die ich sonst nicht sehen würde.
@@ -131,10 +131,10 @@ Etwas, auf dem man auch aufbauen und wachsen kann.
 
 Vor der Generalversammlung im Juni 2024 habe ich ganz bewusst keinen dritten Anteil gezeichnet, weil ich den Plan vom Vorstand hören wollte, wie es weitergeht:
 Ich habe ihn nicht wahrgenommen.
-Es gibt keine Vision, stattdessen die Prinzipien „Hoffnung“ und „Weiter so“”.
+Es gibt keine Vision, stattdessen die Prinzipien „Hoffnung“ und „Weiter so“.
 
 Der Plan _nd.zwo_ ist sicherlich riskant, aber es ist mir ein Bedürfnis, einen Weg mit Schritten zu skizzieren und zur Debatte zu stellen.
-Ich möchte für Mut, Tatendrang und einen Ruck sorgen
+Ich möchte für Mut, Tatendrang und einen Ruck sorgen.
 Und ich möchte besonders dem Vorstand zurufen: Traut euch!
 
 Denn in einem sind wir uns sicher einig: Es braucht eine starke linke Zeitung, eine Zeitung mit Haltung in diesen Zeiten.
