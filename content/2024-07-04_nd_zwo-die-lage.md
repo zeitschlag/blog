@@ -52,10 +52,10 @@ Im obrigen _taz_-Artikel wird er übrigens mit den Worten zitiert:
 
 Die Altgesellschafter versprachen, die Genossenschaft über mehrere Jahre hinweg mit Zahlungen zu unterstützen, und hielten Wort.
 
-2022 wurde mit einem Verlust von rund 701.000 Euro abgeschlossen, 2023 waren es nach einer Rettungsaktion, dem Verzicht der Belegschaft auf das Weihnachtsgeld und anderen Sparmaßnahmen "nur" rund 409.000 Euro.
+2022 wurde mit einem Verlust von rund 701.000 Euro abgeschlossen, 2023 waren es nach einer Rettungsaktion, dem Verzicht der Belegschaft auf das Weihnachtsgeld und anderen Sparmaßnahmen „nur“ rund 409.000 Euro.
 Und auch für 2024 rechnet man mit einem Jahresfehlbetrag von etwa 225.000 Euro, plus minus.
 Viel Geld.
-Der Aufsichtsrat nennt die Lage "nach wie vor außerordentlich ernst".
+Der Aufsichtsrat nennt die Lage „nach wie vor außerordentlich ernst“.
 
 Weil linker Journalismus wichtig ist und eine linke Zeitung mehr besser als eine weniger, beteiligte auch ich mich damals mit einem Anteil in Höhe von 500 Euro, später einem weiteren.
 Ich war und bin ehrlich gesagt stolz darauf, einen Teil dieser Zeitung zu besitzen: Der Genossenschaftsanteil hängt gerahmt über meinem Schreibtisch. 

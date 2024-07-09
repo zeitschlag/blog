@@ -10,7 +10,8 @@ Nachdem es im ersten Teil um den aktuellen Stand ging, möchte ich in diesem Art
 
 ## Was bisher geschah
 
-Zeitungen leben für gewöhnlich davon, Werbung, Gossip und Kreuzworträtsel zu verkaufen, die Journalismus querfinanzieren, wie [Michael Seemann es auf Mastodon formulierte](https://fnordon.de/@mspro/112665708549765732).
+Zeitungen leben für gewöhnlich davon, Werbung, Gossip und Kreuzworträtsel zu verkaufen, die Journalismus querfinanzieren, wie [Michael Seemann es auf Mastodon formulierte](https://fnordon.de/@mspro/112665708549765732). Christian Fahrenbach bezeichnete die _New York Times_ [im Podcast mit Holgi](https://uebermedien.de/96410/worum-geht-es-beim-skandal-der-washington-post/) als „Gaming Studio mit Kochbuchabteilung und so'n bisschen Nachrichten“.
+Für Inhalte hingegen legt man bei Alternativen wie [_Table.Media_](https://table.media) — sicherlich eine andere Zielgruppe — gleich mal richtig Geld auf den Tisch.
 Nur: Im _nd_ gibt es kaum Werbung und mit Sudoku und Nachrichten alleine [verdient man kein Geld](https://bullenscheisse.de/2018-11-15-zeitungen/).
 
 Stattdessen gibt es das _nd_ noch, weil Print-Abonnent\*innen der Zeitung treu bleiben und/oder vergessen, ihr Abo zu kündigen.
@@ -35,13 +36,13 @@ Warum dann also 15, 20 Euro für ein Abo ausgeben und nicht für Netflix?
 
 ## nd.Dreitausend
 
-Das _nd_ braucht Geld, braucht neue Digital-Abonnent\*innen. Weil die nicht einfach vom Himmel fallen oder auf Bäumen wachsen, hat die Redaktion die Kampagne ["nd.Dreitausend"](https://genossenschaft.nd-aktuell.de/nd-dreitausend) entwickelt. Das Ziel: 3.000 neue Digital-Abos.
+Das _nd_ braucht Geld, braucht neue Digital-Abonnent\*innen. Weil die nicht einfach vom Himmel fallen oder auf Bäumen wachsen, hat die Redaktion die Kampagne [_nd.Dreitausend_](https://genossenschaft.nd-aktuell.de/nd-dreitausend) entwickelt. Das Ziel: 3.000 neue Digital-Abos.
 Der Weg: Engagierte Leser\*innen sollen in ihrem Bekanntenkreis für das _nd_ werben und können die Kampagne mit Sharepics in den sozialen Medien unterstützen.
 In den angestrebten Verlusten für 2024 von mehr als 200.000 Euro sind 2.000 Abos übrigens schon eingepreist.
 
 Die Hoffnung ist, dass die Menschen das _nd_ als Debattenmedium, als Stimme der Linken, als Infrastruktur begreifen und sich solidarisch an der Finanzierung beteiligen, als wäre sie eine Stadtbücherei. Ein schöner Gedanke, aber realistisch? Ich habe Zweifel.
 
-Das anekdotische Feedback meines Bekanntenkreises reicht übrigens von "15 Euro sind viel zu viel" bis zu "Das _nd_ ist objektiv betrachtet keine gute Zeitung. Da kann jede\*r schreiben und das merkt man. Außerdem streiten sich die Leute die ganze Zeit unmoderiert."
+Das anekdotische Feedback meines Bekanntenkreises reicht übrigens von „15 Euro sind viel zu viel“ bis zu „Das _nd_ ist objektiv betrachtet keine gute Zeitung. Da kann jede\*r schreiben und das merkt man. Außerdem streiten sich die Leute die ganze Zeit unmoderiert.“
 Die ZEIT beispielsweise mache das mit ihrem Streitressort wesentlich besser.
 
 Doch nicht nur das Geld ist knapp, es mangelt auch an Leuten, die einfach Arbeit erledigen.
