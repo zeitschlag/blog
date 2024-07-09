@@ -1,6 +1,7 @@
 +++
 title = "Was bisher (nicht) geklappt hat"
 path = "/nd-zwo/lief-nicht"
+date = 2024-07-09T22:28:00Z
 +++
 
 Nachdem es im ersten Teil um den aktuellen Stand ging, möchte ich in diesem Artikel darauf eingehen, was probiert wurde und warum es nicht geklappt hat.

@@ -1,7 +1,7 @@
 +++
 title = "Die Lage der Publikation"
 path = "/nd-zwo/die-lage"
-date = 2024-07-09T14:22:00Z
+date = 2024-07-09T22:28:00Z
 +++
 
 Das [nd](https://nd-aktuell.de), ehemals _neues deutschland_, wurde vor mehr als zwei Jahren in eine Genossenschaft umgewandelt.
