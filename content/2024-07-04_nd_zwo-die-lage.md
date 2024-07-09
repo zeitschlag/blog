@@ -1,6 +1,6 @@
 +++
 title = "Die Lage der Publikation"
-slug = "nd-zwo-die-lage"
+path = "/nd-zwo/die-lage"
 date = 2024-07-09T14:22:00Z
 +++
 
@@ -18,8 +18,8 @@ Anlässlich der Generalversammlung habe ich mir Gedanken zu einer möglichen Alt
 In mehreren Artikeln möchte ich diese Idee entwickeln und vorstellen. Projektname: _nd.zwo_:
 
 1. Die Lage der Publikation
-2. [Was bisher (nicht) geklappt hat](/nd-zwo-lief-nicht)
-3. [Und nun? Was tun!](/nd-zwo-was-tun)
+2. [Was bisher (nicht) geklappt hat](/nd-zwo/lief-nicht)
+3. [Und nun? Was tun!](/nd-zwo/was-tun)
 
 <!-- more -->
 
@@ -75,4 +75,4 @@ Woher bekommt man bis dahin die fehlenden ~175.000 Euro, damit man zumindest auf
 Der Vorstand hofft auf neue Anteile in entsprechender Höhe, ich bin davon weder überzeugt, noch hoffnungsvoll.
 500 Euro pro Anteil sind richtig viel Geld, die Zeiten sind hart und mangels einer Perspektive bin ich ehrlich gesagt auch nicht bereit, einen weiteren Anteil zu zeichnen.
 
-Was wurde bisher versucht?
+[Was wurde bisher versucht?](/nd-zwo/lief-nicht)

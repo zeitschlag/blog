@@ -1,13 +1,13 @@
 +++
 title = "Und nun? Was tun!"
-slug = "nd-zwo-was-tun"
+path = "/nd-zwo/was-tun"
 +++
 
 Im ersten Teil ging es um die wirtschaftliche Lage, im zweiten Teil ging es um die bisherigen Versuche.
 In diesem dritten und letzten Teil zu _nd.zwo_ möchte ich schliesslich Bausteine für eine mögliche Lösung skizzieren.
 
-1. [Die Lage der Publikation](/nd-zwo-die-lage)
-2. [Was bisher (nicht) geklappt hat](/nd-zwo-lief-nicht)
+1. [Die Lage der Publikation](/nd-zwo/die-lage)
+2. [Was bisher (nicht) geklappt hat](/nd-zwo/lief-nicht)
 3. Und nun? Was tun!
 
 <!-- more -->
