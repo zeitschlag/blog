@@ -1,6 +1,7 @@
 +++
 title = "Und nun? Was tun!"
 path = "/nd-zwo/was-tun"
+date = 2024-07-09T22:28:00Z
 +++
 
 Im ersten Teil ging es um die wirtschaftliche Lage, im zweiten Teil ging es um die bisherigen Versuche.
