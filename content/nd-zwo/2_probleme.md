@@ -1,13 +1,13 @@
 +++
 title = "Was bisher (nicht) geklappt hat"
-slug = "nd-zwo-lief-nicht"
+path = "/nd-zwo/lief-nicht"
 +++
 
 Nachdem es im ersten Teil um den aktuellen Stand ging, möchte ich in diesem Artikel darauf eingehen, was probiert wurde und warum es nicht geklappt hat.
 
-1. [Die Lage der Publikation](/nd-zwo-die-lage)
+1. [Die Lage der Publikation](/nd-zwo-die-lage/)
 2. Was bisher (nicht) geklappt hat
-3. [Und nun? Was tun!](/nd-zwo-was-tun)
+3. [Und nun? Was tun!](/nd-zwo/was-tun/)
 
 <!-- more -->
 
@@ -81,4 +81,4 @@ Ich sehe Mängelverwaltung, ich sehe wenig Mut zur Veränderung und einzelne Ide
 Ich sehe Angst und Lethargie und kann das alles nachvollziehen.
 Gleichzeitig sehe ich, dass die Zeit abläuft: Das _nd_ steht mit dem Rücken zur Wand und verhält sich wie ein Reh auf einer nächtlichen Landstraße im Scheinwerferlicht.
 
-Was tun?
+[Was tun?](/nd-zwo/was-tun)
