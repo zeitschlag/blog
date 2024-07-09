@@ -4,7 +4,7 @@ path = "/nd-zwo/was-tun"
 +++
 
 Im ersten Teil ging es um die wirtschaftliche Lage, im zweiten Teil ging es um die bisherigen Versuche.
-In diesem dritten und letzten Teil zu _nd.zwo_ möchte ich schliesslich Bausteine für eine mögliche Lösung skizzieren.
+In diesem dritten und letzten Teil zu _nd.zwo_ möchte ich schließlich Bausteine für eine mögliche Lösung skizzieren.
 
 1. [Die Lage der Publikation](/nd-zwo/die-lage)
 2. [Was bisher (nicht) geklappt hat](/nd-zwo/lief-nicht)
@@ -36,7 +36,7 @@ Das widerspricht sicherlich dem linken Ideal von Zugänglichkeit, aber auch eine
 Es braucht handfeste Gründe, zu zahlen.
 Ein solcher Grund ist eine bezahlbare, aber harte Paywall.
 Ansätze gibt es mit der App bereits, nur unterlaufen der hohe Preis von 15—20 Euro und dass sämtliche Artikel frei zugänglich auf der Webseite stehen, diese Bestrebungen.
-Stattdessen lautet der erste, konkrete Vorschlag: Paywall und 5 Euro pro Monat. Fertig.
+Stattdessen lautet mein erster konkreter Vorschlag: Paywall und 5 Euro pro Monat. Fertig.
 
 Menschen sind solidarisch, sie beteiligen sich gerne. Es ist in Ordnung für sie, zu zahlen. Aber es gibt eine Grenze.
 Menschen, die einen Großteil ihres Erwerbslebens hinter sich haben, haben ganz andere finanzielle Möglichkeiten als junge Erwachsene in Zeiten von Krisen, Kriegen, Inflation.
@@ -55,7 +55,7 @@ Abgesehen von Inseraten der Linkspartei und ihrem Umfeld und _Zapf Umzüge_ gibt
 Anstatt einer klaren Linie zu folgen, ist das _nd_ voller unmoderierter Widersprüche. 
 Problematische Palästinasolidarität, die auch bei _Klasse gegen Klasse_ oder _junger Welt_ erscheinen könnte, findet dort genauso ihren Platz wie Texte vom anderen Ende des Spektrums.
 Auch Putin-Freund\*innen wie Gabriele Krone-Schmalz wird eine Bühne geboten.
-Im Redaktionsstatus ist explizit von einem „linkspluralistischen Profil“ die Rede, aber vielleicht geht es dem _nd_ auch deshalb wirtschlaftlich schlecht, weil es einfach kein Bedarf nach einer linkspluralistischen Zeitung gibt?
+Im Redaktionsstatus ist explizit von einem „linkspluralistischen Profil“ die Rede, aber vielleicht geht es dem _nd_ auch deshalb wirtschlaftlich schlecht, weil es einfach keinen Bedarf nach einer linkspluralistischen Zeitung gibt?
 Dank _nd.Dreitausend_ sind die Leser\*innen jetzt [selbst in der Verantwortung](https://www.nd-aktuell.de/artikel/1183442.kampagne-digital-abos-fuer-das-nd.html), wenn das _nd_ nicht gerettet werden kann.
 Das _nd_ selbst muss bequemerweise also nicht das Konzept, die Zeitung, die Inhalte hinterfragen und anpassen.
 
